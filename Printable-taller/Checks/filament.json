@@ -1,0 +1,15 @@
+{
+  "type": "filament",
+  "from": "system",
+  "instantiation": "true",
+  "name": "Generic PLA @U1 prototype",
+  "filament_adhesiveness_category": [
+    "100"
+  ],
+  "filament_settings_id": [
+    "Generic PLA @U1 prototype"
+  ],
+  "compatible_printers": [
+    "Snapmaker U1 (0.4 nozzle)"
+  ]
+}

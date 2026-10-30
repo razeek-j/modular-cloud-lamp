@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in image_gen",
+  "revisions": [
+    {
+      "key": "08-brown-ring-junction-details",
+      "refs": [
+        "/Users/razeek/.codex/generated_images/01a18995-bae9-7140-84e3-c0d3d3963c64/exec-e9b49d05-8fec-4901-9ba1-eb42562863a3.png",
+        "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/brown-ring-junctions-0240.png",
+        "/Users/razeek/Downloads/IMG_0240.PNG"
+      ],
+      "prompt": "Edit target: first image, generated brown ring junction sheet. Images 2 and 3 are the ORIGINAL photo evidence and override the generated geometry. The generated left rear junction has wrongly exaggerated the little source feature into a cylindrical hinge barrel. Remove that hinge construction entirely: no pin, no stacked cylindrical knuckles, no barrel, no articulated gap. Instead, show the ring as substantially continuous with only the tiny narrow vertical stepped seam/short shallow rectangular lip visible in the original photo just beside the rear loop leg root. Keep it very small relative to the ring band, with modest simple flat steps and no implied motion. The right panel should preserve only the small shallow rectangular notch/lip visible beside the side leg, no newly invented receiver. Retain two-panel framing, brown printed material and headers. Replace footer with \"APPROXIMATE VISIBLE FEATURES \u2014 locking mechanism cannot be recovered from these photos\". This sheet must explicitly remain a conservative interpretation; do not fabricate a shade-to-stand clip. Preserve original photographic reference proportions. Plain light gray background."
+    }
+  ]
+}

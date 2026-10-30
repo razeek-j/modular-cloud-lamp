@@ -1,0 +1,131 @@
+{
+  "master": "/Users/razeek/Projects/3D printing/Lamp.blend",
+  "master_sha256": "86def196721ef400b9b486b6c3fb6d82255c6b90280c8657347ca6d20a3c6dc1",
+  "moves": [
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/blender-lamp/lamp-centered-final.blend",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/duplicates/lamp-centered-final.blend",
+      "reason": "Exact duplicate of retained historical root final",
+      "bytes": 3418963,
+      "sha256": "5c448d9353efaac80db6d697be4f213d2d5141f534a1fa29c226561cccadf61e"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/lamp-reference-images.zip",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/redundant-zips/lamp-reference-images.zip",
+      "reason": "Every archived member matches the retained extracted file byte for byte",
+      "bytes": 10670485,
+      "sha256": "a1193070a5780ad29a094139ce105d1d153f67b7056531a891547291c9f4b2cd"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/lamp-connector-details.zip",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/redundant-zips/lamp-connector-details.zip",
+      "reason": "Every archived member matches the retained extracted file byte for byte",
+      "bytes": 7135825,
+      "sha256": "a4bf72df096eaf10f0bdaab73a5f14b3ac74450c37530b07c5a96ec3667d4011"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/.DS_Store",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/metadata/.DS_Store",
+      "reason": "Regenerable Finder metadata",
+      "bytes": 6148,
+      "sha256": "38471ed21d750bb75e6e3abe042adb3553bf5ef06968c73a5ee00a3064ce8890"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/.DS_Store",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/metadata/output/.DS_Store",
+      "reason": "Regenerable Finder metadata",
+      "bytes": 8196,
+      "sha256": "a0ad1fd83ad2525b65918727c1185df9a73c97f3c96455690979c5625365cb0a"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/blender-lamp/.DS_Store",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/metadata/output/blender-lamp/.DS_Store",
+      "reason": "Regenerable Finder metadata",
+      "bytes": 10244,
+      "sha256": "952114ec81527abaf69c40c45b0ace5bcd0de2f2f43856b842f9f06565ac9d49"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/blender-lamp/__pycache__",
+      "to": "/Users/razeek/.Trash/Lamp-cleanup-2026-10-30/cache/__pycache__",
+      "reason": "Regenerable Python bytecode cache",
+      "bytes": 45971,
+      "sha256": null
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/blender-lamp/reference",
+      "to": "/Users/razeek/Projects/3D printing/Support/References/Printed-parts",
+      "reason": "Original product reference photographs",
+      "bytes": 32133082,
+      "sha256": null
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops",
+      "to": "/Users/razeek/Projects/3D printing/Support/References/Detail-crops",
+      "reason": "Original product closeups",
+      "bytes": 2971382,
+      "sha256": null
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/lamp-final-audit",
+      "to": "/Users/razeek/Projects/3D printing/Support/Checks/Previous-final-audit",
+      "reason": "Earlier final geometry audit; stand issue remains applicable",
+      "bytes": 2974874,
+      "sha256": null
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/blender-lamp/carrier-v09-checks.json",
+      "to": "/Users/razeek/Projects/3D printing/Support/Checks/carrier-v09-checks.json",
+      "reason": "Latest carrier checks and preview",
+      "bytes": 1548,
+      "sha256": "e47951a5b34e02fe5c4263615447a8024cc247c95324a2fbebfab8039919092c"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output/blender-lamp/carrier-v09-preview.png",
+      "to": "/Users/razeek/Projects/3D printing/Support/Checks/carrier-v09-preview.png",
+      "reason": "Latest carrier checks and preview",
+      "bytes": 894514,
+      "sha256": "418773dac5a3d5aa040294ab777ba1afc9829cde1735165bf34112c6b6f41db6"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/lamp-centered-final.blend",
+      "to": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/Versions/lamp-centered-final.blend",
+      "reason": "Retained historical source version; use Lamp.blend for ongoing work",
+      "bytes": 3418963,
+      "sha256": "5c448d9353efaac80db6d697be4f213d2d5141f534a1fa29c226561cccadf61e"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/lamp-thin-carrier-v09.blend",
+      "to": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/Versions/lamp-thin-carrier-v09.blend",
+      "reason": "Retained historical source version; use Lamp.blend for ongoing work",
+      "bytes": 3438683,
+      "sha256": "5795e3a432f526d1cb2e1b359dd1ed0f5419d8ca503b2196e68a7977e044c8cf"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/cutaway-preview.png",
+      "to": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/cutaway-preview.png",
+      "reason": "Previous preview",
+      "bytes": 1703969,
+      "sha256": "667fe2552d54c350ee9e2f3357a16c0c1607abe669acf48708ea7473cf846022"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/output",
+      "to": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/Earlier-work",
+      "reason": "All remaining previous builds, scripts and generated references",
+      "bytes": 503310240,
+      "sha256": null
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/Support/prepare_master.py",
+      "to": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/Maintenance/prepare_master.py",
+      "reason": "Historical one-time preparation/cleanup utility"
+    },
+    {
+      "from": "/Users/razeek/Projects/3D printing/Support/organize_project.py",
+      "to": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/Maintenance/organize_project.py",
+      "reason": "Historical one-time preparation/cleanup utility"
+    }
+  ],
+  "trash_bytes": 21295832,
+  "unique_versions_preserved": true,
+  "master_sha256_before_led_removal": "1b53133c607651e6bc5bb86328795c1c59588a07ae7e7133bddab00feffc7c94"
+}

@@ -1,0 +1,18 @@
+{
+  "native_project": "Printable/Projects/Lamp-three-parts-U1.3mf",
+  "plates": 3,
+  "nozzles_mm": [
+    "0.4",
+    "0.4",
+    "0.4",
+    "0.4"
+  ],
+  "layer_height_mm": "0.2",
+  "source_unchanged": true,
+  "sampled_insertion_collisions": 0,
+  "toolpath_files": [
+    "plate_2.gcode",
+    "plate_1.gcode",
+    "plate_3.gcode"
+  ]
+}

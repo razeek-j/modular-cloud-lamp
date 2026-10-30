@@ -1,0 +1,121 @@
+{
+  "actual_holder_bore_centerline_checks": [
+    {
+      "end": "open",
+      "height_mm": -30.0,
+      "centerline_clear": true
+    },
+    {
+      "end": "open",
+      "height_mm": 30.0,
+      "centerline_clear": true
+    },
+    {
+      "end": "diaphragm",
+      "height_mm": -30.0,
+      "centerline_clear": true
+    },
+    {
+      "end": "diaphragm",
+      "height_mm": 30.0,
+      "centerline_clear": true
+    }
+  ],
+  "status": "PROVISIONAL geometric blockout, not measured or print-tested",
+  "segment_mesh": {
+    "vertices": 82598,
+    "faces": 81455,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "volume_mm3": 39861.33207195528
+  },
+  "segment_count": 12,
+  "step_degrees": 30.0,
+  "full_turn_degrees": 360.0,
+  "nominal_shade_outer_diameter_mm": 340.0,
+  "nominal_shade_inner_diameter_mm": 160.0,
+  "nominal_shade_height_mm": 96.0,
+  "seam_gap_at_centerline_mm": 0.7,
+  "rib_profile": "single smooth arch ending in cusp; no intermediate band",
+  "holder_containment": "Boolean intersection with solid original exterior envelope",
+  "sharp_edges": 4768,
+  "clip_holder_opening_mm": [
+    5,
+    5
+  ],
+  "holder_openings_per_mating_end": 2,
+  "holder_openings_per_segment": 4,
+  "neighbor_holder_alignment": [
+    {
+      "height_mm": -30.0,
+      "axis_lateral_error_mm": 1.5050172805786133e-06,
+      "axis_angle_error_degrees": 0.0,
+      "joint_gap_mm": 0.7000313065946102
+    },
+    {
+      "height_mm": 30.0,
+      "axis_lateral_error_mm": 1.5050172805786133e-06,
+      "axis_angle_error_degrees": 0.0,
+      "joint_gap_mm": 0.7000313065946102
+    }
+  ],
+  "clip_holder_dimensions_status": "provisional visual estimate; separate clip not modeled",
+  "adjacent_segment_surface_intersections": 0,
+  "slot_radial_width_mm": 4.0,
+  "carrier_wall_mm": 1.2,
+  "radial_clearance_each_side_mm": 1.4,
+  "seated_carrier_wall_surface_intersections": 0,
+  "sampled_vertical_insertion": [
+    {
+      "offset_z_mm": -100,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -80,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -60,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -45,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -30,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -20,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -10,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": -5,
+      "intersecting_surface_pairs": 0
+    },
+    {
+      "offset_z_mm": 0,
+      "intersecting_surface_pairs": 0
+    }
+  ],
+  "insertion_samples_clear": true,
+  "not_checked": [
+    "physical dimensions",
+    "carrier flange",
+    "separate clip fit",
+    "LEDs",
+    "brown stand",
+    "continuous swept collision between sample positions",
+    "printer tolerances"
+  ],
+  "shape_hypotheses": [
+    "30-degree toroidal sector",
+    "10 helical flutes",
+    "entry open through inner shoulder for vertical insertion"
+  ]
+}

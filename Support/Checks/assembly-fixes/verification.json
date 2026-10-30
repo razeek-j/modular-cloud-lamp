@@ -1,0 +1,124 @@
+{
+  "checked_file": "/Users/razeek/Projects/3D printing/Printable-taller/Lamp-taller-printable.blend",
+  "sha256": "fd17893709636899cfd12dee25b6ab6d9323dfb1e61e0905b1da572e08ff16d1",
+  "topology": {
+    "LAMP_Full Segment 01": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_mm3": 48881.657195939195
+    },
+    "LAMP_Full Carrier": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_mm3": 22708.17272552734
+    },
+    "LAMP_Full Stand": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "volume_mm3": 20821.565946208935
+    }
+  },
+  "static_collisions": {
+    "LAMP_Full Carrier": {
+      "LAMP_Full Segment 01": 0,
+      "LAMP_Full Segment 02": 0,
+      "LAMP_Full Segment 03": 0,
+      "LAMP_Full Segment 04": 0,
+      "LAMP_Full Segment 05": 0,
+      "LAMP_Full Segment 06": 0,
+      "LAMP_Full Segment 07": 0,
+      "LAMP_Full Segment 08": 0,
+      "LAMP_Full Segment 09": 0,
+      "LAMP_Full Segment 10": 0,
+      "LAMP_Full Segment 11": 0,
+      "LAMP_Full Segment 12": 0
+    },
+    "LAMP_Full Stand": {
+      "LAMP_Full Segment 01": 0,
+      "LAMP_Full Segment 02": 0,
+      "LAMP_Full Segment 03": 0,
+      "LAMP_Full Segment 04": 0,
+      "LAMP_Full Segment 05": 0,
+      "LAMP_Full Segment 06": 0,
+      "LAMP_Full Segment 07": 0,
+      "LAMP_Full Segment 08": 0,
+      "LAMP_Full Segment 09": 0,
+      "LAMP_Full Segment 10": 0,
+      "LAMP_Full Segment 11": 0,
+      "LAMP_Full Segment 12": 0
+    }
+  },
+  "sampled_insertion": {
+    "LAMP_Full Carrier": {
+      "range_mm": [
+        -120,
+        0
+      ],
+      "step_mm": 1,
+      "colliding_samples": []
+    },
+    "LAMP_Full Stand": {
+      "range_mm": [
+        -120,
+        0
+      ],
+      "step_mm": 1,
+      "colliding_samples": []
+    }
+  },
+  "clip_openings": [
+    {
+      "end": -1,
+      "z_mm": -38.81687344913152,
+      "size_mm": [
+        4.999999046325684,
+        5.0
+      ]
+    },
+    {
+      "end": -1,
+      "z_mm": 38.81687344913152,
+      "size_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    },
+    {
+      "end": 1,
+      "z_mm": -38.81687344913152,
+      "size_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    },
+    {
+      "end": 1,
+      "z_mm": 38.81687344913152,
+      "size_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    }
+  ],
+  "neighbor_intersections": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "changes": [
+    "Stand uses six narrow vertical roots down to Z=-70 before widening below the shade.",
+    "Carrier passage inner radius is 102.5 mm; outer radius stays 107 mm.",
+    "Smoothed 134.2 mm cloud silhouette and 41.5 mm thin carrier retained."
+  ],
+  "limits": "Discrete 1 mm insertion samples, not a continuous clearance proof. Printed tolerances, clip retention and stand strength still need physical fit tests.",
+  "updated_proposal_sha256": "248097b1a36c31ccebea06ead3f329ee27820bc29085cffd33c5c9ffb16825de"
+}

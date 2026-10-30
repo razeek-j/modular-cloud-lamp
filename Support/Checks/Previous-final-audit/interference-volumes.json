@@ -1,0 +1,22 @@
+{
+  "LAMP_Full Segment 01": {
+    "intersection_volume_mm3": 79.27360732012825,
+    "faces": 421,
+    "vertices": 604
+  },
+  "LAMP_Full Segment 05": {
+    "intersection_volume_mm3": 79.27041445255864,
+    "faces": 421,
+    "vertices": 603
+  },
+  "LAMP_Full Segment 09": {
+    "intersection_volume_mm3": 79.26852647440596,
+    "faces": 421,
+    "vertices": 604
+  },
+  "LAMP_Full Carrier": {
+    "intersection_volume_mm3": 0.0,
+    "faces": 0,
+    "vertices": 0
+  }
+}

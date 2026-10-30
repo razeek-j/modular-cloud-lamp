@@ -1,0 +1,17 @@
+{
+  "tool": "Built-in image_gen",
+  "correction": "Large open top, partially covered underside with narrow support-band passage",
+  "jobs": [
+    {
+      "key": "02-single-shade-module-v2-open-top",
+      "folder": "/Users/razeek/Projects/3D printing/output/lamp-reference-images",
+      "refs": [
+        "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/user-module-open-top.jpg",
+        "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/user-module-slotted-underside.jpg",
+        "/Users/razeek/Downloads/IMG_0235.PNG",
+        "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/user-zoom-empty-clip-holder.jpg"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: corrected single white lamp-shade module, isolated for image-to-3D modeling.\nThe supplied images are ORIGINAL PHOTO EVIDENCE and user's corrections. Image 1 shows the ONE individual small white module sitting on the table (ignore the plant pot behind). Image 2 shows its underside while held in a linked arc; reconstruct just one individual component, not the linked chain. Image 3 shows the partially printed underside bases of three modules and confirms that the base is partly covered. Image 4 shows the empty integral clip-holder detail, without a clip inserted.\nPrimary request: generate ONE faithful complete individual module viewed from slightly above, showing its wide OPEN TOP and inner cavity and the PARTIALLY COVERED BASE. The previous rendering was wrong because it treated the module as an open-ended hollow cuff with a large opening straight through both ends. Correct topology: top is a large scalloped opening into a hollow shallow cavity; underside has a thin retaining/base web covering most of its footprint but leaving ONE MUCH NARROWER elongated slot/opening through the base for the circular support band to pass. The cavity floor must therefore visibly include this narrow slot; don't fill it into a closed-bottom bowl and don't remove the base into a giant circular through-hole. Follow the actual slot silhouette and proportions shown in image 2 and partially printed image 3, without inventing a latch mechanism or a central mounting post. The strip seen brown through the underside opening is background/support visible through a gap, not a solid feature to model into the white part.\nMatch image 1's low squat rounded oval/cuff-like outline, softly scalloped rim, rounded flowing diagonal flutes around the outer wall, subtle thinner smooth inner wall, and matte fine white printed texture. A single module is much smaller than the complete assembled doughnut lampshade; do not render the whole shade. Preserve only the observed empty rectangular clip-holder apertures on the interior where visible, as in image 4. No inserted clips, projecting pegs, paired pin systems, fasteners, hinge or brown hardware. Keep any genuinely visible plain holes modest, do not invent their function.\nCamera: elevated three-quarter view toward the large top opening, wide enough to see the complete shell exterior and the slotted base inside. Complete component centered with empty margins. Neutral even studio light, crisp silhouette, minimal perspective distortion. Transparent alpha background, no floor, cast shadow, hands, room, plant, table, printer, text, labels, dimensions or watermark. Faithful evidence-limited reconstruction, not a redesign."
+    }
+  ]
+}

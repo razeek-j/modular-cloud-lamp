@@ -1,0 +1,431 @@
+{
+  "file": "/Users/razeek/Projects/3D printing/lamp-centered-final.blend",
+  "units": "millimeters",
+  "dimensions": {
+    "complete_lamp": {
+      "dimensions_mm": [
+        345.31193656745177,
+        345.31193656745177,
+        158.28146732631552
+      ],
+      "min_mm": [
+        -172.65596828372588,
+        -172.65596828372588,
+        -105.98146560513833
+      ],
+      "max_mm": [
+        172.65596828372588,
+        172.65596828372588,
+        52.30000172117721
+      ]
+    },
+    "shade": {
+      "dimensions_mm": [
+        345.31193656745177,
+        345.31193656745177,
+        104.60000344235442
+      ],
+      "min_mm": [
+        -172.65596828372588,
+        -172.65596828372588,
+        -52.30000172117721
+      ],
+      "max_mm": [
+        172.65596828372588,
+        172.65596828372588,
+        52.30000172117721
+      ]
+    },
+    "one_segment": {
+      "dimensions_mm": [
+        96.099293504901,
+        87.4371303127086,
+        104.60000344235442
+      ],
+      "min_mm": [
+        76.55667477882488,
+        -43.7185651563543,
+        -52.30000172117721
+      ],
+      "max_mm": [
+        172.65596828372588,
+        43.7185651563543,
+        52.30000172117721
+      ]
+    },
+    "carrier_including_flange": {
+      "dimensions_mm": [
+        213.35711920374314,
+        213.4000040324402,
+        38.00000180490315
+      ],
+      "min_mm": [
+        -106.7000020162201,
+        -106.7000020162201,
+        -31.00000147242099
+      ],
+      "max_mm": [
+        106.65711718752303,
+        106.7000020162201,
+        7.000000332482159
+      ]
+    },
+    "stand": {
+      "dimensions_mm": [
+        231.69217256484575,
+        222.22610003271194,
+        74.98146413271733
+      ],
+      "min_mm": [
+        -106.7000020162201,
+        -111.1298880908862,
+        -105.98146560513833
+      ],
+      "max_mm": [
+        124.99217054862567,
+        111.09621194182573,
+        -31.00000147242099
+      ]
+    },
+    "LED_strip_proxy": {
+      "dimensions_mm": [
+        212.4683786219794,
+        212.70000705094992,
+        10.000000474974513
+      ],
+      "min_mm": [
+        -106.35000352547496,
+        -106.35000352547496,
+        -5.0000002374872565
+      ],
+      "max_mm": [
+        106.11837509650445,
+        106.35000352547496,
+        5.0000002374872565
+      ]
+    }
+  },
+  "topology": {
+    "LAMP_Full Segment 01": {
+      "vertices": 82598,
+      "faces": 81455,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 39861.33775189058
+    },
+    "LAMP_Full Carrier": {
+      "vertices": 5778,
+      "faces": 5737,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 31199.908258025334
+    },
+    "LAMP_Full Stand": {
+      "vertices": 6536,
+      "faces": 6439,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 23320.86174627545
+    },
+    "LAMP_Full LED strip": {
+      "vertices": 2828,
+      "faces": 2826,
+      "nonmanifold_edges": 0,
+      "connected_components": 1,
+      "volume_mm3": 4563.993606515442
+    }
+  },
+  "shade_count": 12,
+  "angular_steps_degrees": [
+    30.000022897103616,
+    29.999993634294587,
+    29.99999278848046,
+    29.999994703209495,
+    30.00000818259875,
+    30.00000818259875,
+    29.999994703209495,
+    29.99999278848046,
+    29.999993634294587,
+    29.999994703209488,
+    30.000010979251062,
+    29.999992803269222
+  ],
+  "neighbor_intersections": [
+    {
+      "a": "LAMP_Full Segment 08",
+      "b": "LAMP_Full Segment 09",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 09",
+      "b": "LAMP_Full Segment 10",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 10",
+      "b": "LAMP_Full Segment 11",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 11",
+      "b": "LAMP_Full Segment 12",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 12",
+      "b": "LAMP_Full Segment 01",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 01",
+      "b": "LAMP_Full Segment 02",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 02",
+      "b": "LAMP_Full Segment 03",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 03",
+      "b": "LAMP_Full Segment 04",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 04",
+      "b": "LAMP_Full Segment 05",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 05",
+      "b": "LAMP_Full Segment 06",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 06",
+      "b": "LAMP_Full Segment 07",
+      "surface_pairs": 0
+    },
+    {
+      "a": "LAMP_Full Segment 07",
+      "b": "LAMP_Full Segment 08",
+      "surface_pairs": 0
+    }
+  ],
+  "carrier_vs_shade": [
+    {
+      "shade": "LAMP_Full Segment 08",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 09",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 10",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 11",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 12",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 01",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 02",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 03",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 04",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 05",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 06",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 07",
+      "surface_pairs": 0
+    }
+  ],
+  "stand_vs_shade": [
+    {
+      "shade": "LAMP_Full Segment 08",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 09",
+      "surface_pairs": 199,
+      "area_bounds_mm": [
+        [
+          -71.97487219303689,
+          -31.394221843318306
+        ],
+        [
+          -104.79067727953594,
+          -76.50156765950823
+        ],
+        [
+          -49.59140250194949,
+          -35.50412537409953
+        ]
+      ]
+    },
+    {
+      "shade": "LAMP_Full Segment 10",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 11",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 12",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 01",
+      "surface_pairs": 199,
+      "area_bounds_mm": [
+        [
+          100.28234576657357,
+          110.43295049674828
+        ],
+        [
+          -22.98977770328392,
+          22.97685541568284
+        ],
+        [
+          -49.59140631664694,
+          -35.50411774470463
+        ]
+      ]
+    },
+    {
+      "shade": "LAMP_Full Segment 02",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 03",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 04",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 05",
+      "surface_pairs": 199,
+      "area_bounds_mm": [
+        [
+          -71.9585758055441,
+          -31.380044520257222
+        ],
+        [
+          76.49171048130566,
+          104.7623722244806
+        ],
+        [
+          -49.591394872554595,
+          -35.50412155940208
+        ]
+      ]
+    },
+    {
+      "shade": "LAMP_Full Segment 06",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 07",
+      "surface_pairs": 0
+    }
+  ],
+  "LED_vs_shade": [
+    {
+      "shade": "LAMP_Full Segment 08",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 09",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 10",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 11",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 12",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 01",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 02",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 03",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 04",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 05",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 06",
+      "surface_pairs": 0
+    },
+    {
+      "shade": "LAMP_Full Segment 07",
+      "surface_pairs": 0
+    }
+  ],
+  "carrier_vs_stand": {
+    "surface_pairs": 2,
+    "area_bounds_mm": [
+      [
+        103.25556673298931,
+        106.65711718752303
+      ],
+      [
+        3.000000142492354,
+        3.7237765173545045
+      ],
+      [
+        -31.00000147242099,
+        -27.000001282431185
+      ]
+    ]
+  },
+  "measured_openings_mm": {
+    "carrier_slot_radial_width_at_z0": 4.000303220018236,
+    "holder_upper_radial_width": 4.999998806975714,
+    "holder_lower_radial_width": 4.999999283812895,
+    "holder_upper_height": 5.0000002374872565,
+    "holder_lower_height": 5.0000002374872565
+  }
+}

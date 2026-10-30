@@ -1,0 +1,48 @@
+{
+  "source": "Lamp-taller-proposal.blend",
+  "source_sha256": "4eca3caeba514f782ba3f9aa061d626b4631146e3f1f3193480feb2427ccbb57",
+  "shade_assembled_height_mm": 134.21,
+  "carrier_height_mm": 41.5,
+  "plate_counts": [
+    3,
+    1,
+    1
+  ],
+  "shade_plate_runs_for_12": 4,
+  "source_unchanged": true,
+  "zero_nonmanifold_edges": true,
+  "sampled_insertion_collisions": 0,
+  "slicing": {
+    "plate_2.gcode": {
+      "objects": [
+        "02_Middle_LED_carrier_id_0_copy_0"
+      ],
+      "estimates": [
+        "; total filament used [g] = 27.53",
+        "; estimated printing time (normal mode) = 3h 54m 21s"
+      ]
+    },
+    "plate_1.gcode": {
+      "objects": [
+        "01_Shade_segment_id_0_copy_0",
+        "01_Shade_segment_id_1_copy_0",
+        "01_Shade_segment_id_1_copy_1"
+      ],
+      "estimates": [
+        "; total filament used [g] = 197.53",
+        "; estimated printing time (normal mode) = 1d 6h 39m 58s"
+      ]
+    },
+    "plate_3.gcode": {
+      "objects": [
+        "03_Stand_id_0_copy_0"
+      ],
+      "estimates": [
+        "; total filament used [g] = 28.44",
+        "; estimated printing time (normal mode) = 4h 36m 28s"
+      ]
+    }
+  },
+  "share_file": "/Users/razeek/Projects/3D printing/Share-with-cousin/Lamp-TALLER-U1-3-shades.3mf",
+  "UI_verification": "Computer use connection timed out after import; CLI sliced all 5 instances on 3 plates."
+}

@@ -1,0 +1,23 @@
+{
+  "tool": "Built-in image_gen",
+  "jobs": [
+    {
+      "key": "07-white-inner-bracket",
+      "refs": [
+        "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/white-inner-bracket-0236.png",
+        "/Users/razeek/Downloads/IMG_0236.PNG",
+        "/Users/razeek/Downloads/IMG_0242.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: isolated macro reconstruction of a small visible printed bracket on the INSIDE of a white lamp shade module.\nPrimary reference is the first attached original crop from IMG_0236. Reproduce the exact visible small white bracket near the upper right of its inner smooth wall: a squat roughly rectangular raised frame/pad standing slightly proud of the sloped inner white shell, with a visible rectangular window/recess in its middle and a shallow raised projecting lip at its upper edge. Show a tight three-quarter macro view of this bracket still integral with a modest surrounding patch of the inner module wall, with a bit of the scalloped shell edge to indicate placement. Let the surrounding shell patch fade only by cropping at the image perimeter; do not detach the bracket as a separate loose clip.\nFaithfully reflect the simple observed silhouette, aperture and shallow lip. No long flexible cantilever arm, hook barb, hinge, spring, screw, fastener, metal, reinforcement or other mechanism absent from the source. Do not connect a brown ring or transparent cylinder to it because that engagement is not visible in this photo. Do not assert which part it locks to. Retain matte off-white FDM plastic and thin-shell construction. Plain very light gray backdrop, neutral diffuse illumination with gentle shadow to reveal the rectangular opening. Crisp edge definition, no fake dimensions.\nSmall unobtrusive title \"INNER BRACKET \u2014 VISIBLE GEOMETRY\" and footer \"Reconstructed from IMG_0236; engagement and hidden surfaces unverified\". No hands, printer, table, plants, phone UI or unrelated parts. This is an evidence-limited visual interpretation, NOT an invented functional replacement clip."
+    },
+    {
+      "key": "08-brown-ring-junction-details",
+      "refs": [
+        "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/brown-ring-junctions-0240.png",
+        "/Users/razeek/Downloads/IMG_0240.PNG",
+        "/Users/razeek/Downloads/IMG_0248.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: macro product reference sheet emphasizing overlooked small junction features on an existing brown 3D printed lamp stand.\nUse ONLY the supplied original source photographs. The first image is a crop of IMG_0240, showing the circular ring inverted, three triangular hairpin legs pointing up, and small irregular/stepped junction details where the ring meets the rear leg and the near-right leg.\nCreate two clean side-by-side macro panels on a plain pale gray background. LEFT panel closely reproduce the rear ring/leg-root junction visible at the top-middle of the first crop: ring band interrupted by the small vertical stepped seam/tab at the inner edge next to a triangular leg root. RIGHT panel closely reproduce the small stepped recess/tongue detail beside the near-right leg root seen at the bottom-right of the crop. Include a short continuous arc of the ring and enough rounded leg rods in each panel to locate the feature. Preserve the relative tiny size of the junction details, ring band thickness, rounded leg cross sections and warm reddish brown printed plastic. Do not turn a small seam into a large hinge or giant latch.\nMost important: match the source silhouettes and visible steps closely. Do not invent a separate detachable clip, matching receiver on a white part, metal hardware, screws, magnets, a pivot, dovetail, hidden holes or a functional spring arm. No exploded moving mechanism or engagement claimed. The connection to the white shade or clear LED carrier is NOT established by the photos.\nText above panels: \"REAR RING JUNCTION\" and \"SIDE RING JUNCTION\". Footer \"VISUAL INTERPRETATION \u2014 receiver and locking action not visible\". Neutral sharp studio lighting, subtle FDM layer texture, no room, printer bed, hands, phone UI, dimensions, arrows or other parts."
+    }
+  ]
+}

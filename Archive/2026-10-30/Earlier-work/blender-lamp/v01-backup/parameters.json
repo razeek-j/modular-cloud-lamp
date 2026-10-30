@@ -1,0 +1,20 @@
+{
+  "segment_count": 12,
+  "centerline_radius_mm": 125.0,
+  "section_radial_radius_mm": 45.0,
+  "section_vertical_radius_mm": 48.0,
+  "wall_mm": 1.6,
+  "end_web_mm": 1.6,
+  "seam_gap_mm": 0.35,
+  "flute_count": 10,
+  "flute_depth_mm": 2.3,
+  "end_taper_fraction": 0.08,
+  "twist_degrees": 360.0,
+  "carrier_radius_mm": 105.0,
+  "carrier_wall_mm": 1.2,
+  "carrier_height_mm": 60.0,
+  "carrier_bottom_mm": -30.0,
+  "slot_clearance_each_side_mm": 0.8,
+  "slot_bottom_clearance_mm": 0.8,
+  "open_insertion_entry": true
+}

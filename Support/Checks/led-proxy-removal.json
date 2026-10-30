@@ -1,0 +1,55 @@
+{
+  "master": "Lamp.blend",
+  "removed_display_objects": [
+    "LAMP_Full LED strip",
+    "LAMP_Full LED strip.001",
+    "LAMP_LED strip",
+    "LAMP_LED strip (Centered at Z=0)"
+  ],
+  "printable_geometry_unchanged": true,
+  "backup": "/Users/razeek/Projects/3D printing/Archive/2026-10-30/Versions/Lamp-before-removing-LED-proxy.blend",
+  "mesh_objects_in_complete_assembly": 14,
+  "unique_printable_meshes": 3,
+  "scenes": {
+    "01 \u2022 Complete lamp": [
+      "LAMP_Full Segment 01",
+      "LAMP_Full Segment 02",
+      "LAMP_Full Segment 03",
+      "LAMP_Full Segment 04",
+      "LAMP_Full Segment 05",
+      "LAMP_Full Segment 06",
+      "LAMP_Full Segment 07",
+      "LAMP_Full Segment 08",
+      "LAMP_Full Segment 09",
+      "LAMP_Full Segment 10",
+      "LAMP_Full Segment 11",
+      "LAMP_Full Segment 12",
+      "LAMP_Full Carrier",
+      "LAMP_Full Stand"
+    ],
+    "02 \u2022 Shade inspection": [
+      "LAMP_Segment 01 \u2014 master",
+      "LAMP_LED carrier",
+      "LAMP_Brown stand",
+      "LAMP_Segment 02",
+      "LAMP_Segment 03",
+      "LAMP_Segment 04",
+      "LAMP_Segment 05",
+      "LAMP_Segment 06",
+      "LAMP_Segment 07",
+      "LAMP_Segment 08",
+      "LAMP_Segment 09",
+      "LAMP_Segment 10",
+      "LAMP_Segment 11",
+      "LAMP_Segment 12"
+    ],
+    "03 \u2022 Stand and LED carrier": [
+      "LAMP_Carrier",
+      "LAMP_Stand"
+    ],
+    "04 \u2022 Thin carrier detail": [
+      "LAMP_Full Carrier.001"
+    ]
+  },
+  "external_libraries": 0
+}

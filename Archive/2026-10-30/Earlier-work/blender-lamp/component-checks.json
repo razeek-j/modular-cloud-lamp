@@ -1,0 +1,84 @@
+{
+  "status": "Unmeasured component draft",
+  "parameters": {
+    "carrier_radius_mm": 105.0,
+    "carrier_wall_mm": 1.2,
+    "carrier_bottom_mm": -30.0,
+    "carrier_top_mm": 5.0,
+    "flange_width_mm": 3.4,
+    "flange_bottom_mm": -31.0,
+    "flange_top_mm": -30.0,
+    "upper_notch_width_mm": 10.0,
+    "upper_notch_bottom_mm": 1.0,
+    "recess_width_mm": 8.0,
+    "recess_depth_mm": 0.45,
+    "port_width_mm": 12.0,
+    "port_bottom_mm": -27.0,
+    "port_top_mm": -14.0,
+    "neck_width_mm": 6.0,
+    "stand_ring_width_mm": 3.4,
+    "stand_bottom_mm": -36.0,
+    "stand_top_mm": -31.0,
+    "stand_exit_width_mm": 8.0,
+    "stand_exit_top_mm": -32.5,
+    "leg_tube_radius_mm": 3.0,
+    "foot_z_mm": -103.0
+  },
+  "carrier_mesh": {
+    "vertices": 5778,
+    "faces": 5737,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "volume_mm3": 29631.958514862683
+  },
+  "stand_mesh": {
+    "vertices": 7016,
+    "faces": 6919,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "volume_mm3": 23321.082207480675
+  },
+  "carrier_shade_intersecting_surface_pairs_by_segment": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stand_shade_intersecting_surface_pairs_by_segment": [
+    199,
+    0,
+    0,
+    0,
+    199,
+    0,
+    0,
+    0,
+    199,
+    0,
+    0,
+    0
+  ],
+  "shade_fit_status": "Carrier clears v06 shade; stand has identified intersections at the three leg roots. Stand-to-shade fit is pending revision.",
+  "stand_wire_intersecting_surface_pairs": [
+    0,
+    0,
+    0
+  ],
+  "not_verified": [
+    "actual LED/connector and cable dimensions",
+    "electrical design",
+    "physical tolerances",
+    "print supports",
+    "stability under load"
+  ],
+  "routing_hypothesis": "Upper dip/recess to lower port; cable turns inward/down then exits the underside of the brown ring at the same +X meridian.",
+  "flange_note": "3.4 mm flange width fits the 4 mm v06 slot; 0.3 mm radial clearance per side; narrower than some apparent photo proportions."
+}

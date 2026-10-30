@@ -1,0 +1,55 @@
+{
+  "tool": "Built-in image_gen",
+  "purpose": "Faithful isolated visual reconstructions; not dimensionally exact CAD",
+  "jobs": [
+    {
+      "key": "01-assembled-lamp",
+      "refs": [
+        "IMG_0249.PNG",
+        "IMG_0246.PNG",
+        "IMG_0248.PNG",
+        "IMG_0240.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: isolated product reference for image-to-3D modeling.\nInput images are reference images of ONE existing modular 3D-printed table lamp. Image 1 shows the final lamp illuminated; image 2 shows the complete shade and removed core/stand; image 3 shows the underside insertion of the stand; image 4 shows the bare stand upside down.\nGenerate ONE faithful isolated full assembled lamp in its normal upright orientation, at a clear front three-quarter camera angle slightly above the product, matching the silhouette, proportions and sculpted details in image 1. Lamp OFF: diffuse neutral white shell, no yellow glow, so geometry is easy to read. Large low wide doughnut/bowl-shaped annular shade with a deep open center, concave inner wall, twelve repeating pillow-like modules around its circumference with visible fine vertical module seams and flowing diagonal curved ribs across each module. Preserve its softly scalloped perimeter, rounded upper shoulder, bulbous outer wall and taper toward the lower edge. Three dark reddish brown slender triangular loop/hairpin legs support it below, connected to a circular support ring concealed inside the shade. Preserve original proportions and number of legs. Do not add a lightbulb, central pole, lid, glass top or other design features.\nScene/backdrop: genuine transparent background, isolated alpha cutout, entire product within frame, generous empty margin, no floor or cast shadow. Style: precise neutral studio product photograph with soft even lighting, crisp edges, visible subtle printed surface texture, no dramatic shadows, no perspective exaggeration. No hands, room, plant, other lamps, wooden table, printer, phone interface, text, dimensions, watermark, labels, arrows, or extra objects. This is a faithful reconstruction from visible evidence, not a redesign."
+    },
+    {
+      "key": "02-single-shade-module",
+      "refs": [
+        "IMG_0242.PNG",
+        "IMG_0238.PNG",
+        "IMG_0236.PNG",
+        "IMG_0243.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: one isolated repeat component for image-to-3D reconstruction.\nInput images are reference images of the same white 3D-printed lamp shade segment. Image 1 shows twelve separate small modules in two rows, use the complete foreground-left individual module as the main identity reference; image 2 shows three modules standing on a printer bed from the exterior; image 3 shows their inside cavity and small internal attachment tabs; image 4 shows modules linked in an arc.\nGenerate exactly ONE standalone white repeat shade module, NOT a complete lampshade, NOT several modules, NOT an exploded diagram. Faithfully reconstruct the module seen in the front-left of image 1. Show it isolated in a clear close three-quarter view from above so the open hollow interior, perimeter, curved outer sculpting and visible mating edges can be understood at once. Match the reference's low hollow cuff-like/oval-loop form, softly scalloped lip, large open through cavity, rounded inflated outer wall, gently twisting diagonal scalloped ribs, matte white finely textured 3D printed material, thin white inner wall and small visible rectangular connection tabs. Keep source proportions and visible topology; do not turn it into a bowl with a closed bottom, flowerpot, solid wedge or a complete doughnut shade. Do not invent screws, magnets, metal fittings, additional joint mechanisms, dimensions, or new ribs.\nScene/backdrop: actual transparent alpha background, no floor and no cast shadow, complete single component centered with ample margin. Soft neutral studio lighting that reveals white-on-white detail. Camera moderate three-quarter angle, sharp focus, minimal perspective distortion. No hands, printer, table, plants, other parts, screenshots, phone UI, text, dimensions, labels, arrows or watermark. This is an evidence-based visual reconstruction, not a CAD-certified exact joint drawing."
+    },
+    {
+      "key": "03-brown-three-leg-stand",
+      "refs": [
+        "IMG_0240.PNG",
+        "IMG_0239.PNG",
+        "IMG_0246.PNG",
+        "IMG_0248.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: isolated structural component for 3D modeling.\nThe input images are references for ONE reddish brown 3D-printed lamp stand. Image 1 clearly shows the stand inverted on the printer bed: one continuous flat circular annular ring with three equally spaced slender triangular loop legs projecting up. Image 2 shows the same ring during printing. Image 3 shows the stand in service below the removable LED carrier. Image 4 shows the stand inserted upside down into the shade.\nGenerate exactly ONE bare brown ring-and-three-loop-leg stand isolated, with no shade, no LED carrier, no cables. Use the orientation of image 1 (ring flat at the bottom, three loop legs projecting upward) for best shape visibility. Faithfully preserve the flat annular circular band, large fully open center, three evenly spaced splayed triangular hairpin loops formed from smooth rounded slim rods with rounded tips, their junctions onto the annulus, reddish walnut/copper-brown filament and subtle printed texture. All three loops must be legible, the rear one visible inside the open ring. Match ring width, wall thickness and leg proportions shown by image 1. Do not replace loop legs with solid triangular panels, straight single pegs, or four legs. Preserve the tiny visible seam at the rear of the ring only as observed, no new attachment hardware.\nThree-quarter elevated studio view, moderate perspective, full single object centered, actual transparent background, no floor or cast shadow, even neutral illumination and sharp clean edges. No printer, hands, shade, transparent cylinder, room, table, other product, interface, text, dimensions, arrows, watermark or labels."
+    },
+    {
+      "key": "04-led-carrier",
+      "refs": [
+        "IMG_0241.PNG",
+        "IMG_0245.PNG",
+        "IMG_0247.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: isolated LED carrier component for 3D modeling.\nThe images reference ONE hollow translucent cylindrical LED carrier from a modular table lamp. Image 1 shows the bare carrier on the printer, with low cylindrical wall, completely open top and through center, narrow outward flange along its lower circumference, and the visible stepped rectangular/keyhole-like cable access opening in the near wall. Image 2 shows a narrow yellow LED strip wrapped around its upper outer circumference, sitting on a separate brown stand. Image 3 shows the same assembly inverted during insertion.\nGenerate exactly ONE isolated carrier only, no brown ring or legs and no white sculpted lampshade. Use the cylindrical geometry in image 1 as the primary source, matching its low wide open-ended cylindrical proportions, thin smooth translucent frosted-clear FDM wall, slight lower outward annular flange, subtle layer lines, small near-side stepped cable-access notch and visible small printed attachment feature beside the opening. Show the narrow yellow LED strip running once around the exterior near the upper edge as in image 2; accurately distinguish this thin strip from the structural wall. Keep the cylinder's center visibly open through to transparency; do not add a bottom, lid, solid metal disk, central bulb, extra electrical assemblies, or invented screw holes. Only reconstruct observed features.\nView: slightly elevated three-quarter, front cable opening readable, full object centered with generous margin. Materials: translucent milky-clear plastic rather than solid aluminum, yellow LED tape, neutral unlit LEDs. Actual transparent alpha background, no floor or cast shadow, soft neutral studio lighting, sharp boundaries. No hands, printers, wooden surface, background plant, other lamps, mobile interface, text, dimensions, labels, arrows, or watermark."
+    },
+    {
+      "key": "05-complete-white-shade",
+      "refs": [
+        "IMG_0246.PNG",
+        "IMG_0249.PNG",
+        "IMG_0244.PNG",
+        "IMG_0242.PNG"
+      ],
+      "prompt": "Use case: product-mockup. Asset type: isolated assembled lampshade for image-to-3D modeling.\nInputs are reference images of one existing modular white table lamp shade. Image 1 is the primary source: the white shade rests alone on a wooden table after its core and stand have been removed. Image 2 shows that same shade glowing on its stand. Image 3 shows the white shade split apart into arcs. Image 4 shows twelve individual modules.\nGenerate ONE clean isolated complete white shade matching image 1, with the full twelve-module ring joined together. Preserve the exact visible product design and proportions: low wide doughnut-like annular body with a very large deep open center, curved concave inner wall, plump convex outer wall, round scalloped upper and lower perimeter, twelve evenly repeated softly inflated modules, subtle vertical join lines, flowing diagonal sculptural ribs wrapping across each module, matte slightly translucent finely textured white FDM material. The inner and outer wall surfaces are both visible from the elevated three-quarter camera. This is an OPEN annular shade, not a closed-bottom planter, bowl, vessel, solid tire, woven rope, or solid sculpture. Keep small joining details only where clearly visible in source. Do not invent a bottom, extra parts or change the pattern. The product is unlit neutral white.\nRemove everything surrounding the white shade: no stand, brown ring or legs, inner cylindrical LED carrier, cable, lightbulb, table, hands, plant, second lamp, room, printer, screenshot or mobile interface. Actual transparent alpha background, no floor or cast shadows, soft neutral studio illumination that makes white surface relief clear, crisp accurate silhouette, no exaggerated perspective, centered with generous margins. One object only, no text, dimensions, labels, arrows or watermark."
+    }
+  ]
+}

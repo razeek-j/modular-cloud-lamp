@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in image_gen",
+  "job": {
+    "key": "11-single-shade-module-v2-underside",
+    "folder": "/Users/razeek/Projects/3D printing/output/lamp-reference-images",
+    "refs": [
+      "/Users/razeek/.codex/generated_images/01a18995-bae9-7140-84e3-c0d3d3963c64/exec-d4d70f7d-4059-4f64-8ac6-cddeaad16c1f.png",
+      "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/user-module-slotted-underside.jpg",
+      "/Users/razeek/Downloads/IMG_0235.PNG",
+      "/Users/razeek/Projects/3D printing/output/lamp-connector-details/source-crops/user-module-open-top.jpg"
+    ],
+    "prompt": "Use case: product-mockup. Asset type: matching underside product reference for image-to-3D modeling.\nImage 1 is the just-corrected top-view render of ONE white lampshade module. Use it to maintain the same outer footprint, diagonal flutes, low squat height, scalloped perimeter, material and overall proportions. Images 2, 3, and 4 are original photographs; image 2 is the user's authoritative underside photo and overrides guessed underside details from image 1.\nGenerate exactly ONE view of this SAME SINGLE COMPONENT TURNED OVER, with its underside facing the camera at a gentle three-quarter angle. Entire component centered with margin. Its upper wide scalloped opening is on the far side now, mostly hidden because of the flipped orientation. The underside is a thin white partially enclosing base/web spanning most of its oval/scalloped footprint, interrupted by ONE narrow elongated rectangular THROUGH-SLOT following the user's underside image. The central slot is much narrower than the large upper opening; it is the gap for the circular support band. It must be an actual open passage, with background visibly readable through its dark/open negative space, NOT an embossed groove or a blind pocket. Follow the slot's length, placement, width and corner shape from image 2; keep the white solid retaining area around it. A narrow dark line is NOT a wire or a separate inserted clip.\nShow the base face and fluted outside sidewall clearly. No brown support ring inserted, no LED carrier, no projecting pegs, pin mating system, newly invented fasteners, clip, hinge, magnets, screws or separate hardware. Do not add unexplained round holes or labels. Do not render a bottomless cuff or fully closed-bottom pot.\nSoft neutral studio lighting reveals base thickness and open slot, matte finely textured white FDM plastic, minimal perspective distortion. Genuine transparent alpha background including visibility through the slot. No floor, cast shadow, room, hands, table, printer, text, dimensions, arrows or watermark. This is an evidence-limited visual reconstruction of the opposite face of the same module."
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "source_sha256": "86def196721ef400b9b486b6c3fb6d82255c6b90280c8657347ca6d20a3c6dc1",
+  "units": "mm",
+  "topology": {
+    "LAMP_Full Segment 01": {
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "volume_mm3": 39787.87978438526
+    },
+    "LAMP_Full Carrier": {
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "volume_mm3": 20793.025791430653
+    },
+    "LAMP_Full Stand": {
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "volume_mm3": 21763.420393498753
+    }
+  },
+  "stand_shade_overlap_mm3": {
+    "LAMP_Full Segment 01": 0,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 0,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0,
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 0,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0
+  },
+  "carrier_shade_surface_pairs": {
+    "LAMP_Full Segment 01": 0,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 0,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0,
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 0,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0
+  },
+  "changes": [
+    "Stand rebuilt with 2.6 x 6 mm vertical necks above Z=-55; full 6 mm leg tubes below Z=-63. Original ring and cable exit dimensions retained."
+  ],
+  "shade_slot_revision": "Inner radial passage edge moved from 103.0 to 102.5 mm for carrier backing insertion clearance; outer edge remains 107 mm.",
+  "not_physically_verified": [
+    "material and heat resistance",
+    "actual LED, connector and cable fit",
+    "clip inserts and retention",
+    "load strength and tipping",
+    "assembly insertion path",
+    "printed dimensional tolerance"
+  ],
+  "stand_carrier_overlap_mm3": 0.0,
+  "equal_density_empty_shell_com_mm": [
+    -0.03390132635831833,
+    -0.0009645454701967537,
+    -2.2774031162261963
+  ],
+  "approx_support_triangle_inradius_mm": 61,
+  "stability_note": "Empty equal-density shells only; LEDs, cable forces and actual masses are unknown. No load test.",
+  "print_parts": {
+    "01_Shade_segment": {
+      "dimensions_mm": [
+        100.90670013427734,
+        102.79701232910156,
+        84.52083587646484
+      ],
+      "fits_U1_270mm": true,
+      "orientation": "Closed diaphragm down; open end up. Supports for internal brackets."
+    },
+    "02_Middle_LED_carrier": {
+      "dimensions_mm": [
+        213.35711669921875,
+        213.39999389648438,
+        38.0
+      ],
+      "fits_U1_270mm": true,
+      "orientation": "Brim down; 0.8 mm wall is delicate."
+    },
+    "03_Stand": {
+      "dimensions_mm": [
+        231.6999969482422,
+        222.2787322998047,
+        75.00001525878906
+      ],
+      "fits_U1_270mm": true,
+      "orientation": "Upside down: flat ring down, feet up. Supports for curved leg tips."
+    }
+  }
+}

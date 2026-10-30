@@ -1,0 +1,114 @@
+{
+  "shade_dimensions_mm": [
+    345.3111267089844,
+    345.3111267089844,
+    134.20999145507812
+  ],
+  "carrier_dimensions_mm": [
+    213.35710906982422,
+    213.39999389648438,
+    41.5
+  ],
+  "complete_dimensions_mm": [
+    345.3111267089844,
+    345.3111267089844,
+    173.08645629882812
+  ],
+  "seam_return_depth_mm": 2,
+  "clip_hole_target_mm": [
+    5,
+    5
+  ],
+  "shade_count": 12,
+  "carrier_vs_shade": {
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 0,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0,
+    "LAMP_Full Segment 01": 0,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 0,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0
+  },
+  "neighbor_intersections": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stand_vs_shade": {
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 292,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0,
+    "LAMP_Full Segment 01": 292,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 292,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0
+  },
+  "topology": {
+    "LAMP_Segment master mesh": {
+      "nonmanifold_edges": 0,
+      "volume_mm3": 48977.684178077536
+    },
+    "LAMP V09 thin carrier with backed deep wire channel": {
+      "nonmanifold_edges": 0,
+      "volume_mm3": 22708.17272552734
+    },
+    "LAMP_Brown stand mesh": {
+      "nonmanifold_edges": 0,
+      "volume_mm3": 23320.858423231282
+    }
+  },
+  "measured_bores": [
+    {
+      "end": -1,
+      "height": -38.81687344913152,
+      "width_height_mm": [
+        4.999999046325684,
+        5.0
+      ]
+    },
+    {
+      "end": -1,
+      "height": 38.81687344913152,
+      "width_height_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    },
+    {
+      "end": 1,
+      "height": -38.81687344913152,
+      "width_height_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    },
+    {
+      "end": 1,
+      "height": 38.81687344913152,
+      "width_height_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    }
+  ],
+  "known_issue": "Stand leg roots still intersect shade. Proposal for proportions; printable exports not updated."
+}

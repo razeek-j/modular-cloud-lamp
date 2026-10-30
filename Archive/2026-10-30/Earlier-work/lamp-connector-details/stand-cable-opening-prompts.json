@@ -1,0 +1,28 @@
+{
+  "tool": "Built-in image_gen",
+  "userCorrection": "Small bottom opening is cable clearance, not clip/hinge",
+  "jobs": [
+    {
+      "key": "03-brown-three-leg-stand-v2-cable-opening",
+      "folder": "/Users/razeek/Projects/3D printing/output/lamp-reference-images",
+      "refs": [
+        "/var/folders/rk/tv4nsvks71v5p3618x9ttfw40000gn/T/codex-clipboard-ada0105d-b5e3-4596-ae04-3304bda4c416.jpg",
+        "/var/folders/rk/tv4nsvks71v5p3618x9ttfw40000gn/T/codex-clipboard-c024a85e-b772-468a-bf2b-9e391d268403.jpg",
+        "/Users/razeek/Downloads/IMG_0240.PNG"
+      ],
+      "alpha": true,
+      "prompt": "Use case: product-mockup. Asset type: corrected isolated stand reference for image-to-3D modeling. The source images show the SAME reddish brown printed lamp stand inverted on the printer bed: one circular annular band with three equally spaced triangular loop/hairpin legs pointing upward. The user's authoritative correction is that the small feature near the rear leg root is a WIRE PASSAGE / CABLE CLEARANCE OPENING FROM BELOW, not a hinge or clip mechanism. Match the zoom photos. Reconstruct only a small narrow bottom-entering notch/opening in the ring band at that position, with the modest step/bridge above it as seen in the reference, enough room for a wire. Keep its scale small relative to the ring height. Keep the remaining ring continuous. Do not turn it into a large break in the ring, add a hinge, barrel, pin, latch, spring, screw, extra tab, removable cover or separate hardware. Do not invent an enclosed channel through a leg. The original photos do not resolve internal passage depth or dimensions. Match visible external opening only. No wire inserted so the empty passage remains visible.\nGenerate exactly one full bare stand with all three triangular loop legs and the complete annular ring, without shade or LED carrier. Use the inverted orientation of the full source photo, circular ring at bottom, legs projecting upward. Choose an elevated three-quarter angle like the source, with the rear leg-root cable opening facing the viewer through the ring's open center so the little bottom opening is legible. Preserve the flat circular band cross section, smoothly rounded slender leg rods, their original splay and loop shapes, warm brown/copper FDM plastic and realistic layer texture. Precise soft even neutral studio lighting, entire object centered with margins, genuine transparent alpha background, no floor or cast shadow, no black halo. No hands, room, printer, text, labels, dimensions or watermark. This is a corrected visual reference following the user's cable-passage clarification, not a redesign."
+    },
+    {
+      "key": "10-stand-cable-opening-closeup",
+      "folder": "/Users/razeek/Projects/3D printing/output/lamp-connector-details",
+      "refs": [
+        "/var/folders/rk/tv4nsvks71v5p3618x9ttfw40000gn/T/codex-clipboard-ada0105d-b5e3-4596-ae04-3304bda4c416.jpg",
+        "/var/folders/rk/tv4nsvks71v5p3618x9ttfw40000gn/T/codex-clipboard-c024a85e-b772-468a-bf2b-9e391d268403.jpg",
+        "/Users/razeek/Downloads/IMG_0240.PNG"
+      ],
+      "alpha": false,
+      "prompt": "Use case: product-mockup. Asset type: clean macro reference for the stand's empty cable opening. The source images show the SAME reddish brown printed lamp stand inverted on the printer bed: one circular annular band with three equally spaced triangular loop/hairpin legs pointing upward. The user's authoritative correction is that the small feature near the rear leg root is a WIRE PASSAGE / CABLE CLEARANCE OPENING FROM BELOW, not a hinge or clip mechanism. Match the zoom photos. Reconstruct only a small narrow bottom-entering notch/opening in the ring band at that position, with the modest step/bridge above it as seen in the reference, enough room for a wire. Keep its scale small relative to the ring height. Keep the remaining ring continuous. Do not turn it into a large break in the ring, add a hinge, barrel, pin, latch, spring, screw, extra tab, removable cover or separate hardware. Do not invent an enclosed channel through a leg. The original photos do not resolve internal passage depth or dimensions. Match visible external opening only. No wire inserted so the empty passage remains visible.\nGenerate exactly one enlarged close three-quarter view of the rear triangular loop leg root and a short surrounding arc of the brown ring, following the first reference close-up. Show both rounded rods rising from the band; crop their distant upper portions if necessary. Focus sharply on the small narrow opening extending into the ring from below directly beside/beneath the leg root, and the modest surrounding step seen in the original. Use a low enough viewpoint to reveal the empty bottom-entering clearance instead of filling it with solid plastic. Make the negative space clear with soft neutral light and natural recess shadows. A single product view on a plain pale gray background. Brown matte FDM plastic matching source, crisp contours, no speculative inner mechanism. No wire, labels, title, dimensions, annotations, arrows, hands, printer or extra parts. Keep the hole small and faithful to the source."
+    }
+  ]
+}

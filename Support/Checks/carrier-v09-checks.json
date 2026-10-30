@@ -1,0 +1,53 @@
+{
+  "source": "lamp-centered-final.blend",
+  "output": "lamp-thin-carrier-v09.blend",
+  "main_wall_mm": 0.8,
+  "outer_wall_radius_mm": 105.6,
+  "height_with_brim_mm": 38,
+  "bottom_brim_height_mm": 1.05,
+  "bottom_brim_outward_overhang_mm": 1.1,
+  "bottom_brim_total_radial_width_mm": 1.9,
+  "wire_channel_width_mm": 8,
+  "wire_channel_depth_at_center_mm": 2,
+  "wire_channel_backing_wall_mm": 0.8,
+  "top_notch_width_mm": 10,
+  "updated_objects": [
+    "LAMP_Carrier",
+    "LAMP_Full Carrier",
+    "LAMP_LED carrier"
+  ],
+  "nonmanifold_edges": 0,
+  "connected_components": 1,
+  "volume_mm3": 20793.025791430653,
+  "radial_samples": {
+    "z-10_angle90": [
+      104.79999542236328,
+      105.5999984741211
+    ],
+    "z-10_angle0": [
+      102.80001068115234,
+      103.5999984741211
+    ],
+    "z-30.5_angle90": [
+      104.80000305175781,
+      106.69999694824219
+    ],
+    "z3_angle0": []
+  },
+  "carrier_vs_shade_surface_pairs": {
+    "LAMP_Full Segment 01": 0,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 0,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0,
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 0,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0
+  },
+  "unchanged_issue": "Three stand leg roots intersect shade, as documented in prior audit. Stand and shade were not modified.",
+  "physical_status": "Provisional dimensions; actual clip, wires, connector and print fit not measured."
+}

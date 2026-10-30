@@ -1,0 +1,17 @@
+{
+  "plate_2.gcode": [
+    "; total layer number: 190",
+    "; total filament used [g] = 25.30",
+    "; estimated printing time (normal mode) = 3h 35m 22s"
+  ],
+  "plate_1.gcode": [
+    "; total layer number: 422",
+    "; total filament used [g] = 54.60",
+    "; estimated printing time (normal mode) = 8h 30m 39s"
+  ],
+  "plate_3.gcode": [
+    "; total layer number: 375",
+    "; total filament used [g] = 29.53",
+    "; estimated printing time (normal mode) = 4h 46m 38s"
+  ]
+}

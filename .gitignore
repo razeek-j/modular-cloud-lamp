@@ -1,0 +1,19 @@
+# Blender backup files
+*.blend1
+*.blend2
+*.blend.bak
+
+# Slicer generated machine files (machine-specific G-code)
+*.gcode
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Operating System files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Local logs
+*.log

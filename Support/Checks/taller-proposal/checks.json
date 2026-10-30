@@ -1,0 +1,49 @@
+{
+  "shade_height_mm": 117.29000091552734,
+  "shade_width_mm": 345.3119201660156,
+  "carrier_height_mm": 39.89999961853027,
+  "clip_hole_heights_mm": 5,
+  "carrier_shade_surface_pairs": {
+    "LAMP_Full Segment 01": 0,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 0,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0,
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 0,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0
+  },
+  "neighbor_surface_pairs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "stand_shade_surface_pairs": {
+    "LAMP_Full Segment 01": 270,
+    "LAMP_Full Segment 02": 0,
+    "LAMP_Full Segment 03": 0,
+    "LAMP_Full Segment 04": 0,
+    "LAMP_Full Segment 05": 270,
+    "LAMP_Full Segment 06": 0,
+    "LAMP_Full Segment 07": 0,
+    "LAMP_Full Segment 08": 0,
+    "LAMP_Full Segment 09": 270,
+    "LAMP_Full Segment 10": 0,
+    "LAMP_Full Segment 11": 0,
+    "LAMP_Full Segment 12": 0
+  },
+  "known_issue": "Stand roots intersect shade; assembly not print ready."
+}

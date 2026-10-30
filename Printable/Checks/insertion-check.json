@@ -1,0 +1,18 @@
+{
+  "LAMP_Full Carrier": {
+    "sampled_from_below_mm": [
+      -100,
+      0
+    ],
+    "step_mm": 2,
+    "colliding_samples": []
+  },
+  "LAMP_Full Stand": {
+    "sampled_from_below_mm": [
+      -100,
+      0
+    ],
+    "step_mm": 2,
+    "colliding_samples": []
+  }
+}
