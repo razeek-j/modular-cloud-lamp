@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Lamp_Snap_Pin_BiDirectional",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 278.0833003751446,
+    "dimensions_mm": [
+      16.199999809265137,
+      6.599999904632568,
+      4.599999904632568
+    ],
+    "bounds_mm": [
+      [
+        -8.0,
+        8.199999809265137
+      ],
+      [
+        -3.299999952316284,
+        3.299999952316284
+      ],
+      [
+        0.0,
+        4.599999904632568
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Lamp_TwoPiece_Female_Socket",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 134.52198807573308,
+    "dimensions_mm": [
+      6.549999713897705,
+      8.0,
+      8.0
+    ],
+    "bounds_mm": [
+      [
+        -6.549999713897705,
+        0.0
+      ],
+      [
+        -4.0,
+        4.0
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Lamp_TwoPiece_Male_Latch",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 127.9244844517707,
+    "dimensions_mm": [
+      10.34999966621399,
+      8.0,
+      8.0
+    ],
+    "bounds_mm": [
+      [
+        -3.799999952316284,
+        6.549999713897705
+      ],
+      [
+        -4.0,
+        4.0
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Lamp_TwoPiece_PushLock_Pair",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 262.4464904875739,
+    "dimensions_mm": [
+      13.09999942779541,
+      20.0,
+      8.0
+    ],
+    "bounds_mm": [
+      [
+        -6.549999713897705,
+        6.549999713897705
+      ],
+      [
+        -4.0,
+        16.0
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Lamp_Alignment_Dowel_Pin",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 260.81851346167934,
+    "dimensions_mm": [
+      11.800000190734863,
+      6.599999904632568,
+      4.650000095367432
+    ],
+    "bounds_mm": [
+      [
+        -5.800000190734863,
+        6.0
+      ],
+      [
+        -3.299999952316284,
+        3.299999952316284
+      ],
+      [
+        0.0,
+        4.650000095367432
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Pins_Test_Sampler_Kit",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 1602.696530103905,
+    "dimensions_mm": [
+      38.20000076293945,
+      50.59999918937683,
+      8.0
+    ],
+    "bounds_mm": [
+      [
+        -8.0,
+        30.200000762939453
+      ],
+      [
+        -3.299999952316284,
+        47.29999923706055
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Pins_Full_Batch_28x_BiDirectional",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 7786.331954175972,
+    "dimensions_mm": [
+      136.1999969482422,
+      36.59999918937683,
+      4.599999904632568
+    ],
+    "bounds_mm": [
+      [
+        -8.0,
+        128.1999969482422
+      ],
+      [
+        -3.299999952316284,
+        33.29999923706055
+      ],
+      [
+        0.0,
+        4.599999904632568
+      ]
+    ],
+    "is_manifold": true
+  },
+  {
+    "name": "Pins_Full_Batch_28x_TwoPiece",
+    "non_manifold_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume_mm3": 7348.508448306206,
+    "dimensions_mm": [
+      133.10000276565552,
+      79.0,
+      8.0
+    ],
+    "bounds_mm": [
+      [
+        -6.549999713897705,
+        126.55000305175781
+      ],
+      [
+        -4.0,
+        75.0
+      ],
+      [
+        0.0,
+        8.0
+      ]
+    ],
+    "is_manifold": true
+  }
+]

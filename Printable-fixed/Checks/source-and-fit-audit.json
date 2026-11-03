@@ -1,0 +1,180 @@
+{
+  "source": "/Users/razeek/Projects/3D printing/Lamp-taller-proposal.blend",
+  "source_sha256": "248097b1a36c31ccebea06ead3f329ee27820bc29085cffd33c5c9ffb16825de",
+  "geometry_modified": false,
+  "topology": {
+    "LAMP_Full Segment 01": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "components": 1,
+      "signed_volume_mm3": 48881.657195939195
+    },
+    "LAMP_Full Carrier": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "components": 1,
+      "signed_volume_mm3": 22708.17272552734
+    },
+    "LAMP_Full Stand": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0,
+      "components": 1,
+      "signed_volume_mm3": 20821.565946208935
+    }
+  },
+  "assembly_dimensions_mm": {
+    "LAMP_Full Segment 01": [
+      95.89633178710938,
+      86.41267395019531,
+      134.20999145507812
+    ],
+    "LAMP_Full Carrier": [
+      213.35710906982422,
+      213.39999389648438,
+      41.5
+    ],
+    "LAMP_Full Stand": [
+      231.6999969482422,
+      222.2783660888672,
+      75.0
+    ]
+  },
+  "static_surface_crossings": {
+    "LAMP_Full Carrier": {
+      "LAMP_Full Segment 01": 0,
+      "LAMP_Full Segment 02": 0,
+      "LAMP_Full Segment 03": 0,
+      "LAMP_Full Segment 04": 0,
+      "LAMP_Full Segment 05": 0,
+      "LAMP_Full Segment 06": 0,
+      "LAMP_Full Segment 07": 0,
+      "LAMP_Full Segment 08": 0,
+      "LAMP_Full Segment 09": 0,
+      "LAMP_Full Segment 10": 0,
+      "LAMP_Full Segment 11": 0,
+      "LAMP_Full Segment 12": 0
+    },
+    "LAMP_Full Stand": {
+      "LAMP_Full Segment 01": 0,
+      "LAMP_Full Segment 02": 0,
+      "LAMP_Full Segment 03": 0,
+      "LAMP_Full Segment 04": 0,
+      "LAMP_Full Segment 05": 0,
+      "LAMP_Full Segment 06": 0,
+      "LAMP_Full Segment 07": 0,
+      "LAMP_Full Segment 08": 0,
+      "LAMP_Full Segment 09": 0,
+      "LAMP_Full Segment 10": 0,
+      "LAMP_Full Segment 11": 0,
+      "LAMP_Full Segment 12": 0
+    }
+  },
+  "sampled_insertion": {
+    "LAMP_Full Carrier": {
+      "step_mm": 1,
+      "range_mm": [
+        -120,
+        0
+      ],
+      "colliding_samples": []
+    },
+    "LAMP_Full Stand": {
+      "step_mm": 1,
+      "range_mm": [
+        -120,
+        0
+      ],
+      "colliding_samples": []
+    }
+  },
+  "clip_openings_mm": [
+    {
+      "end": -1,
+      "z_mm": -38.81687344913152,
+      "width_height_mm": [
+        4.999999046325684,
+        5.0
+      ]
+    },
+    {
+      "end": -1,
+      "z_mm": 38.81687344913152,
+      "width_height_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    },
+    {
+      "end": 1,
+      "z_mm": -38.81687344913152,
+      "width_height_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    },
+    {
+      "end": 1,
+      "z_mm": 38.81687344913152,
+      "width_height_mm": [
+        4.999998569488525,
+        5.0
+      ]
+    }
+  ],
+  "exported_parts": {
+    "01_Shade_segment": {
+      "dimensions_mm": [
+        103.2297134399414,
+        130.86653518676758,
+        83.53053315164652
+      ],
+      "coplanar_bed_contact_area_mm2_within_0_02mm": 6763.098637892399,
+      "stl_sha256": "82d03dfef86b047b2bfcd2c9bfddda89b546fba427b26fb9c8c682d300dc9576",
+      "triangles": 165072,
+      "orientation": "Closed end down, open end up"
+    },
+    "02_Middle_LED_carrier": {
+      "dimensions_mm": [
+        213.35710906982422,
+        213.39999389648438,
+        41.5
+      ],
+      "coplanar_bed_contact_area_mm2_within_0_02mm": 1251.03139513731,
+      "stl_sha256": "907fc6f6bb529eabdf4c8b179ee801820fb4bf4acf4132d0bd2a5b96834a8b33",
+      "triangles": 11728,
+      "orientation": "Bottom rim down"
+    },
+    "03_Stand": {
+      "dimensions_mm": [
+        231.6999969482422,
+        222.2783660888672,
+        75.0000171661377
+      ],
+      "coplanar_bed_contact_area_mm2_within_0_02mm": 2243.0684866905212,
+      "stl_sha256": "c7b75c40b0b48a7d8f9e534a592591fa07aed2d890e673ca517af2ae02a4022f",
+      "triangles": 26860,
+      "orientation": "Stand support ring down, legs up"
+    }
+  },
+  "neighbor_surface_crossings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "physical_limits": [
+    "Actual filament/nozzle calibration and bed adhesion",
+    "Hole dimensional accuracy and clip retention",
+    "Removal of internal same-material supports",
+    "Actual cable/LED dimensions and heat",
+    "Strength and tipping under real load"
+  ]
+}
