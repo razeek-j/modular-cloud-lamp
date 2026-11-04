@@ -1,0 +1,24 @@
+{
+  "views": 42,
+  "sources": [
+    {
+      "id": "R01",
+      "front_facing_probes": 4776,
+      "exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "F01",
+      "front_facing_probes": 0,
+      "exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "F02",
+      "front_facing_probes": 0,
+      "exposed_probes": 0,
+      "exposed": []
+    }
+  ],
+  "scope": "Opaque ray-occlusion only. Diffusers are visible by design; actual glare and material transmission remain physical tests."
+}

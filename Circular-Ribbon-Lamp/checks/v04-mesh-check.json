@@ -1,0 +1,26 @@
+[
+  {
+    "name": "01 Inner cloud V04 \u2022 frame-supported",
+    "components": 1,
+    "non_manifold_edges": 0,
+    "faces": 21493
+  },
+  {
+    "name": "02 Cloud V04 band \u2022 supported by 01",
+    "components": 1,
+    "non_manifold_edges": 0,
+    "faces": 21927
+  },
+  {
+    "name": "03 Cloud V04 band \u2022 supported by 02",
+    "components": 1,
+    "non_manifold_edges": 0,
+    "faces": 21762
+  },
+  {
+    "name": "04 Outer cloud V04 \u2022 supported by 03",
+    "components": 1,
+    "non_manifold_edges": 0,
+    "faces": 21339
+  }
+]

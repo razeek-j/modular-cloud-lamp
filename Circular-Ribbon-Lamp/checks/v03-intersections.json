@@ -1,0 +1,32 @@
+[
+  {
+    "a": "01 Inner cloud \u2022 frame-supported",
+    "b": "02 Cloud band \u2022 supported by 01",
+    "intersecting_triangle_pairs": 0
+  },
+  {
+    "a": "01 Inner cloud \u2022 frame-supported",
+    "b": "03 Cloud band \u2022 supported by 02",
+    "intersecting_triangle_pairs": 0
+  },
+  {
+    "a": "01 Inner cloud \u2022 frame-supported",
+    "b": "04 Outer cloud \u2022 supported by 03",
+    "intersecting_triangle_pairs": 0
+  },
+  {
+    "a": "02 Cloud band \u2022 supported by 01",
+    "b": "03 Cloud band \u2022 supported by 02",
+    "intersecting_triangle_pairs": 0
+  },
+  {
+    "a": "02 Cloud band \u2022 supported by 01",
+    "b": "04 Outer cloud \u2022 supported by 03",
+    "intersecting_triangle_pairs": 0
+  },
+  {
+    "a": "03 Cloud band \u2022 supported by 02",
+    "b": "04 Outer cloud \u2022 supported by 03",
+    "intersecting_triangle_pairs": 0
+  }
+]

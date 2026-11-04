@@ -1,0 +1,19 @@
+{
+  "stock": "3 mm aluminum, provisional prototype",
+  "outline_mm": [
+    79.43008095026016,
+    39.99999910593033
+  ],
+  "holes_mm": [
+    [
+      21.05024829506874,
+      19.99998837709427
+    ],
+    [
+      58.37981775403023,
+      20.000020042061806
+    ]
+  ],
+  "hole_diameter_mm": 3.3,
+  "capacity": "Not load-rated; inspect fit and test before overhead use"
+}

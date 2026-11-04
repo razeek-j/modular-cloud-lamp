@@ -1,0 +1,45 @@
+{
+  "only_ceiling_contact_diameter_mm": 220,
+  "central_fixings_xy_mm": [
+    [
+      -65.0,
+      -55.0
+    ],
+    [
+      -65.0,
+      55.0
+    ],
+    [
+      65.0,
+      -55.0
+    ],
+    [
+      65.0,
+      55.0
+    ]
+  ],
+  "outside_centre_ceiling_contact_vertices": 0,
+  "minimum_ceiling_gap_outside_radius_112_mm": 24.956539273262024,
+  "hidden_physical_objects": [],
+  "deck_objects": [],
+  "branch_roots": [
+    [
+      82.2899169921875,
+      10.833673477172852,
+      -44.0
+    ],
+    [
+      -47.60684585571289,
+      67.98961639404297,
+      -44.0
+    ],
+    [
+      -31.76272201538086,
+      -76.68199157714844,
+      -44.0
+    ]
+  ],
+  "attachment_count": 12,
+  "strip_modules": 12,
+  "scope": "Geometric ceiling-contact boundary and visibility flags only. Does not validate load capacity, pad union/retention, optics, manufacture or every surface clearance."
+}

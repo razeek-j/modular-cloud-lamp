@@ -1,0 +1,7 @@
+{
+  "revision": "V03 stacked cloud / white washi",
+  "verified": "Scene saved and visibly open in Blender; warm/unlit/eight-angle renders inspected; live screen recording decoded",
+  "live_recording_seconds": 50.00833333333333,
+  "geometry": "Four smooth bands with live Curve modifiers, no modeled fine ribs; zero pairwise evaluated-band triangle intersections",
+  "limits": "Support joints and concealment unfinished. Nominal skin input precedes normalization; production thickness, LED layout, fit, creep, strength and printed texture need validation."
+}

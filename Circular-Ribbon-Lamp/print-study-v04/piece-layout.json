@@ -1,0 +1,354 @@
+[
+  {
+    "band": 1,
+    "piece": 1,
+    "pieces_in_band": 3,
+    "oriented_surface_bounds_mm": [
+      282.56,
+      162.78,
+      106.0
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 1,
+    "piece": 2,
+    "pieces_in_band": 3,
+    "oriented_surface_bounds_mm": [
+      277.35,
+      185.54,
+      94.73
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 1,
+    "piece": 3,
+    "pieces_in_band": 3,
+    "oriented_surface_bounds_mm": [
+      276.68,
+      174.96,
+      124.24
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 1,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      280.45,
+      168.3,
+      86.15
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 2,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      269.81,
+      146.19,
+      91.79
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 3,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      272.09,
+      141.84,
+      110.12
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 4,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      276.1,
+      146.35,
+      120.72
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 5,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      256.94,
+      144.88,
+      147.39
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 6,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      259.8,
+      144.4,
+      133.78
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 2,
+    "piece": 7,
+    "pieces_in_band": 7,
+    "oriented_surface_bounds_mm": [
+      265.08,
+      148.01,
+      106.69
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 1,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      291.41,
+      148.85,
+      119.48
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 2,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      277.95,
+      123.04,
+      125.3
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 3,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      289.71,
+      145.98,
+      131.08
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 4,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      276.16,
+      144.09,
+      124.39
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 5,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      291.01,
+      150.96,
+      118.03
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 6,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      286.68,
+      155.2,
+      110.47
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 7,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      283.74,
+      144.34,
+      102.24
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 8,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      299.91,
+      151.76,
+      112.53
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 9,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      290.42,
+      152.91,
+      94.38
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 3,
+    "piece": 10,
+    "pieces_in_band": 10,
+    "oriented_surface_bounds_mm": [
+      284.69,
+      141.02,
+      110.71
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 1,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      300.27,
+      111.3,
+      85.44
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 2,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      296.28,
+      109.23,
+      80.11
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 3,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      300.48,
+      106.42,
+      75.42
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 4,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      298.08,
+      109.33,
+      70.5
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 5,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      301.75,
+      108.51,
+      76.18
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 6,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      301.09,
+      110.65,
+      67.22
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 7,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      297.61,
+      99.43,
+      86.32
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 8,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      295.93,
+      104.76,
+      75.18
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 9,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      297.01,
+      100.09,
+      93.98
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 10,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      295.22,
+      109.04,
+      82.74
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 11,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      296.09,
+      102.81,
+      92.89
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  },
+  {
+    "band": 4,
+    "piece": 12,
+    "pieces_in_band": 12,
+    "oriented_surface_bounds_mm": [
+      293.59,
+      105.76,
+      84.65
+    ],
+    "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "diameter_mm": 1200,
+  "skin_mm": 1.2,
+  "rib_pitch_mm": 3.2,
+  "rib_relief_mm": 0.22,
+  "bands": [
+    {
+      "name": "01 Outer flowing ribbon",
+      "radius": 0.48,
+      "width": 0.184,
+      "radial_wave": 0.023,
+      "z": -0.16,
+      "z_wave": 0.024,
+      "lobes": 3,
+      "phase": 0.25,
+      "twist": 2,
+      "roll": 0.25
+    },
+    {
+      "name": "02 Middle counterflow ribbon",
+      "radius": 0.302,
+      "width": 0.18,
+      "radial_wave": 0.022,
+      "z": -0.166,
+      "z_wave": 0.025,
+      "lobes": 3,
+      "phase": 1.4,
+      "twist": -2,
+      "roll": 1.45
+    },
+    {
+      "name": "03 Inner folded ribbon",
+      "radius": 0.144,
+      "width": 0.112,
+      "radial_wave": 0.012,
+      "z": -0.142,
+      "z_wave": 0.019,
+      "lobes": 2,
+      "phase": 0.65,
+      "twist": 1,
+      "roll": 0.75
+    }
+  ]
+}

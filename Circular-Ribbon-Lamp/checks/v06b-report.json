@@ -1,0 +1,365 @@
+{
+  "revision": "V06B wave cloud / ceiling light deck",
+  "bounds_mm": {
+    "min": [
+      -585.5389833450317,
+      -575.049877166748,
+      -279.0086567401886
+    ],
+    "max": [
+      597.4721908569336,
+      573.1586217880249,
+      -23.500001057982445
+    ]
+  },
+  "radial_diameter_mm": 1198.7239468623668,
+  "attachments": [
+    {
+      "band": 1,
+      "sector": 1,
+      "contact_mm": [
+        385.2690124511719,
+        -131.65464782714844,
+        -195.3466796875
+      ],
+      "lap_width_mm": 58.553400138025374,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance",
+        "TOOL \u2022 M3 clearance.001"
+      ],
+      "seal_length_m": 0.08455340013802537,
+      "seal_centre_mm": [
+        385.26901602745056,
+        -131.65464997291565,
+        -35
+      ],
+      "seal_yaw_rad": 1.392396146298183
+    },
+    {
+      "band": 1,
+      "sector": 2,
+      "contact_mm": [
+        -157.66287231445312,
+        382.18121337890625,
+        -117.21749877929688
+      ],
+      "lap_width_mm": 60.672686248855776,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.002",
+        "TOOL \u2022 M3 clearance.003"
+      ],
+      "seal_length_m": 0.08667268624885577,
+      "seal_centre_mm": [
+        -157.66286849975586,
+        382.18122720718384,
+        -35
+      ],
+      "seal_yaw_rad": 3.1189716046285265
+    },
+    {
+      "band": 1,
+      "sector": 3,
+      "contact_mm": [
+        -384.0423889160156,
+        -156.8651123046875,
+        -79.13724517822266
+      ],
+      "lap_width_mm": 63.396392318259274,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.004",
+        "TOOL \u2022 M3 clearance.005"
+      ],
+      "seal_length_m": 0.08939639231825927,
+      "seal_centre_mm": [
+        -384.0423822402954,
+        -156.86510503292084,
+        -35
+      ],
+      "seal_yaw_rad": -1.506810096574166
+    },
+    {
+      "band": 2,
+      "sector": 1,
+      "contact_mm": [
+        81.90887451171875,
+        293.04241943359375,
+        -92.8139877319336
+      ],
+      "lap_width_mm": 60.95620767093414,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.006",
+        "TOOL \u2022 M3 clearance.007"
+      ],
+      "seal_length_m": 0.08695620767093414,
+      "seal_centre_mm": [
+        81.90887421369553,
+        293.0424213409424,
+        -35
+      ],
+      "seal_yaw_rad": 2.848386650148886
+    },
+    {
+      "band": 2,
+      "sector": 2,
+      "contact_mm": [
+        -10.251615524291992,
+        301.88031005859375,
+        -100.45188903808594
+      ],
+      "lap_width_mm": 63.9701273619718,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.008",
+        "TOOL \u2022 M3 clearance.009"
+      ],
+      "seal_length_m": 0.0899701273619718,
+      "seal_centre_mm": [
+        -10.251615196466446,
+        301.8803000450134,
+        -35
+      ],
+      "seal_yaw_rad": -2.9792620530746796
+    },
+    {
+      "band": 2,
+      "sector": 3,
+      "contact_mm": [
+        9.424710273742676,
+        -266.4560546875,
+        -85.32644653320312
+      ],
+      "lap_width_mm": 57.385894172622585,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.010",
+        "TOOL \u2022 M3 clearance.011"
+      ],
+      "seal_length_m": 0.08338589417262258,
+      "seal_centre_mm": [
+        9.424710646271706,
+        -266.45606756210327,
+        -35
+      ],
+      "seal_yaw_rad": 0.5082961402399417
+    },
+    {
+      "band": 3,
+      "sector": 1,
+      "contact_mm": [
+        64.7975082397461,
+        129.6873779296875,
+        -116.42073059082031
+      ],
+      "lap_width_mm": 61.46058772511493,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.012",
+        "TOOL \u2022 M3 clearance.013"
+      ],
+      "seal_length_m": 0.08746058772511492,
+      "seal_centre_mm": [
+        64.79750573635101,
+        129.6873837709427,
+        -35
+      ],
+      "seal_yaw_rad": 2.3690608869348826
+    },
+    {
+      "band": 3,
+      "sector": 2,
+      "contact_mm": [
+        -135.111572265625,
+        88.31210327148438,
+        -188.7877655029297
+      ],
+      "lap_width_mm": 40.60529481159798,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.014",
+        "TOOL \u2022 M3 clearance.015"
+      ],
+      "seal_length_m": 0.06660529481159798,
+      "seal_centre_mm": [
+        -135.11157035827637,
+        88.31210434436798,
+        -35
+      ],
+      "seal_yaw_rad": -1.3998359026876803
+    },
+    {
+      "band": 3,
+      "sector": 3,
+      "contact_mm": [
+        -78.98916625976562,
+        -115.42939758300781,
+        -108.75213623046875
+      ],
+      "lap_width_mm": 58.597043715975225,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.016",
+        "TOOL \u2022 M3 clearance.017"
+      ],
+      "seal_length_m": 0.08459704371597522,
+      "seal_centre_mm": [
+        -78.98916304111481,
+        -115.42939394712448,
+        -35
+      ],
+      "seal_yaw_rad": -1.262304994450378
+    },
+    {
+      "band": 4,
+      "sector": 1,
+      "contact_mm": [
+        254.98052978515625,
+        320.38427734375,
+        -116.15721130371094
+      ],
+      "lap_width_mm": 59.972779992353004,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.018",
+        "TOOL \u2022 M3 clearance.019"
+      ],
+      "seal_length_m": 0.085972779992353,
+      "seal_centre_mm": [
+        254.98053431510925,
+        320.38426399230957,
+        -35
+      ],
+      "seal_yaw_rad": 2.074065395539427
+    },
+    {
+      "band": 5,
+      "sector": 2,
+      "contact_mm": [
+        -238.3536834716797,
+        -302.44525146484375,
+        -124.55110931396484
+      ],
+      "lap_width_mm": 58.66132342023974,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.020",
+        "TOOL \u2022 M3 clearance.021"
+      ],
+      "seal_length_m": 0.08466132342023974,
+      "seal_centre_mm": [
+        -238.3536845445633,
+        -302.44526267051697,
+        -35
+      ],
+      "seal_yaw_rad": -0.8008101477330957
+    },
+    {
+      "band": 6,
+      "sector": 2,
+      "contact_mm": [
+        86.55976104736328,
+        -241.43003845214844,
+        -90.04956817626953
+      ],
+      "lap_width_mm": 61.93765309279277,
+      "lap_depth_mm": 10,
+      "return_skin_mm": 3,
+      "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+      "hole_tools": [
+        "TOOL \u2022 M3 clearance.022",
+        "TOOL \u2022 M3 clearance.023"
+      ],
+      "seal_length_m": 0.08793765309279276,
+      "seal_centre_mm": [
+        86.55975759029388,
+        -241.43004417419434,
+        -35
+      ],
+      "seal_yaw_rad": 0.050997578029969265
+    }
+  ],
+  "LEDs": [
+    {
+      "id": "R01",
+      "zone": "A perimeter cove",
+      "length_mm": 2800,
+      "location_mm": [
+        0,
+        0,
+        -18
+      ],
+      "radius_mm": 445.63384065730696,
+      "orientation": "VERTICAL_RING",
+      "normal": "Radially inward",
+      "circuit": "A",
+      "target": "White mixing cavity and outer ribbon field",
+      "power_W": 22.4
+    },
+    {
+      "id": "F01",
+      "zone": "B reflected central fill",
+      "length_mm": 100,
+      "location_mm": [
+        -150.0,
+        0.0,
+        -16.0
+      ],
+      "orientation": "Y",
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "circuit": "B",
+      "target": "White rear reflector, then central folds",
+      "power_W": 0.8
+    },
+    {
+      "id": "F02",
+      "zone": "B reflected central fill",
+      "length_mm": 100,
+      "location_mm": [
+        150.0,
+        0.0,
+        -16.0
+      ],
+      "orientation": "Y",
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "circuit": "B",
+      "target": "White rear reflector, then central folds",
+      "power_W": 0.8
+    }
+  ],
+  "total_strip_m": 3.0,
+  "total_LED_power_W": 24.0,
+  "status": "Wave-cloud, light-deck and integral-lap development concept. See digital checks; physical optical, thermal and load tests outstanding."
+}

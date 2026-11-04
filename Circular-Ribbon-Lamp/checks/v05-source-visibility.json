@@ -1,0 +1,164 @@
+{
+  "review_views": 42,
+  "scope": "535 sampled face points per module, separately for strip and opal window; direct underside, eight azimuths at two elevations and a 25-position underside grid. Opaque ray-occlusion check only; not glare, photometry, translucency or support concealment validation.",
+  "sources": [
+    {
+      "id": "L01.1",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L01.2",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L01.3",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L02.1",
+      "front_facing_probes": 21935,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L02.2",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L02.3",
+      "front_facing_probes": 21400,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L03.1",
+      "front_facing_probes": 21400,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L03.2",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L03.3",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L04.1",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L04.2",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L05.1",
+      "front_facing_probes": 21935,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L05.2",
+      "front_facing_probes": 22470,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    }
+  ],
+  "windows": [
+    {
+      "id": "L01.1",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L01.2",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L01.3",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L02.1",
+      "front_facing_probes": 21935,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L02.2",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L02.3",
+      "front_facing_probes": 21400,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L03.1",
+      "front_facing_probes": 21400,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L03.2",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L03.3",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L04.1",
+      "front_facing_probes": 20330,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L04.2",
+      "front_facing_probes": 20865,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L05.1",
+      "front_facing_probes": 21935,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    },
+    {
+      "id": "L05.2",
+      "front_facing_probes": 22470,
+      "directly_exposed_probes": 0,
+      "exposed": []
+    }
+  ]
+}

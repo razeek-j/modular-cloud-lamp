@@ -1,0 +1,609 @@
+{
+  "revision": "V04 flush/interlap study",
+  "bounds_mm": {
+    "min": [
+      -581.7362070083618,
+      -586.8048071861267,
+      -199.99997317790985
+    ],
+    "max": [
+      578.5242319107056,
+      581.511914730072,
+      -19.999999552965164
+    ]
+  },
+  "render_hardware_enabled": true,
+  "modeled_fine_ribs": false,
+  "live_curve_modifiers": false,
+  "unvalidated": [
+    "concealment from all angles",
+    "joint retention and capacity",
+    "creep and temperature",
+    "physical texture",
+    "print segmentation",
+    "wire routing and real LED layout"
+  ],
+  "v04_laps": [
+    {
+      "parent": 1,
+      "child": 2,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 1,
+      "child": 2,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 1,
+      "child": 2,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 2,
+      "child": 3,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 2,
+      "child": 3,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 2,
+      "child": 3,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 3,
+      "child": 4,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 3,
+      "child": 4,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    },
+    {
+      "parent": 3,
+      "child": 4,
+      "overlap_mm": 20,
+      "upper_shelf_clearance_mm": 0.25,
+      "retention": "Upper-side retention to be finalized after joint tests; not a rated bonded joint"
+    }
+  ],
+  "print_division_candidates": [
+    {
+      "band": 1,
+      "piece": 1,
+      "pieces_in_band": 3,
+      "oriented_surface_bounds_mm": [
+        282.56,
+        162.78,
+        106.0
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 1,
+      "piece": 2,
+      "pieces_in_band": 3,
+      "oriented_surface_bounds_mm": [
+        277.35,
+        185.54,
+        94.73
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 1,
+      "piece": 3,
+      "pieces_in_band": 3,
+      "oriented_surface_bounds_mm": [
+        276.68,
+        174.96,
+        124.24
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 1,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        280.45,
+        168.3,
+        86.15
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 2,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        269.81,
+        146.19,
+        91.79
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 3,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        272.09,
+        141.84,
+        110.12
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 4,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        276.1,
+        146.35,
+        120.72
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 5,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        256.94,
+        144.88,
+        147.39
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 6,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        259.8,
+        144.4,
+        133.78
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 2,
+      "piece": 7,
+      "pieces_in_band": 7,
+      "oriented_surface_bounds_mm": [
+        265.08,
+        148.01,
+        106.69
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 1,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        291.41,
+        148.85,
+        119.48
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 2,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        277.95,
+        123.04,
+        125.3
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 3,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        289.71,
+        145.98,
+        131.08
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 4,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        276.16,
+        144.09,
+        124.39
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 5,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        291.01,
+        150.96,
+        118.03
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 6,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        286.68,
+        155.2,
+        110.47
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 7,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        283.74,
+        144.34,
+        102.24
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 8,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        299.91,
+        151.76,
+        112.53
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 9,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        290.42,
+        152.91,
+        94.38
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 3,
+      "piece": 10,
+      "pieces_in_band": 10,
+      "oriented_surface_bounds_mm": [
+        284.69,
+        141.02,
+        110.71
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 1,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        300.27,
+        111.3,
+        85.44
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 2,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        296.28,
+        109.23,
+        80.11
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 3,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        300.48,
+        106.42,
+        75.42
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 4,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        298.08,
+        109.33,
+        70.5
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 5,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        301.75,
+        108.51,
+        76.18
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 6,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        301.09,
+        110.65,
+        67.22
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 7,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        297.61,
+        99.43,
+        86.32
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 8,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        295.93,
+        104.76,
+        75.18
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 9,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        297.01,
+        100.09,
+        93.98
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 10,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        295.22,
+        109.04,
+        82.74
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 11,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        296.09,
+        102.81,
+        92.89
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    },
+    {
+      "band": 4,
+      "piece": 12,
+      "pieces_in_band": 12,
+      "oriented_surface_bounds_mm": [
+        293.59,
+        105.76,
+        84.65
+      ],
+      "allowance": "Surface only; 40 mm printer margin reserved. Final joints/supports/orientation not included."
+    }
+  ],
+  "status": "Appearance, integrated-return and print-layout study; not manufacturing or overhead-load validated",
+  "floating_gap_removed": true,
+  "target_skin_highest_mm": -20,
+  "target_skin_lowest_mm": -200,
+  "visible_clip_objects": 0,
+  "not_validated": [
+    "Lap returns may be exposed from some views",
+    "Boolean connectivity and interface fit",
+    "Frame-to-inner-band seating",
+    "Upper-side retention specification",
+    "Print divisions do not yet contain final manufacturing joints",
+    "Physical print/creep/temperature tests"
+  ],
+  "reference_v03_attachment_zones": [
+    {
+      "parent": 1,
+      "child": 2,
+      "sector": 1,
+      "span_mm": 19.40317451953888,
+      "a": [
+        0.14793509244918823,
+        -0.05483024939894676,
+        -0.15852440893650055
+      ],
+      "b": [
+        0.16505035758018494,
+        -0.06360221654176712,
+        -0.15595468878746033
+      ]
+    },
+    {
+      "parent": 1,
+      "child": 2,
+      "sector": 2,
+      "span_mm": 16.1125510931015,
+      "a": [
+        -0.1399776190519333,
+        0.0975470244884491,
+        -0.15724964439868927
+      ],
+      "b": [
+        -0.15240123867988586,
+        0.10780161619186401,
+        -0.15691594779491425
+      ]
+    },
+    {
+      "parent": 1,
+      "child": 2,
+      "sector": 3,
+      "span_mm": 20.21210268139839,
+      "a": [
+        0.007853186689317226,
+        -0.1643184870481491,
+        -0.16497553884983063
+      ],
+      "b": [
+        0.0031387757044285536,
+        -0.18356414139270782,
+        -0.16896404325962067
+      ]
+    },
+    {
+      "parent": 2,
+      "child": 3,
+      "sector": 1,
+      "span_mm": 24.709802120923996,
+      "a": [
+        0.3165256381034851,
+        0.0471615307033062,
+        -0.1956409066915512
+      ],
+      "b": [
+        0.34111103415489197,
+        0.04680432751774788,
+        -0.19319038093090057
+      ]
+    },
+    {
+      "parent": 2,
+      "child": 3,
+      "sector": 2,
+      "span_mm": 23.004181683063507,
+      "a": [
+        -0.21475961804389954,
+        0.23397786915302277,
+        -0.19273468852043152
+      ],
+      "b": [
+        -0.22522839903831482,
+        0.2544618844985962,
+        -0.19268834590911865
+      ]
+    },
+    {
+      "parent": 2,
+      "child": 3,
+      "sector": 3,
+      "span_mm": 35.950709134340286,
+      "a": [
+        -0.07134021818637848,
+        -0.3059898316860199,
+        -0.20562195777893066
+      ],
+      "b": [
+        -0.0903092548251152,
+        -0.3349648118019104,
+        -0.21526974439620972
+      ]
+    },
+    {
+      "parent": 3,
+      "child": 4,
+      "sector": 1,
+      "span_mm": 28.795992955565453,
+      "a": [
+        0.27040764689445496,
+        0.3778575658798218,
+        -0.1860576570034027
+      ],
+      "b": [
+        0.2879168689250946,
+        0.3998488187789917,
+        -0.17981097102165222
+      ]
+    },
+    {
+      "parent": 3,
+      "child": 4,
+      "sector": 2,
+      "span_mm": 32.370734959840775,
+      "a": [
+        -0.3013544976711273,
+        -0.35527247190475464,
+        -0.21662262082099915
+      ],
+      "b": [
+        -0.3277812600135803,
+        -0.3739601671695709,
+        -0.21713320910930634
+      ]
+    },
+    {
+      "parent": 3,
+      "child": 4,
+      "sector": 3,
+      "span_mm": 21.205049008131027,
+      "a": [
+        0.46368861198425293,
+        -0.06627358496189117,
+        -0.2059854418039322
+      ],
+      "b": [
+        0.48269355297088623,
+        -0.07486195117235184,
+        -0.20982031524181366
+      ]
+    }
+  ],
+  "source_v03_skin_mass_kg": 1.578064041653855,
+  "nominal_current_skin_mass_kg_at_1270kg_m3": 1.3990626068626937,
+  "source_solidify_input_mm": 1.2,
+  "hidden_v03_curve_masters_retained": true,
+  "wall_note": "Evaluated transformed skins; final uniform manufacturing thickness remains to be established."
+}

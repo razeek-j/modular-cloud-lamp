@@ -1,0 +1,37 @@
+{
+  "file": "SAMPLE-W01-folded-overlap-mm.stl",
+  "bounds_mm": [
+    251.63406372070312,
+    169.4501953125,
+    191.2721405029297
+  ],
+  "nominal_scale": "millimetres, full size",
+  "non_manifold_edges": 0,
+  "nonadjacent_triangle_pairs": 241,
+  "includes": "Actual wave, integral reinforced return, two screw clearances and capped sector cuts",
+  "excluded": "Final segment seam retention, slicer supports, validated print orientation and physical strength",
+  "selected_attachment": {
+    "band": 1,
+    "sector": 1,
+    "contact_mm": [
+      385.7376403808594,
+      -131.95193481445312,
+      -197.61441040039062
+    ],
+    "lap_width_mm": 57.43008174964441,
+    "lap_depth_mm": 10,
+    "return_skin_mm": 3,
+    "fasteners": "Two provisional M3 clearances; dimensions and capacity unvalidated",
+    "hole_tools": [
+      "TOOL \u2022 M3 clearance",
+      "TOOL \u2022 M3 clearance.001"
+    ],
+    "seal_length_m": 0.0834300817496444,
+    "seal_centre_mm": [
+      385.7376277446747,
+      -131.9519281387329,
+      -35
+    ],
+    "seal_yaw_rad": 1.3636211272644563
+  }
+}

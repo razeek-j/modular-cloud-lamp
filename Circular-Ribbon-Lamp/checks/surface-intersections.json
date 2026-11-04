@@ -1,0 +1,21 @@
+{
+  "check": "Pairwise ribbon base surface intersections",
+  "limitations": "Digital surface check only; excludes skin, self-intersection, support and print/physical validation",
+  "results": [
+    {
+      "a": "01 Outer flowing ribbon",
+      "b": "02 Middle counterflow ribbon",
+      "surface_triangle_overlap_pairs": 0
+    },
+    {
+      "a": "01 Outer flowing ribbon",
+      "b": "03 Inner folded ribbon",
+      "surface_triangle_overlap_pairs": 0
+    },
+    {
+      "a": "02 Middle counterflow ribbon",
+      "b": "03 Inner folded ribbon",
+      "surface_triangle_overlap_pairs": 0
+    }
+  ]
+}

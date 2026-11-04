@@ -1,0 +1,35 @@
+{
+  "scope": "Actual V04 band meshes including integral returns; pairwise only, no minimum clearance or self-intersection check.",
+  "pairs": [
+    {
+      "a": "01 Inner cloud V04 \u2022 frame-supported",
+      "b": "02 Cloud V04 band \u2022 supported by 01",
+      "intersecting_triangle_pairs": 168
+    },
+    {
+      "a": "01 Inner cloud V04 \u2022 frame-supported",
+      "b": "03 Cloud V04 band \u2022 supported by 02",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "01 Inner cloud V04 \u2022 frame-supported",
+      "b": "04 Outer cloud V04 \u2022 supported by 03",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "02 Cloud V04 band \u2022 supported by 01",
+      "b": "03 Cloud V04 band \u2022 supported by 02",
+      "intersecting_triangle_pairs": 132
+    },
+    {
+      "a": "02 Cloud V04 band \u2022 supported by 01",
+      "b": "04 Outer cloud V04 \u2022 supported by 03",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "03 Cloud V04 band \u2022 supported by 02",
+      "b": "04 Outer cloud V04 \u2022 supported by 03",
+      "intersecting_triangle_pairs": 151
+    }
+  ]
+}

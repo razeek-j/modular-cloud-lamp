@@ -1,0 +1,143 @@
+{
+  "meshes": [
+    {
+      "name": "W01 \u2022 main perimeter wave",
+      "components": 1,
+      "component_vertex_counts": [
+        231600
+      ],
+      "non_manifold_edges": 0,
+      "volume_m3": 0.0006982861971451312,
+      "faces": 231600
+    },
+    {
+      "name": "W02 \u2022 middle counter-wave",
+      "components": 1,
+      "component_vertex_counts": [
+        231600
+      ],
+      "non_manifold_edges": 0,
+      "volume_m3": 0.000404107726292746,
+      "faces": 231600
+    },
+    {
+      "name": "W03 \u2022 inner rolled wave",
+      "components": 1,
+      "component_vertex_counts": [
+        231600
+      ],
+      "non_manifold_edges": 0,
+      "volume_m3": 0.00016894713787010706,
+      "faces": 231600
+    },
+    {
+      "name": "W04 \u2022 intermediate saddle A",
+      "components": 1,
+      "component_vertex_counts": [
+        46754
+      ],
+      "non_manifold_edges": 0,
+      "volume_m3": 5.4746704139400854e-05,
+      "faces": 46752
+    },
+    {
+      "name": "W05 \u2022 intermediate saddle B",
+      "components": 1,
+      "component_vertex_counts": [
+        46754
+      ],
+      "non_manifold_edges": 0,
+      "volume_m3": 5.040030665537776e-05,
+      "faces": 46752
+    },
+    {
+      "name": "W06 \u2022 central short counterfold",
+      "components": 1,
+      "component_vertex_counts": [
+        46754
+      ],
+      "non_manifold_edges": 0,
+      "volume_m3": 3.180144206014771e-05,
+      "faces": 46752
+    }
+  ],
+  "pairs": [
+    {
+      "a": "W01 \u2022 main perimeter wave",
+      "b": "W02 \u2022 middle counter-wave",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W01 \u2022 main perimeter wave",
+      "b": "W03 \u2022 inner rolled wave",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W01 \u2022 main perimeter wave",
+      "b": "W04 \u2022 intermediate saddle A",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W01 \u2022 main perimeter wave",
+      "b": "W05 \u2022 intermediate saddle B",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W01 \u2022 main perimeter wave",
+      "b": "W06 \u2022 central short counterfold",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W02 \u2022 middle counter-wave",
+      "b": "W03 \u2022 inner rolled wave",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W02 \u2022 middle counter-wave",
+      "b": "W04 \u2022 intermediate saddle A",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W02 \u2022 middle counter-wave",
+      "b": "W05 \u2022 intermediate saddle B",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W02 \u2022 middle counter-wave",
+      "b": "W06 \u2022 central short counterfold",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W03 \u2022 inner rolled wave",
+      "b": "W04 \u2022 intermediate saddle A",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W03 \u2022 inner rolled wave",
+      "b": "W05 \u2022 intermediate saddle B",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W03 \u2022 inner rolled wave",
+      "b": "W06 \u2022 central short counterfold",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W04 \u2022 intermediate saddle A",
+      "b": "W05 \u2022 intermediate saddle B",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W04 \u2022 intermediate saddle A",
+      "b": "W06 \u2022 central short counterfold",
+      "triangle_intersections": 0
+    },
+    {
+      "a": "W05 \u2022 intermediate saddle B",
+      "b": "W06 \u2022 central short counterfold",
+      "triangle_intersections": 0
+    }
+  ],
+  "nominal_printed_skin_mass_kg_at_1270kg_m3": 1.7885276829868963,
+  "scope": "Evaluated ripple skins only; separate V07 carrier and saddle studies excluded. Pairwise intersections only; no self-intersection, wall-thickness, load or thermal acceptance."
+}

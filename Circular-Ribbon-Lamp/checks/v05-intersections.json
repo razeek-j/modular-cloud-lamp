@@ -1,0 +1,77 @@
+[
+  {
+    "a": "W01 \u2022 main perimeter wave",
+    "b": "W02 \u2022 middle counter-wave",
+    "pairs": 0
+  },
+  {
+    "a": "W01 \u2022 main perimeter wave",
+    "b": "W03 \u2022 inner rolled wave",
+    "pairs": 0
+  },
+  {
+    "a": "W01 \u2022 main perimeter wave",
+    "b": "W04 \u2022 intermediate saddle A",
+    "pairs": 0
+  },
+  {
+    "a": "W01 \u2022 main perimeter wave",
+    "b": "W05 \u2022 intermediate saddle B",
+    "pairs": 0
+  },
+  {
+    "a": "W01 \u2022 main perimeter wave",
+    "b": "W06 \u2022 central short counterfold",
+    "pairs": 0
+  },
+  {
+    "a": "W02 \u2022 middle counter-wave",
+    "b": "W03 \u2022 inner rolled wave",
+    "pairs": 0
+  },
+  {
+    "a": "W02 \u2022 middle counter-wave",
+    "b": "W04 \u2022 intermediate saddle A",
+    "pairs": 0
+  },
+  {
+    "a": "W02 \u2022 middle counter-wave",
+    "b": "W05 \u2022 intermediate saddle B",
+    "pairs": 0
+  },
+  {
+    "a": "W02 \u2022 middle counter-wave",
+    "b": "W06 \u2022 central short counterfold",
+    "pairs": 0
+  },
+  {
+    "a": "W03 \u2022 inner rolled wave",
+    "b": "W04 \u2022 intermediate saddle A",
+    "pairs": 0
+  },
+  {
+    "a": "W03 \u2022 inner rolled wave",
+    "b": "W05 \u2022 intermediate saddle B",
+    "pairs": 0
+  },
+  {
+    "a": "W03 \u2022 inner rolled wave",
+    "b": "W06 \u2022 central short counterfold",
+    "pairs": 0
+  },
+  {
+    "a": "W04 \u2022 intermediate saddle A",
+    "b": "W05 \u2022 intermediate saddle B",
+    "pairs": 0
+  },
+  {
+    "a": "W04 \u2022 intermediate saddle A",
+    "b": "W06 \u2022 central short counterfold",
+    "pairs": 0
+  },
+  {
+    "a": "W05 \u2022 intermediate saddle B",
+    "b": "W06 \u2022 central short counterfold",
+    "pairs": 0
+  }
+]

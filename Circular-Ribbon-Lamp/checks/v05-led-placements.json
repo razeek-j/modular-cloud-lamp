@@ -1,0 +1,98 @@
+[
+  {
+    "id": "L01",
+    "length_m": 0.3,
+    "location_m": [
+      0.3718814551830292,
+      -0.09964533150196075,
+      -0.06499999761581421
+    ],
+    "yaw_rad": 1.3089969389957472,
+    "tilt_deg": 155,
+    "exposed_emitter_probes": 0,
+    "tray_underside_visible_probes": 4,
+    "probes_total": 85,
+    "sampled_nearest_skin_mm": 13.94476369023323,
+    "zone_seed_adjust_deg": -30
+  },
+  {
+    "id": "L02",
+    "length_m": 0.3,
+    "location_m": [
+      -0.331756591796875,
+      0.23229846358299255,
+      -0.054999999701976776
+    ],
+    "yaw_rad": 4.101523742186675,
+    "tilt_deg": 155,
+    "exposed_emitter_probes": 2,
+    "tray_underside_visible_probes": 17,
+    "probes_total": 85,
+    "sampled_nearest_skin_mm": 34.026287496089935,
+    "zone_seed_adjust_deg": 10
+  },
+  {
+    "id": "L03",
+    "length_m": 0.3,
+    "location_m": [
+      -0.2093553990125656,
+      -0.29899048805236816,
+      -0.054999999701976776
+    ],
+    "yaw_rad": 5.672320068981571,
+    "tilt_deg": 155,
+    "exposed_emitter_probes": 0,
+    "tray_underside_visible_probes": 17,
+    "probes_total": 85,
+    "sampled_nearest_skin_mm": 49.406521022319794,
+    "zone_seed_adjust_deg": -20
+  },
+  {
+    "id": "L04",
+    "length_m": 0.2,
+    "location_m": [
+      0.125,
+      0.21650634706020355,
+      -0.08500000089406967
+    ],
+    "yaw_rad": 2.617993877991494,
+    "tilt_deg": 155,
+    "exposed_emitter_probes": 0,
+    "tray_underside_visible_probes": 6,
+    "probes_total": 85,
+    "sampled_nearest_skin_mm": 34.28657352924347,
+    "zone_seed_adjust_deg": -10
+  },
+  {
+    "id": "L05",
+    "length_m": 0.2,
+    "location_m": [
+      -0.16086933016777039,
+      -0.13498540222644806,
+      -0.03500000014901161
+    ],
+    "yaw_rad": 5.410520681182422,
+    "tilt_deg": 155,
+    "exposed_emitter_probes": 2,
+    "tray_underside_visible_probes": 20,
+    "probes_total": 85,
+    "sampled_nearest_skin_mm": 41.82584583759308,
+    "zone_seed_adjust_deg": 30
+  },
+  {
+    "id": "L06",
+    "length_m": 0.2,
+    "location_m": [
+      0.03993907943367958,
+      -0.22650578618049622,
+      -0.03500000014901161
+    ],
+    "yaw_rad": 6.457718232379019,
+    "tilt_deg": -155,
+    "exposed_emitter_probes": 5,
+    "tray_underside_visible_probes": 19,
+    "probes_total": 85,
+    "sampled_nearest_skin_mm": 25.50804428756237,
+    "zone_seed_adjust_deg": -30
+  }
+]

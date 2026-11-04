@@ -1,0 +1,31 @@
+{
+  "status": "First concept saved, opened in Blender, renders visually inspected, videos decoded and duration verified with AVFoundation",
+  "verified_video_durations_seconds": [
+    54.99666666666667,
+    30.0
+  ],
+  "files": [
+    {
+      "path": "Circular-Ribbon-Concept-v01.blend",
+      "bytes": 13120630
+    },
+    {
+      "path": "process/videos/01-live-concept-build.mp4",
+      "bytes": 21379792
+    },
+    {
+      "path": "process/videos/02-live-framing-and-inspection.mp4",
+      "bytes": 12759875
+    },
+    {
+      "path": "renders/01-warm-ceiling-concept.png",
+      "bytes": 1068287
+    },
+    {
+      "path": "renders/02-unlit-circular-underside.png",
+      "bytes": 1461791
+    }
+  ],
+  "relative_document_links": "all resolve",
+  "physical_validation": "not performed"
+}

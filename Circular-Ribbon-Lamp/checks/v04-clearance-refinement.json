@@ -1,0 +1,69 @@
+{
+  "meshes": [
+    {
+      "name": "01 Inner cloud V04 \u2022 frame-supported",
+      "components": 1,
+      "non_manifold_edges": 0,
+      "faces": 21540,
+      "trim_scrap_vertices_removed": 11,
+      "microscopic_pinhole_faces": 0
+    },
+    {
+      "name": "02 Cloud V04 band \u2022 supported by 01",
+      "components": 1,
+      "non_manifold_edges": 0,
+      "faces": 22006,
+      "trim_scrap_vertices_removed": 0,
+      "microscopic_pinhole_faces": 1
+    },
+    {
+      "name": "03 Cloud V04 band \u2022 supported by 02",
+      "components": 1,
+      "non_manifold_edges": 0,
+      "faces": 21835,
+      "trim_scrap_vertices_removed": 0,
+      "microscopic_pinhole_faces": 0
+    },
+    {
+      "name": "04 Outer cloud V04 \u2022 supported by 03",
+      "components": 1,
+      "non_manifold_edges": 0,
+      "faces": 21339,
+      "trim_scrap_vertices_removed": 0,
+      "microscopic_pinhole_faces": 0
+    }
+  ],
+  "pairs": [
+    {
+      "a": "01 Inner cloud V04 \u2022 frame-supported",
+      "b": "02 Cloud V04 band \u2022 supported by 01",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "01 Inner cloud V04 \u2022 frame-supported",
+      "b": "03 Cloud V04 band \u2022 supported by 02",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "01 Inner cloud V04 \u2022 frame-supported",
+      "b": "04 Outer cloud V04 \u2022 supported by 03",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "02 Cloud V04 band \u2022 supported by 01",
+      "b": "03 Cloud V04 band \u2022 supported by 02",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "02 Cloud V04 band \u2022 supported by 01",
+      "b": "04 Outer cloud V04 \u2022 supported by 03",
+      "intersecting_triangle_pairs": 0
+    },
+    {
+      "a": "03 Cloud V04 band \u2022 supported by 02",
+      "b": "04 Outer cloud V04 \u2022 supported by 03",
+      "intersecting_triangle_pairs": 0
+    }
+  ],
+  "scope": "Receiving relief from expanded neighbouring shell; not a measured minimum clearance, wall thickness or joint-strength validation."
+}

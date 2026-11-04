@@ -1,0 +1,418 @@
+[
+  {
+    "file": "FIT-ONLY-band-01-part-01.stl",
+    "band": 1,
+    "part": 1,
+    "bounds_mm": [
+      286.61383056640625,
+      154.37994384765625,
+      106.7474365234375
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-01-part-02.stl",
+    "band": 1,
+    "part": 2,
+    "bounds_mm": [
+      282.6346435546875,
+      165.72650146484375,
+      112.61611938476562
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-01-part-03.stl",
+    "band": 1,
+    "part": 3,
+    "bounds_mm": [
+      283.1978759765625,
+      167.3127899169922,
+      124.51704406738281
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-01.stl",
+    "band": 2,
+    "part": 1,
+    "bounds_mm": [
+      273.7991943359375,
+      166.10354614257812,
+      121.03929901123047
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-02.stl",
+    "band": 2,
+    "part": 2,
+    "bounds_mm": [
+      266.7996826171875,
+      144.109375,
+      117.23284149169922
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-03.stl",
+    "band": 2,
+    "part": 3,
+    "bounds_mm": [
+      274.0852966308594,
+      191.186279296875,
+      110.7421646118164
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-04.stl",
+    "band": 2,
+    "part": 4,
+    "bounds_mm": [
+      277.51617431640625,
+      146.2649383544922,
+      121.2091293334961
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-05.stl",
+    "band": 2,
+    "part": 5,
+    "bounds_mm": [
+      291.62152099609375,
+      174.50648498535156,
+      117.12384033203125
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-06.stl",
+    "band": 2,
+    "part": 6,
+    "bounds_mm": [
+      286.24273681640625,
+      169.94557189941406,
+      136.8143768310547
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-02-part-07.stl",
+    "band": 2,
+    "part": 7,
+    "bounds_mm": [
+      270.4026794433594,
+      159.822021484375,
+      130.43960571289062
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-01.stl",
+    "band": 3,
+    "part": 1,
+    "bounds_mm": [
+      289.007568359375,
+      166.15101623535156,
+      122.26380157470703
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-02.stl",
+    "band": 3,
+    "part": 2,
+    "bounds_mm": [
+      284.3973693847656,
+      182.60833740234375,
+      119.41270446777344
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-03.stl",
+    "band": 3,
+    "part": 3,
+    "bounds_mm": [
+      282.40447998046875,
+      133.21498107910156,
+      127.76073455810547
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-04.stl",
+    "band": 3,
+    "part": 4,
+    "bounds_mm": [
+      282.8428649902344,
+      166.46859741210938,
+      132.90122985839844
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-05.stl",
+    "band": 3,
+    "part": 5,
+    "bounds_mm": [
+      291.41192626953125,
+      123.93266296386719,
+      118.72457122802734
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-06.stl",
+    "band": 3,
+    "part": 6,
+    "bounds_mm": [
+      285.5467834472656,
+      144.20008850097656,
+      123.6771469116211
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-07.stl",
+    "band": 3,
+    "part": 7,
+    "bounds_mm": [
+      291.18145751953125,
+      178.6454315185547,
+      99.64008331298828
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-08.stl",
+    "band": 3,
+    "part": 8,
+    "bounds_mm": [
+      295.7414855957031,
+      169.39247131347656,
+      97.964111328125
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-09.stl",
+    "band": 3,
+    "part": 9,
+    "bounds_mm": [
+      286.6016845703125,
+      145.91567993164062,
+      120.16218566894531
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-03-part-10.stl",
+    "band": 3,
+    "part": 10,
+    "bounds_mm": [
+      292.0784912109375,
+      169.3056182861328,
+      111.34603881835938
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-01.stl",
+    "band": 4,
+    "part": 1,
+    "bounds_mm": [
+      299.62457275390625,
+      83.2579116821289,
+      86.71626281738281
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-02.stl",
+    "band": 4,
+    "part": 2,
+    "bounds_mm": [
+      299.69525146484375,
+      131.5324249267578,
+      93.16987609863281
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-03.stl",
+    "band": 4,
+    "part": 3,
+    "bounds_mm": [
+      298.15972900390625,
+      86.61979675292969,
+      76.59081268310547
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-04.stl",
+    "band": 4,
+    "part": 4,
+    "bounds_mm": [
+      298.63067626953125,
+      107.94520568847656,
+      84.10578155517578
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-05.stl",
+    "band": 4,
+    "part": 5,
+    "bounds_mm": [
+      302.66363525390625,
+      95.46795654296875,
+      76.88528442382812
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-06.stl",
+    "band": 4,
+    "part": 6,
+    "bounds_mm": [
+      300.9175109863281,
+      110.38947296142578,
+      84.866455078125
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-07.stl",
+    "band": 4,
+    "part": 7,
+    "bounds_mm": [
+      296.0475158691406,
+      89.38723754882812,
+      87.0927734375
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-08.stl",
+    "band": 4,
+    "part": 8,
+    "bounds_mm": [
+      295.61358642578125,
+      115.70555114746094,
+      90.43851470947266
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-09.stl",
+    "band": 4,
+    "part": 9,
+    "bounds_mm": [
+      297.368896484375,
+      77.3800048828125,
+      94.51123809814453
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-10.stl",
+    "band": 4,
+    "part": 10,
+    "bounds_mm": [
+      297.0930480957031,
+      101.61528015136719,
+      96.7773666381836
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-11.stl",
+    "band": 4,
+    "part": 11,
+    "bounds_mm": [
+      292.6118469238281,
+      70.07020568847656,
+      94.422607421875
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  },
+  {
+    "file": "FIT-ONLY-band-04-part-12.stl",
+    "band": 4,
+    "part": 12,
+    "bounds_mm": [
+      294.5260925292969,
+      118.11426544189453,
+      95.55928802490234
+    ],
+    "non_manifold_edges": 0,
+    "within_350mm_cube": true,
+    "under_320mm_margin": true
+  }
+]

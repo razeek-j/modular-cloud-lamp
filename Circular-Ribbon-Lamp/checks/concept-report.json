@@ -1,0 +1,36 @@
+{
+  "status": "Stage 1 concept, not manufacturing geometry",
+  "shade_bounds_mm": {
+    "min": [
+      -567.2338604927063,
+      -594.5402979850769,
+      -273.09563755989075
+    ],
+    "max": [
+      575.6888389587402,
+      541.2693023681641,
+      -38.27304393053055
+    ],
+    "size": [
+      1142.9226994514465,
+      1135.809600353241,
+      234.8225936293602
+    ]
+  },
+  "max_shade_radial_diameter_mm": 1198.914011290287,
+  "surface_bands": 3,
+  "base_surface_quads": 368640,
+  "skin_mm": 1.2,
+  "support_and_lighting": "Indicative placement only; not dimensioned hardware",
+  "optics": "Artistic material and lighting approximation, not physical validation",
+  "not_yet_validated": [
+    "self intersections",
+    "band intersections",
+    "support interference",
+    "print splits",
+    "load capacity",
+    "temperature",
+    "real PETG diffusion"
+  ],
+  "normalization_xy_factor": 0.9959016742893082
+}
