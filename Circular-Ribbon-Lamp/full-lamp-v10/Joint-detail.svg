@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="370" viewBox="0 0 960 370" role="img" aria-labelledby="title desc">
+  <title id="title">Two printed panels with an integral half-lap joint</title>
+  <desc id="desc">Section through a panel seam. The rear of the first panel extends into a recess in the second. The two room-facing faces meet flush.</desc>
+  <style>
+    text{font-family:system-ui,sans-serif;fill:#292923;font-size:17px}
+    .title{font-size:32px;font-weight:600}.sub{fill:#57554c;font-size:15px}
+    .leader{fill:none;stroke:#605d50;stroke-width:1.5}
+  </style>
+  <rect width="960" height="370" fill="#f8f5ee"/>
+  <text x="52" y="57" class="title">The joint is part of each ribbon panel</text>
+  <text x="54" y="84" class="sub">Cross-section at one seam · depth exaggerated</text>
+  <path d="M90 181 Q176 181 254 169 H549 V203 H421 V239 H90 Z" fill="#e9bb89" stroke="#694e31" stroke-width="1.8"/>
+  <path d="M428 210 H557 V169 H706 Q788 181 870 181 V239 H428 Z" fill="#d2dce2" stroke="#425861" stroke-width="1.8"/>
+  <path d="M431 207 H545" stroke="#a5662c" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M430 146 V135 H549 V146" class="leader"/>
+  <text x="489" y="126" text-anchor="middle">12 mm overlap</text>
+  <path d="M550 207 H612 L642 264 H706" class="leader"/>
+  <text x="720" y="269">Bond line</text>
+  <path d="M425 241 V285" class="leader"/>
+  <text x="425" y="313" text-anchor="middle">Flush room-facing surface</text>
+  <text x="91" y="271" class="sub">Panel 1 · built-in rear lip</text>
+  <text x="870" y="334" text-anchor="end" class="sub">Panel 2 · matching recess</text>
+</svg>

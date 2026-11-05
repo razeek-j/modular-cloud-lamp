@@ -1,0 +1,496 @@
+{
+  "part_count": 33,
+  "nominal_envelope_cap_mm": 285,
+  "bands": [
+    {
+      "band": "W01 \u2022 main perimeter wave",
+      "pieces": [
+        {
+          "start_row": 312,
+          "end_row": 328,
+          "extents_mm": [
+            179.1,
+            47.4,
+            92.2
+          ]
+        },
+        {
+          "start_row": 328,
+          "end_row": 376,
+          "extents_mm": [
+            182.4,
+            146.2,
+            254.9
+          ]
+        },
+        {
+          "start_row": 376,
+          "end_row": 424,
+          "extents_mm": [
+            193.6,
+            187.5,
+            273.8
+          ]
+        },
+        {
+          "start_row": 424,
+          "end_row": 472,
+          "extents_mm": [
+            225.2,
+            150.8,
+            271.5
+          ]
+        },
+        {
+          "start_row": 472,
+          "end_row": 528,
+          "extents_mm": [
+            167.0,
+            155.7,
+            276.6
+          ]
+        },
+        {
+          "start_row": 528,
+          "end_row": 576,
+          "extents_mm": [
+            152.9,
+            147.4,
+            244.7
+          ]
+        },
+        {
+          "start_row": 576,
+          "end_row": 24,
+          "extents_mm": [
+            166.0,
+            174.1,
+            284.3
+          ]
+        },
+        {
+          "start_row": 24,
+          "end_row": 72,
+          "extents_mm": [
+            171.8,
+            182.5,
+            275.5
+          ]
+        },
+        {
+          "start_row": 72,
+          "end_row": 120,
+          "extents_mm": [
+            173.3,
+            97.6,
+            277.7
+          ]
+        },
+        {
+          "start_row": 120,
+          "end_row": 176,
+          "extents_mm": [
+            198.6,
+            165.3,
+            281.9
+          ]
+        },
+        {
+          "start_row": 176,
+          "end_row": 232,
+          "extents_mm": [
+            253.4,
+            196.6,
+            269.7
+          ]
+        },
+        {
+          "start_row": 232,
+          "end_row": 272,
+          "extents_mm": [
+            195.5,
+            94.2,
+            256.2
+          ]
+        },
+        {
+          "start_row": 272,
+          "end_row": 312,
+          "extents_mm": [
+            198.0,
+            74.6,
+            244.9
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "row": 328,
+          "screened_samples_directly_below": 1,
+          "total_samples": 9
+        },
+        {
+          "row": 376,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 424,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 472,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 528,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 576,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 24,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 72,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 120,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 176,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 232,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 272,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 312,
+          "screened_samples_directly_below": 1,
+          "total_samples": 9
+        }
+      ]
+    },
+    {
+      "band": "W02 \u2022 middle counter-wave",
+      "pieces": [
+        {
+          "start_row": 0,
+          "end_row": 72,
+          "extents_mm": [
+            147.6,
+            219.3,
+            225.1
+          ]
+        },
+        {
+          "start_row": 72,
+          "end_row": 152,
+          "extents_mm": [
+            184.2,
+            140.0,
+            273.1
+          ]
+        },
+        {
+          "start_row": 152,
+          "end_row": 248,
+          "extents_mm": [
+            206.7,
+            208.5,
+            279.4
+          ]
+        },
+        {
+          "start_row": 248,
+          "end_row": 328,
+          "extents_mm": [
+            145.1,
+            213.1,
+            278.1
+          ]
+        },
+        {
+          "start_row": 328,
+          "end_row": 424,
+          "extents_mm": [
+            156.4,
+            272.7,
+            269.4
+          ]
+        },
+        {
+          "start_row": 424,
+          "end_row": 504,
+          "extents_mm": [
+            188.0,
+            147.9,
+            264.5
+          ]
+        },
+        {
+          "start_row": 504,
+          "end_row": 0,
+          "extents_mm": [
+            216.2,
+            205.8,
+            284.0
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "row": 72,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 152,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 248,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 328,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 424,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 504,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 0,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        }
+      ]
+    },
+    {
+      "band": "W03 \u2022 inner rolled wave",
+      "pieces": [
+        {
+          "start_row": 0,
+          "end_row": 96,
+          "extents_mm": [
+            176.5,
+            154.6,
+            130.2
+          ]
+        },
+        {
+          "start_row": 96,
+          "end_row": 224,
+          "extents_mm": [
+            175.5,
+            144.4,
+            161.8
+          ]
+        },
+        {
+          "start_row": 224,
+          "end_row": 344,
+          "extents_mm": [
+            139.9,
+            184.5,
+            96.2
+          ]
+        },
+        {
+          "start_row": 344,
+          "end_row": 472,
+          "extents_mm": [
+            130.1,
+            134.5,
+            162.1
+          ]
+        },
+        {
+          "start_row": 472,
+          "end_row": 0,
+          "extents_mm": [
+            148.8,
+            128.3,
+            180.3
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "row": 96,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 224,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 344,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 472,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 0,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        }
+      ]
+    },
+    {
+      "band": "W04 \u2022 intermediate saddle A",
+      "pieces": [
+        {
+          "start_row": 0,
+          "end_row": 72,
+          "extents_mm": [
+            66.9,
+            94.1,
+            202.3
+          ]
+        },
+        {
+          "start_row": 72,
+          "end_row": 128,
+          "extents_mm": [
+            74.8,
+            73.5,
+            156.3
+          ]
+        },
+        {
+          "start_row": 128,
+          "end_row": 240,
+          "extents_mm": [
+            83.3,
+            127.1,
+            278.1
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "row": 72,
+          "screened_samples_directly_below": 5,
+          "total_samples": 9
+        },
+        {
+          "row": 128,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        }
+      ]
+    },
+    {
+      "band": "W05 \u2022 intermediate saddle B",
+      "pieces": [
+        {
+          "start_row": 0,
+          "end_row": 32,
+          "extents_mm": [
+            53.2,
+            34.1,
+            88.6
+          ]
+        },
+        {
+          "start_row": 32,
+          "end_row": 120,
+          "extents_mm": [
+            87.9,
+            85.9,
+            226.6
+          ]
+        },
+        {
+          "start_row": 120,
+          "end_row": 240,
+          "extents_mm": [
+            132.3,
+            146.8,
+            268.0
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "row": 32,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        },
+        {
+          "row": 120,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        }
+      ]
+    },
+    {
+      "band": "W06 \u2022 central short counterfold",
+      "pieces": [
+        {
+          "start_row": 0,
+          "end_row": 112,
+          "extents_mm": [
+            134.7,
+            60.5,
+            168.9
+          ]
+        },
+        {
+          "start_row": 112,
+          "end_row": 240,
+          "extents_mm": [
+            137.9,
+            139.4,
+            145.7
+          ]
+        }
+      ],
+      "seams": [
+        {
+          "row": 112,
+          "screened_samples_directly_below": 0,
+          "total_samples": 9
+        }
+      ]
+    }
+  ],
+  "scope": "Planning bounds in one trial orientation. Vertical screening by another skin is sampled; room angles, final joints and slicing remain open."
+}

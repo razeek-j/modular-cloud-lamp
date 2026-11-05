@@ -1,0 +1,59 @@
+{
+  "layout": {
+    "skin_self_crossings": {
+      "A": 0,
+      "B": 0,
+      "C": 0
+    },
+    "skin_pair_crossings": {
+      "AB": 0,
+      "AC": 0,
+      "BC": 0
+    },
+    "right_overlap": {
+      "centre_gap_mm": 17.07,
+      "sample_patch_mm": [
+        66,
+        26
+      ],
+      "sampled_gap_range_mm": [
+        12.41,
+        21.44
+      ],
+      "heading_degrees": 0.0,
+      "a_mm": [
+        250.0,
+        -170.0,
+        -66.1
+      ],
+      "b_mm": [
+        250.0,
+        -170.0,
+        -83.1
+      ]
+    },
+    "approximate_span_mm": [
+      1241.6,
+      1071.0
+    ],
+    "maximum_ceiling_drop_mm": 159.1
+  },
+  "trial_emitter": {
+    "position_mm": [
+      292.0,
+      -124.0,
+      -82.6
+    ],
+    "tape_envelope_mm": 100,
+    "minimum_gap_to_opposite_face_mm": 20.4,
+    "housing_sightline_samples_screened": 120,
+    "housing_sightline_samples_total": 120,
+    "direct_source_rays_blocked": 2700
+  },
+  "joint_bench": {
+    "nominal_clearance_per_side_mm": 0.4,
+    "insertion_samples": 30,
+    "sampled_insertion_intersections": 0,
+    "lift_captured": true
+  }
+}

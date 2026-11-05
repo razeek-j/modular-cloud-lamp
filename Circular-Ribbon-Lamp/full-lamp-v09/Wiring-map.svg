@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 595" width="1000" height="595" role="img" aria-labelledby="title desc">
+<title id="title">Ribbon lamp V09 wiring</title>
+<desc id="desc">Three paired wires follow three metal branches from one centre connection to three LED strips.</desc>
+<style>
+text {font-family:system-ui,sans-serif;fill:#24251f;font-size:16px}
+.heading {font-size:33px;font-weight:600}
+.small {font-size:14px;fill:#4c4f46}
+</style>
+<rect width="1000" height="595" fill="#f6f4ee"/>
+<text class="heading" x="48" y="56">Three LED stations · One centre connection</text>
+<text class="small" x="48" y="87">Plan projection. The paired low-voltage feeds run inside the metal branches.</text>
+<circle cx="525" cy="317" r="98" fill="#e8e3d6" stroke="#6c6c62" stroke-width="1.5" stroke-dasharray="6 5"/>
+<circle cx="525" cy="317" r="81" fill="#fffdf8" stroke="#6c6c62" stroke-width="1.5"/>
+
+<polyline points="525.0,288.5 486.3,306.8 428.9,295.6 258.0,231.6 194.3,229.3 194.3,229.3" fill="none" stroke="#ddd6c8" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="525.0,288.5 486.3,306.8 428.9,295.6 258.0,231.6 194.3,229.3 194.3,229.3" fill="none" stroke="#487a86" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="155.9,251.9 232.7,206.8" fill="none" stroke="#487a86" stroke-width="10" stroke-linecap="round"/>
+<text x="76.3" y="287.3">L1 · 100 mm</text>
+<polyline points="525.0,288.5 557.0,292.9 578.4,285.0 589.1,274.3 653.2,252.9 813.4,103.4 815.1,98.6 815.1,98.6" fill="none" stroke="#ddd6c8" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="525.0,288.5 557.0,292.9 578.4,285.0 589.1,274.3 653.2,252.9 813.4,103.4 815.1,98.6 815.1,98.6" fill="none" stroke="#9d633b" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="726.6,89.8 903.7,107.4" fill="none" stroke="#9d633b" stroke-width="10" stroke-linecap="round"/>
+<text x="857.1" y="71.6">L2 · 200 mm</text>
+<polyline points="525.0,288.5 500.1,348.1 503.6,413.1 503.6,423.8 503.6,423.8 503.6,434.5 503.6,445.2 513.2,446.9 513.2,446.9" fill="none" stroke="#ddd6c8" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="525.0,288.5 500.1,348.1 503.6,413.1 503.6,423.8 503.6,423.8 503.6,434.5 503.6,445.2 513.2,446.9 513.2,446.9" fill="none" stroke="#637b42" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="471.5,431.2 554.8,462.5" fill="none" stroke="#637b42" stroke-width="10" stroke-linecap="round"/>
+<text x="327.2" y="515.9">L3 · 100 mm</text>
+<circle cx="525" cy="288.5" r="7.5" fill="#343b33" stroke="#fffdf8" stroke-width="2"/>
+<path d="M534 288.5H634L673 331H741" fill="none" stroke="#68695e" stroke-width="1.5"/>
+<text x="751" y="337">24 V splitter</text>
+<text class="small" x="751" y="362">Three parallel runs</text>
+<text class="small" x="48" y="551">The dashed circle marks the central ceiling plate.</text>
+</svg>

@@ -1,3 +1,15 @@
+# Current direction — V11 design and planning
+
+Use references/v11-approved-broad-ribbons-side.png and references/v11-approved-broad-ribbons-below.png as the approved appearance targets. V10 is a construction reference. Keep the irregular asymmetric footprint, low profile, centre-only attachment and integral joins. The next lighting layout puts a few short LEDs inside screened ribbon bends, with wires returning to one connection behind the centre cover. This supersedes V10's central-only lighting layout. Follow the staged V11 plan in PLAN.md before building the next Blender revision.
+
+# Current deliverable — V10 integral ribbons
+
+Open full-lamp-v10/Ribbon-Lamp-V10-Integral.blend. The user removed the tight lower-right curl and rejected any separate support arms or joining straps. Keep three low-profile ribbons, integrated panel laps and overlap lands, and all mount, wiring and light hardware confined to the one centre canopy. See full-lamp-v10/README.md for the full print set and bench-test requirements. V09 and earlier descriptions below are historical wherever they conflict.
+
+# Current deliverable — V09 full lamp
+
+Open full-lamp-v09/Ribbon-Lamp-V09-Full.blend. The supplied underside picture governs the four new ribbon paths and the roughly 1,194 × 934 mm silhouette. Only the central canopy attaches to the ceiling. Three recessed LED runs feed one parallel connection through the hollow central-rooted branches. See full-lamp-v09/README.md for the complete print and assembly handoff. Preserve earlier studies, and use actual fit, optical and overhead retention tests before treating the project as an installable product.
+
 # Definitive current constraint — V07
 
 Only the **central canopy** may attach to the ceiling. The user explicitly rejected the large base. Open Circular-Ribbon-Cloud-v07-centre-mount.blend. No broad ceiling light deck, outer ceiling anchors or perimeter ceiling rail may be introduced. Three internal branches may carry the shade from the centre; they do not attach to the ceiling along their lengths. V06/b deck architecture and long deck-hanging tongues are superseded/rejected. Preserve surface ripples and washi character. Read current PLAN.md, lighting-v07/README.md and PROCESS.md. Earlier instructions below are history where they conflict.

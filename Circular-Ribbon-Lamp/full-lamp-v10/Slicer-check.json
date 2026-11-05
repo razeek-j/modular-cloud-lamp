@@ -1,0 +1,47 @@
+{
+  "engine": "OrcaSlicer 2.4.2",
+  "preset": "Anycubic Kobra S1 Max / 0.4 mm / Generic PETG / 0.16 mm / slim tree supports",
+  "scope": "Trial toolpaths generated for every part. Deliverable 3MFs contain editable layouts and settings.",
+  "groups": [
+    {
+      "project": "A-Kobra-S1-Max.3mf",
+      "parts": 10,
+      "plates": 5,
+      "estimated_PETG_g": 1116.3,
+      "estimated_hours": 63.5,
+      "warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "B-Kobra-S1-Max.3mf",
+      "parts": 4,
+      "plates": 2,
+      "estimated_PETG_g": 255.5,
+      "estimated_hours": 19.5,
+      "warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "C-Kobra-S1-Max.3mf",
+      "parts": 5,
+      "plates": 3,
+      "estimated_PETG_g": 575.1,
+      "estimated_hours": 32.9,
+      "warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "E-Kobra-S1-Max.3mf",
+      "parts": 1,
+      "plates": 1,
+      "estimated_PETG_g": 117.3,
+      "estimated_hours": 2.9,
+      "warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,59 @@
 # Circular ribbon ceiling shade — project plan and model handoff
 
-Updated: 4 November 2026
+Updated: 5 November 2026
+
+## V11 support, lighting and split plan
+
+Use the [approved low-angle concept](references/v11-approved-broad-ribbons-side.png) and [approved underside concept](references/v11-approved-broad-ribbons-below.png) as the appearance references. Preserve the three broad and medium-width ribbons, their tucked overlaps, the shallow ceiling profile, and the irregular outline that fills a roughly round ceiling area. Keep about **1.2 m maximum span** and **160 mm drop** as working targets. The views guide the visible shape. The paths behind their overlaps will be resolved in the structural layout.
+
+### Give each ribbon a route to the centre plate
+
+Develop **two separated, mechanically captured seats for each ribbon** on the same compact metal ceiling plate. Put the seats and their keepers behind the centre cover. Use rear-facing integral folded returns to stiffen the longer spans. The load path is outer bend → ribbon and its return → captured seats → metal plate → ceiling fixings. Use the two tucked overlaps below to share load and resist twist between ribbons. Preserve access to the centre fasteners and the service cover.
+
+| Ribbon | Proposed attachment and overlap | Candidate light pocket |
+| --- | --- | --- |
+| A · Broad upper sweep | Two centre seats. Nest its wide right return against B at the primary overlap. | Upper-right inner fold, offset from the nesting joint |
+| B · Medium middle return | Two centre seats. Add the matching concealed bearing face and captive lip at the right overlap. | Left turned-back end |
+| C · Broad lower sweep | Two centre seats. Bring a rear return into the left overlap and check that its long face clears the two bands above. | Inside the lower bend |
+
+At the right overlap, one folded edge should seat on a broad mating face. A captive lip and concealed end stop should prevent lift and slide-out. Put the stop on an accessible side during bench assembly. Verify insertion and release direction before splitting the ribbons for printing. Check the left overlap as a second bearing and anti-twist point if there is enough hidden contact area. If the centre cannot fit the captured seats and the service connection, reroute the hidden inner returns before changing the visible outline.
+
+The V10 geometry is a construction reference. Its paired A/C seats and two left-side bonded contacts do not establish the load path of this new arrangement. Verify stiffness, pull-out, retention and sustained sag at the actual span and operating temperature. Confirm the ceiling mount and secondary retention for the assembled weight before overhead use. [V10 seat coordinates](full-lamp-v10/Build-map.json) · [NIST on qualification of additively manufactured parts](https://www.nist.gov/programs-projects/additive-manufacturing-part-qualification)
+
+### Hide the emitters and wiring
+
+Start with one short warm COB strip in the right-hand pocket and add the other candidate stations only where the render and sample need more fill. Recess each strip on a short aluminum heat spreader behind the inner return. Aim it across the hollow toward the facing curve. Check below and at the lowest normal room angle with the actual strip and filament. The fold should hide the emitter, connector and heat spreader and the transmitted light should avoid distinct hardware shadows.
+
+Route each 24 V wire pair along the hidden rear edge of **its own ribbon** back to a labelled parallel connection under the centre cover. Keep wires off bearing faces, out of keyed slots, and away from the heat spreader. Cross print joints through a recessed, protected exit with assembly slack. Check routing and connector access during the dry fit before bonding. Keep access to the splitter and driver. Size pockets and wiring once the tape width, marked cut pitch and actual strip requirements are known. [LEDVANCE strip installation guidance](https://www.ledvance.com/00_Free_To_Use/asset-13084976_led_strip_value_ip00.pdf)
+
+### Divide the panels after the pockets and support zones are fixed
+
+Keep the brightest curves, pocket openings, and structural overlaps within individual panels wherever possible. Try the upper crossing, the far-side return and the shaded inner sweep as different seam zones. Pick the actual cuts independently and stagger them between bands. Use integral rear laps with matched ripple alignment. Keep the wiring recess beside the overlap so the joint can close freely. Preserve the low-angle silhouette and check the back for tool and hand access before releasing any cut map.
+
+The **Kobra S1 Max** has a **350 × 350 × 350 mm** build volume. Use about **320 mm per axis** as the working envelope in the chosen orientation, including brim and supports. Test diagonal placement for the widest sweeps and set part count after checking orientations and thin-wall toolpaths. Compare curved samples at **0.16 and 0.20 mm** in the actual milky PETG. Let the intentional long ripples carry the visible pattern and place the slicer perimeter starts on a tucked edge. [Anycubic Kobra S1 Max specifications](https://store.anycubic.com/collections/fdm-printer/products/kobra-s1-max) · [OrcaSlicer seam painting](https://github.com/orcaslicer/orcaslicer/wiki/prepare_seam_painting)
+
+### Blender development checkpoint
+
+The [V11 Blender development file](development-v11/Ribbon-Lamp-V11-Development.blend) contains the initial full-size ribbon layout and a separate right-hand captive-joint study. One candidate LED envelope has been placed between the right-hand folds. The [development notes](development-v11/README.md) record the sampled overlap and checks. The six centre seats, the blend of the trial joint into the ribbon, the continuous wire runs, and the final panel divisions remain open.
+
+### Next work in order
+
+1. Map the three uninterrupted ribbon paths in plan and draw sections at the centre, right nesting joint and left overlap. Check the low profile and assembly direction.
+2. Make a full-size test of the right joint plus an adjacent light pocket and wire exit. Evaluate fit, retention, access, glow and thermal behaviour on the bench.
+3. Lay out and slice the staggered panels around the confirmed zones. Print a matching seam pair for alignment and illuminated finish.
+4. Complete the Blender assembly and numbered exports once the structural, optical and print layouts are settled.
+
+## V10 simplified load path
+
+The [V10 full lamp](full-lamp-v10/README.md) removes V09's separate carrier arms, splice pieces and lower-right curl. Only the centre canopy attaches to the ceiling. A and C share two concealed centre fasteners, B has two seats within the same canopy, and two contact lands are integral to adjacent ribbon overlaps. The 19 skin panels join at 12 mm built-in half-laps. The low-profile geometry drops about 160 mm from the ceiling. Three compact COB runs inside the canopy replace the remote channels. A test pair and physical validation of the centre-supported assembly are required before overhead use.
+
+## V09 full-lamp handoff
+
+The [complete V09 model and print set](full-lamp-v09/README.md) supersede the 33-piece draft map. The supplied underside image takes precedence for the outline. The resulting shade is about 1.2 m wide and 0.93 m deep in plan. The full assembly retains a centre-only ceiling attachment and contains 22 numbered ripple panels, 42 rear splices, 10 mounting pads and a removable centre cover. Three short upward-facing LED runs share one 24 V connection, with wires routed inside their metal branches. The exact appearance and overhead retention remain bench validation tasks.
+
+## V08 bench checkpoint
+
+The new [underside view](prototype-v08/underside-reference.png) is a second visual reference. The [V08 Blender bench project](prototype-v08/Ribbon-V08-fold-prototype.blend) uses a full-size piece of V07 W01 to test a rear splice and upward-facing light channel. The [test notes](prototype-v08/README.md) link the four trial STLs and results. The model includes a provisional 33-piece cut overlay in the V07 context scene. Most draft seams are exposed from below and need to move into overlapping folds. The lit bench render shows shadows from the splices and channel. Use this result to place hardware out of the light path through the show surfaces before releasing full-shade parts.
 
 ## Current study — V07, central ceiling attachment only
 

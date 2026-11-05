@@ -1,0 +1,21 @@
+{
+  "01 \u00b7 Directly below \u2014 reference angle": {
+    "rays": 39366,
+    "first_hit_hardware": {
+      "carrier": 3
+    },
+    "objects": {
+      "A-M02 \u2022 carrier spur to B1": 3
+    }
+  },
+  "02 \u00b7 Room angle": {
+    "rays": 39366,
+    "first_hit_hardware": {
+      "carrier": 12
+    },
+    "objects": {
+      "B3.05 \u2022 hollow aluminum branch envelope": 4,
+      "B3.04 \u2022 hollow aluminum branch envelope": 8
+    }
+  }
+}

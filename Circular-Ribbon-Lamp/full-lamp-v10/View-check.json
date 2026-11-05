@@ -1,0 +1,24 @@
+{
+  "hardware_max_radius_mm": 105.0,
+  "camera_sampling": {
+    "01 \u00b7 Directly below": {
+      "rays": 24576,
+      "direct_hits": {}
+    },
+    "02 \u00b7 Low ceiling side": {
+      "rays": 24576,
+      "direct_hits": {
+        "Centre collar 3 \u00b7 M4 shank envelope": 1,
+        "Centre collar 4 \u00b7 upper standoff": 1,
+        "Centre collar 3 \u00b7 upper standoff": 1
+      }
+    },
+    "03 \u00b7 Opposite low angle": {
+      "rays": 24576,
+      "direct_hits": {
+        "Centre collar 2 \u00b7 upper standoff": 1,
+        "Centre collar 1 \u00b7 upper standoff": 2
+      }
+    }
+  }
+}

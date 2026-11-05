@@ -1,0 +1,77 @@
+{
+  "engine": "OrcaSlicer 2.4.2",
+  "preset": "Anycubic Kobra S1 Max / 0.4 mm / Generic PETG / 0.16 mm",
+  "scope": "Toolpaths generated for every object. Editable projects omit G-code. Confirm the actual filament, support marks and adhesion at the machine.",
+  "projects": [
+    {
+      "project": "A-Kobra-S1-Max.3mf",
+      "parts": 10,
+      "plates": 5,
+      "estimated_PETG_g": 1355.8,
+      "estimated_hours": 94.1,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "B-Kobra-S1-Max.3mf",
+      "parts": 4,
+      "plates": 1,
+      "estimated_PETG_g": 631.6,
+      "estimated_hours": 25.6,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "C-Kobra-S1-Max.3mf",
+      "parts": 5,
+      "plates": 2,
+      "estimated_PETG_g": 1574.5,
+      "estimated_hours": 56.3,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "D-Kobra-S1-Max.3mf",
+      "parts": 3,
+      "plates": 1,
+      "estimated_PETG_g": 253.0,
+      "estimated_hours": 13.6,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "Splices-Kobra-S1-Max.3mf",
+      "parts": 42,
+      "plates": 1,
+      "estimated_PETG_g": 41.4,
+      "estimated_hours": 3.5,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "Mounts-Kobra-S1-Max.3mf",
+      "parts": 10,
+      "plates": 1,
+      "estimated_PETG_g": 29.5,
+      "estimated_hours": 1.7,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    },
+    {
+      "project": "Centre-Kobra-S1-Max.3mf",
+      "parts": 1,
+      "plates": 1,
+      "estimated_PETG_g": 101.6,
+      "estimated_hours": 2.5,
+      "Orca_warnings": [
+        "bed_temperature_too_high_than_filament"
+      ]
+    }
+  ]
+}

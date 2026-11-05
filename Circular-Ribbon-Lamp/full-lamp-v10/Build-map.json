@@ -1,0 +1,448 @@
+{
+  "dimensions_mm": [
+    1193.9,
+    933.5,
+    130.6
+  ],
+  "ceiling_drop_mm": 159.6,
+  "printed_parts": 20,
+  "shade_panels": 19,
+  "printed": [
+    {
+      "file": "A01.stl",
+      "size_mm": [
+        162.74,
+        132.55,
+        165.79
+      ],
+      "triangles": 16622
+    },
+    {
+      "file": "A02.stl",
+      "size_mm": [
+        215.83,
+        221.19,
+        240.89
+      ],
+      "triangles": 24204
+    },
+    {
+      "file": "A03.stl",
+      "size_mm": [
+        205.4,
+        233.51,
+        224.44
+      ],
+      "triangles": 34544
+    },
+    {
+      "file": "A04.stl",
+      "size_mm": [
+        293.56,
+        256.1,
+        272.58
+      ],
+      "triangles": 26380
+    },
+    {
+      "file": "A05.stl",
+      "size_mm": [
+        293.42,
+        288.24,
+        306.72
+      ],
+      "triangles": 20728
+    },
+    {
+      "file": "A06.stl",
+      "size_mm": [
+        261.62,
+        250.33,
+        256.15
+      ],
+      "triangles": 10680
+    },
+    {
+      "file": "A07.stl",
+      "size_mm": [
+        290.27,
+        285.43,
+        223.82
+      ],
+      "triangles": 11308
+    },
+    {
+      "file": "A08.stl",
+      "size_mm": [
+        300.83,
+        284.44,
+        285.22
+      ],
+      "triangles": 13820
+    },
+    {
+      "file": "A09.stl",
+      "size_mm": [
+        228.21,
+        299.08,
+        308.48
+      ],
+      "triangles": 23868
+    },
+    {
+      "file": "A10.stl",
+      "size_mm": [
+        194.11,
+        165.2,
+        191.32
+      ],
+      "triangles": 21356
+    },
+    {
+      "file": "B01.stl",
+      "size_mm": [
+        187.04,
+        134.65,
+        180.17
+      ],
+      "triangles": 13836
+    },
+    {
+      "file": "B02.stl",
+      "size_mm": [
+        220.5,
+        214.39,
+        203.26
+      ],
+      "triangles": 22572
+    },
+    {
+      "file": "B03.stl",
+      "size_mm": [
+        299.51,
+        233.54,
+        308.66
+      ],
+      "triangles": 19660
+    },
+    {
+      "file": "B04.stl",
+      "size_mm": [
+        172.0,
+        105.74,
+        178.66
+      ],
+      "triangles": 18638
+    },
+    {
+      "file": "C01.stl",
+      "size_mm": [
+        261.91,
+        286.34,
+        273.37
+      ],
+      "triangles": 21340
+    },
+    {
+      "file": "C02.stl",
+      "size_mm": [
+        255.4,
+        285.31,
+        284.95
+      ],
+      "triangles": 30484
+    },
+    {
+      "file": "C03.stl",
+      "size_mm": [
+        236.22,
+        222.05,
+        256.79
+      ],
+      "triangles": 13720
+    },
+    {
+      "file": "C04.stl",
+      "size_mm": [
+        244.64,
+        275.06,
+        278.53
+      ],
+      "triangles": 15640
+    },
+    {
+      "file": "C05.stl",
+      "size_mm": [
+        166.56,
+        175.45,
+        174.65
+      ],
+      "triangles": 25404
+    },
+    {
+      "file": "E01-Centre-face.stl",
+      "size_mm": [
+        206.0,
+        206.0,
+        20.0
+      ],
+      "triangles": 2300
+    }
+  ],
+  "panels": [
+    {
+      "id": "A01",
+      "band": "A",
+      "first": 160,
+      "last": 180,
+      "raw_start": 160,
+      "raw_end": 180
+    },
+    {
+      "id": "A02",
+      "band": "A",
+      "first": 180,
+      "last": 212,
+      "raw_start": 180,
+      "raw_end": 212
+    },
+    {
+      "id": "A03",
+      "band": "A",
+      "first": 212,
+      "last": 260,
+      "raw_start": 212,
+      "raw_end": 260
+    },
+    {
+      "id": "A04",
+      "band": "A",
+      "first": 260,
+      "last": 32,
+      "raw_start": 260,
+      "raw_end": 296
+    },
+    {
+      "id": "A05",
+      "band": "A",
+      "first": 32,
+      "last": 60,
+      "raw_start": 296,
+      "raw_end": 324
+    },
+    {
+      "id": "A06",
+      "band": "A",
+      "first": 60,
+      "last": 72,
+      "raw_start": 324,
+      "raw_end": 336
+    },
+    {
+      "id": "A07",
+      "band": "A",
+      "first": 72,
+      "last": 84,
+      "raw_start": 336,
+      "raw_end": 348
+    },
+    {
+      "id": "A08",
+      "band": "A",
+      "first": 84,
+      "last": 100,
+      "raw_start": 348,
+      "raw_end": 364
+    },
+    {
+      "id": "A09",
+      "band": "A",
+      "first": 100,
+      "last": 132,
+      "raw_start": 364,
+      "raw_end": 396
+    },
+    {
+      "id": "A10",
+      "band": "A",
+      "first": 132,
+      "last": 160,
+      "raw_start": 396,
+      "raw_end": 424
+    },
+    {
+      "id": "B01",
+      "band": "B",
+      "first": 120,
+      "last": 152,
+      "raw_start": 120,
+      "raw_end": 152
+    },
+    {
+      "id": "B02",
+      "band": "B",
+      "first": 152,
+      "last": 28,
+      "raw_start": 152,
+      "raw_end": 208
+    },
+    {
+      "id": "B03",
+      "band": "B",
+      "first": 28,
+      "last": 76,
+      "raw_start": 208,
+      "raw_end": 256
+    },
+    {
+      "id": "B04",
+      "band": "B",
+      "first": 76,
+      "last": 120,
+      "raw_start": 256,
+      "raw_end": 300
+    },
+    {
+      "id": "C01",
+      "band": "C",
+      "first": 108,
+      "last": 144,
+      "raw_start": 108,
+      "raw_end": 144
+    },
+    {
+      "id": "C02",
+      "band": "C",
+      "first": 144,
+      "last": 19,
+      "raw_start": 144,
+      "raw_end": 199
+    },
+    {
+      "id": "C03",
+      "band": "C",
+      "first": 19,
+      "last": 40,
+      "raw_start": 199,
+      "raw_end": 220
+    },
+    {
+      "id": "C04",
+      "band": "C",
+      "first": 40,
+      "last": 64,
+      "raw_start": 220,
+      "raw_end": 244
+    },
+    {
+      "id": "C05",
+      "band": "C",
+      "first": 64,
+      "last": 108,
+      "raw_start": 244,
+      "raw_end": 288
+    }
+  ],
+  "centre_seats": [
+    {
+      "id": "H1",
+      "xy_mm": [
+        -24.9,
+        76.6
+      ],
+      "stack": [
+        "A02",
+        "C04"
+      ]
+    },
+    {
+      "id": "H2",
+      "xy_mm": [
+        15.1,
+        90.9
+      ],
+      "stack": [
+        "A01",
+        "C04"
+      ]
+    },
+    {
+      "id": "H3",
+      "xy_mm": [
+        -31.0,
+        -82.5
+      ],
+      "stack": [
+        "B04"
+      ]
+    },
+    {
+      "id": "H4",
+      "xy_mm": [
+        -72.9,
+        -36.5
+      ],
+      "stack": [
+        "B04"
+      ]
+    }
+  ],
+  "inter_ribbon_contacts": [
+    {
+      "lower": "A",
+      "upper": "B",
+      "xy_mm": [
+        -491.0,
+        -102.3
+      ],
+      "nominal_clearance_mm": 0.6
+    },
+    {
+      "lower": "C",
+      "upper": "A",
+      "xy_mm": [
+        -373.4,
+        143.5
+      ],
+      "nominal_clearance_mm": 0.6
+    }
+  ],
+  "lap_length_mm": 12.0,
+  "nominal_seam_gap_mm": 0.25999999999999995,
+  "nominal_skin_mm": 1.6,
+  "stations": [
+    {
+      "id": "L1",
+      "strip_mm": 100,
+      "position_mm": [
+        47.0,
+        0.0,
+        -41.0
+      ],
+      "shielded_rays": 2700
+    },
+    {
+      "id": "L2",
+      "strip_mm": 100,
+      "position_mm": [
+        -23.5,
+        40.7,
+        -41.0
+      ],
+      "shielded_rays": 2700
+    },
+    {
+      "id": "L3",
+      "strip_mm": 100,
+      "position_mm": [
+        -23.5,
+        -40.7,
+        -41.0
+      ],
+      "shielded_rays": 2700
+    }
+  ],
+  "self_intersections": {},
+  "panel_pair_intersections": {},
+  "canopy_shade_intersections": {}
+}

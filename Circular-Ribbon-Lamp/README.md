@@ -1,3 +1,19 @@
+# V11 — Blender development
+
+The [V11 development checkpoint](development-v11/README.md) includes the three-ribbon layout, one trial fold light, and a separate full-scale captive joint study. [Open in Blender](development-v11/Ribbon-Lamp-V11-Development.blend)
+
+# V10 — low-profile lamp with integral joints
+
+The [V10 assembly and print set](full-lamp-v10/README.md) has three ribbons, a 160 mm ceiling drop and 19 numbered shade panels. Their lap joints are part of the panel edges. All mount, light and wiring hardware sits inside one compact centre canopy. [Blender](full-lamp-v10/Ribbon-Lamp-V10-Integral.blend) · [From below](full-lamp-v10/01-Below.png) · [Low side](full-lamp-v10/02-Low-side.png)
+
+# V09 — complete ribbon lamp
+
+The [V09 full-lamp project](full-lamp-v09/README.md) reconstructs the supplied underside view and includes the complete set of numbered print parts, 3MF plates, assembly and wiring maps. Three recessed COB runs feed one connection inside the centre canopy. [Blender](full-lamp-v09/Ribbon-Lamp-V09-Full.blend) · [Lit underside](full-lamp-v09/01-Directly-below-lit.png)
+
+# V08 — full-size ribbon and light test
+
+Open [Ribbon-V08-fold-prototype.blend](prototype-v08/Ribbon-V08-fold-prototype.blend) and start with the [four-part test and assembly notes](prototype-v08/README.md). The Blender file also contains the V07 fixture context and a 33-piece draft cut overlay. The upward-facing trough blocks sampled direct views of the LED. The lit preview still shows hardware shadows through the translucent skin. The full-size bench test is the current manufacturing checkpoint.
+
 # V07 — central ceiling attachment only
 
 Open **[Circular-Ribbon-Cloud-v07-centre-mount.blend](Circular-Ribbon-Cloud-v07-centre-mount.blend)**. The broad ceiling deck and outer ceiling fixings are removed. Only the compact Ø220 mm centre canopy attaches to the ceiling. Three internal branches carry the rippled shade from that centre.

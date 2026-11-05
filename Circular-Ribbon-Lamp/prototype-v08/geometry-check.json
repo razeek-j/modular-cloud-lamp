@@ -1,0 +1,53 @@
+{
+  "seam_row": 294,
+  "arc_rows": [
+    269,
+    320
+  ],
+  "nominal_seam_gap_mm": 0.2,
+  "splice_bond_line_mm": 0.15,
+  "wall_mm": 1.2,
+  "splice_wall_mm": 2.4,
+  "tape_to_bounce_board_mm": 114.8,
+  "sampled_direct_source_rays_blocked": 8640,
+  "checked_pairwise_intersections": 0,
+  "non_adjacent_self_intersections": 0,
+  "exports": [
+    {
+      "file": "01_Ribbon_A.stl",
+      "extents_mm": [
+        178.37,
+        50.92,
+        151.83
+      ],
+      "triangles": 20068
+    },
+    {
+      "file": "02_Ribbon_B.stl",
+      "extents_mm": [
+        177.49,
+        61.07,
+        155.45
+      ],
+      "triangles": 20840
+    },
+    {
+      "file": "03_Rear_splice_inner.stl",
+      "extents_mm": [
+        48.3,
+        18.81,
+        7.26
+      ],
+      "triangles": 680
+    },
+    {
+      "file": "04_Rear_splice_outer.stl",
+      "extents_mm": [
+        37.14,
+        17.92,
+        7.17
+      ],
+      "triangles": 680
+    }
+  ]
+}
