@@ -1,3 +1,33 @@
+# Current stage — V17 Borromean ribbon lamp with print set
+
+Three broad ribbon rings woven in the Borromean pattern, each a Möbius band with three rolling half-twists, round outline about 1.1 m, 153 mm deep. LEDs hidden on the ceiling-facing skin (sight-line test: none visible). Includes 25 printable pieces with lap tabs, LED channels and insert bosses on 8 Kobra S1 Max plates. [Notes, checks and assembly](development-v17/README.md) · [Room view](development-v17/01-Room-view.png) · [Assembly map](development-v17/Assembly-map.png). Not yet accepted by the user; structure and slicing still need physical verification.
+
+# Previous stage — V16 layered broad ribbon
+
+One broad continuous band circles the centre three times, so three ribbon layers overlap all the way round a small ceiling disc. LEDs sit on the hidden top face; a sight-line test finds none visible from the room. [Blender model](development-v16/Ribbon-Lamp-V16-Layered-Ribbon.blend) · [Notes and checks](development-v16/README.md) · [Room view](development-v16/01-Room-view.png) · [From below](development-v16/02-From-below.png). The user has not yet accepted this shape. Seats, wiring and print segmentation are open.
+
+# Previous stage — V15 broad rolling ribbon
+
+One broad continuous band (175–252 mm wide) rolls round a small ceiling disc in three irregular loops, following the main reference's character in a rounder outline. LEDs sit on the hidden top face, and a sight-line test finds none visible from the room. [Blender model](development-v15/Ribbon-Lamp-V15-Broad-Ribbon.blend) · [Notes and checks](development-v15/README.md) · [Room view](development-v15/01-Room-view.png) · [From below](development-v15/02-From-below.png). The user has not yet accepted this shape. Seats, wiring and print segmentation are open.
+
+# Previous stage — V14 circular ribbon knot
+
+One continuous ribbon band loops twice around a single centre drum and crosses itself ten times. Hidden LED channels on the outer-lobe crests light the ceiling and the inside of the ribbons, and a sight-line test confirms they can't be seen from the room. [Blender model](development-v14/Ribbon-Lamp-V14-Circular-Knot.blend) · [Notes and checks](development-v14/README.md) · [From below](development-v14/01-From-below.png) · [Room view](development-v14/02-Room-view.png). The user has not yet accepted this shape. Seats, wiring and print segmentation are open.
+
+# Previous stage — reference-led harmony calculation
+
+The user rejected the residual wiggles and spoke-like layout. The current plan preserves the three crossing ribbons from the approved underside and low-angle references, with near-straight runs, controlled tight turns, hidden integrated returns, one compact centre mount, selected bend lights and concealed wires. Read the [complete geometry, mass, load and print calculation](harmony-plan/Full-calculation-v01.md) before changing the model. The calculations are provisional because the concept images do not uniquely define the full 3D paths.
+
+No Blender geometry has been changed for this calculation step. The latest Blender checkpoint is V13, which the user has not accepted as the target shape. [V13 controlled-fold model](development-v13/Ribbon-Lamp-V13-Controlled-Fold.blend).
+
+# Previous checkpoint — V13 controlled right fold
+
+The right ribbon widens across a 240 mm approach and carries its full width around a rounded return. This is a form study for the single central mount. [Blender model](development-v13/Ribbon-Lamp-V13-Controlled-Fold.blend) · [Side](development-v13/03-Low-side.png) · [Underside](development-v13/02-Underside.png) · [V12 comparison](development-v12/03-Low-side.png)
+
+# V11 — rolled ribbon revision
+
+Open the [rolled V11 development checkpoint](development-v11-rolled/README.md) for the deeper left, right and lower curves and recessed centre cover. [Blender model](development-v11-rolled/Ribbon-Lamp-V11-Rolled.blend) · [Room angle](development-v11-rolled/05-Room-angle.png)
+
 # V11 — Blender development
 
 The [V11 development checkpoint](development-v11/README.md) includes the three-ribbon layout, one trial fold light, and a separate full-scale captive joint study. [Open in Blender](development-v11/Ribbon-Lamp-V11-Development.blend)

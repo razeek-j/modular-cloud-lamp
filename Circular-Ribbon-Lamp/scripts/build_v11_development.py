@@ -12,12 +12,13 @@ from mathutils import Matrix, Vector
 from mathutils.bvhtree import BVHTree
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "development-v11"
+ROLLED = "--rolled" in sys.argv
+OUT = ROOT / ("development-v11-rolled" if ROLLED else "development-v11")
 OUT.mkdir(exist_ok=True)
 UP = Vector((0,0,1))
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
-scene.name = "01 | V11 three-ribbon layout"
+scene.name = "01 | V11 rolled ribbon layout" if ROLLED else "01 | V11 three-ribbon layout"
 def collection(name):
     result = bpy.data.collections.new(name)
     scene.collection.children.link(result)
@@ -291,20 +292,30 @@ def closed_skin(name,grid,normal):
 
 grids={}
 bands={}
-for (name,path),(lo,hi) in zip(PATHS.items(),DEPTHS):
-    grid,normals=ribbon_grid(path,lo,hi,name[0])
+if ROLLED:
+    sys.path.insert(0, str(ROOT/"scripts"))
+    from v11_rolled_geometry import PATHS as ROLLED_PATHS, rolled_grids
+    layout_paths=ROLLED_PATHS
+    rolled=rolled_grids(catmull,smooth,unit)
+else:
+    layout_paths=PATHS
+for (name,path),(lo,hi) in zip(layout_paths.items(),DEPTHS):
+    grid,normals=rolled[name[0]] if ROLLED else ribbon_grid(path,lo,hi,name[0])
     grids[name[0]]=grid
     ob=closed_skin(name,grid,normals)
     ob["Construction"]="Continuous layout master, nominal 1.6 mm skin. Support design and print division are separate milestones."
     bands[name[0]]=ob
-    points=[Vector((x*.001,y*.001,-z*.001)) for x,y,z,_,_ in path]
+    points=[Vector((x*.001,y*.001,-z*.001)) for x,y,z,*_ in path]
     guide=wire_curve(name[0]+" centreline · design guide",points+[points[0]],.0015,guides,route_material)
     guide.hide_render=True
 guides.hide_render=True
 
 box("Ceiling datum",(0,0,.014),(5,5,.028),studio,ceiling)
 plate=cylinder("Central metal mounting plate · layout envelope",(0,0,-.003),.101,.006,mount,metal)
-cap=cylinder("Removable ivory centre cover · layout envelope",(0,0,-.118),.093,.004,mount,ivory)
+if ROLLED:
+    cap=cylinder("Recessed ivory centre cover · layout envelope",(0,0,-.025),.088,.026,mount,ivory)
+else:
+    cap=cylinder("Removable ivory centre cover · layout envelope",(0,0,-.118),.093,.004,mount,ivory)
 cap["Status"]="Canopy envelope. Six captured root seats are reserved for the next mechanical layout."
 
 trees={key:bvh(obj) for key,obj in bands.items()}
@@ -313,6 +324,10 @@ for key,obj in bands.items():
     diagnostics[key]=solid_check(obj)[1]
 overlaps={a+b:len(trees[a].overlap(trees[b])) for a,b in combinations(bands,2)}
 print("SKIN CHECKS",diagnostics,overlaps,flush=True)
+if ROLLED:
+    mount_trees=[bvh(plate),bvh(cap)]
+    intersections={key:sum(len(t.overlap(tree)) for t in mount_trees) for key,tree in trees.items()}
+    print("CANOPY INTERSECTIONS",intersections,flush=True)
 # Sample a contiguous A/B overlap, sized for a future short hidden join.
 hits=[]
 for x in np.arange(.23,.45,.010):
@@ -356,11 +371,17 @@ def pick_light():
     lookup=list(trees.values())
     directions=[-UP,Vector((.55,-1.85,-.73)).normalized(),
                 Vector((-.55,1.85,-.73)).normalized(),Vector((.79,.10,-.47)).normalized()]
+    if ROLLED:
+        directions.append(Vector((.47,-1.655,-.957)).normalized())
+    x_range=np.arange(.18,.55,.012) if ROLLED else np.arange(.26,.52,.016)
+    y_range=np.arange(-.32,-.045,.012) if ROLLED else np.arange(-.30,-.085,.016)
+    angles=np.arange(-1.35,1.57,.27) if ROLLED else (-.60,-.24,.12,.46,1.12,1.55)
+    lifts=(.004,.007,.010,.013) if ROLLED else (.007,)
     best=None
     for length in (.100,.075,.050):
-        for x in np.arange(.26,.52,.016):
-            for y in np.arange(-.30,-.085,.016):
-                for theta in (-.60,-.24,.12,.46,1.12,1.55):
+        for x in x_range:
+            for y in y_range:
+                for theta in angles:
                     along=Vector((math.cos(theta),math.sin(theta),0))
                     across=UP.cross(along)
                     xy=Vector((float(x),float(y),0))
@@ -377,20 +398,21 @@ def pick_light():
                         lower.append(b.z)
                     if len(upper)!=len(checks):
                         continue
-                    z=max(lower)+.007
-                    gap=min(upper)-z
-                    if gap<.014:
-                        continue
-                    position=xy+UP*z
-                    cover=0
-                    for p in checks:
-                        for h in (.001,.010):
-                            sample=Vector((p.x,p.y,z+h))
-                            cover+=sum(any(tree.ray_cast(sample,d,.5)[0] is not None for tree in lookup)
-                                       for d in directions)
-                    score=cover+18*length-12*math.hypot(x-.375,y+.152)+10*min(gap,.025)
-                    if best is None or score>best[0]:
-                        best=(score,position,along,across,cover,len(checks)*len(directions)*2,length,gap)
+                    for lift in lifts:
+                        z=max(lower)+lift
+                        gap=min(upper)-z
+                        if gap<.014:
+                            continue
+                        position=xy+UP*z
+                        cover=0
+                        for p in checks:
+                            for h in (.001,.010):
+                                sample=Vector((p.x,p.y,z+h))
+                                cover+=sum(any(tree.ray_cast(sample,d,.5)[0] is not None for tree in lookup)
+                                           for d in directions)
+                        score=cover+18*length-12*math.hypot(x-.375,y+.152)+10*min(gap,.025)
+                        if best is None or score>best[0]:
+                            best=(score,position,along,across,cover,len(checks)*len(directions)*2,length,gap)
         if best and best[4]==best[5]:
             break
     if best is None:
@@ -428,6 +450,8 @@ print("LED SCREENING",screened,total,blocked,flush=True)
 
 below=camera("01 · Directly below",(.0,.02,-2),1.59,direct=True)
 side=camera("02 · Low ceiling angle",(.55,-1.85,-.81),1.62,target=(0,.015,-.083))
+if ROLLED:
+    three_quarter=camera("03 · Oblique room view",(.47,-1.64,-1.04),1.50,target=(0,.015,-.083))
 light("Room fill",(-.46,-.4,-1.5),(0,0,-.08),21,(1,.91,.81),1.5)
 scene.camera=below
 
@@ -537,6 +561,7 @@ scene.camera=joint_camera
 
 report=dict(
     layout=dict(skin_self_crossings=diagnostics,skin_pair_crossings=overlaps,right_overlap=right,
+                **({"canopy_skin_crossings":intersections} if ROLLED else {}),
                 approximate_span_mm=[round((max(v.co[i] for o in bands.values() for v in o.data.vertices)-
                                             min(v.co[i] for o in bands.values() for v in o.data.vertices))*1000,1)
                                      for i in (0,1)],
@@ -552,10 +577,13 @@ report=dict(
 print(json.dumps(report,indent=2),flush=True)
 source=bpy.data.texts.new("V11 generator · edit the centreline stations")
 source.write(Path(__file__).read_text())
+if ROLLED:
+    section_source=bpy.data.texts.new("V11 rolled section stations")
+    section_source.write((ROOT/"scripts"/"v11_rolled_geometry.py").read_text())
 instructions=bpy.data.texts.new("START HERE · V11 development")
 instructions.write(
-    "01 | V11 three-ribbon layout: separate continuous editable meshes, packed approved concepts, "
-    "low-angle and underside cameras, one inter-ribbon LED study. Toggle source path guides in the Outliner.\n"
+    f"{main.name}: separate continuous editable meshes, packed approved concepts, "
+    "low-angle and underside cameras, one inter-ribbon LED study. Reveal source path guides in the Outliner.\n"
     "02 | Full-size right joint bench: simplified captive profiles with an adjacent LED bed and wire recess. "
     "The coupon profile still needs blending into the full lamp and a physical test.\n"
     "Centre seat details, full loom, anti-backout keeper, final outline and print divisions are open.\n"
@@ -575,12 +603,17 @@ for screen in bpy.data.screens:
             view.region_3d.view_distance=1.60
             view.region_3d.view_perspective="ORTHO"
 bpy.context.preferences.filepaths.save_version=0
-bpy.ops.wm.save_as_mainfile(filepath=str(OUT/"Ribbon-Lamp-V11-Development.blend"),compress=True)
+bpy.ops.wm.save_as_mainfile(filepath=str(OUT/("Ribbon-Lamp-V11-Rolled.blend" if ROLLED else "Ribbon-Lamp-V11-Development.blend")),compress=True)
 if "--render" in sys.argv:
     bench=bpy.data.scenes["02 | Full-size right joint bench"]
-    for s,cam,file in ((main,below,"01-Underside"),(main,side,"02-Low-angle"),
-                       (bench,joint_camera,"03-Right-joint-bench"),(bench,end_camera,"04-Keyed-end-section")):
+    views=[(main,below,"01-Underside"),(main,side,"02-Low-angle"),
+           (bench,joint_camera,"03-Right-joint-bench"),(bench,end_camera,"04-Keyed-end-section")]
+    if ROLLED:
+        views.append((main,three_quarter,"05-Room-angle"))
+    for s,cam,file in views:
         bpy.context.window.scene=s
         s.camera=cam
+        if file=="05-Room-angle":
+            s.render.resolution_y=720
         s.render.filepath=str(OUT/(file+".png"))
         bpy.ops.render.render(write_still=True)

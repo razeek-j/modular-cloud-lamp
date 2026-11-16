@@ -1,0 +1,84 @@
+{
+  "ribbon_self_intersections": 0,
+  "ribbon_non_manifold_edges": 0,
+  "min_clearance_between_separate_parts_mm": 25.6,
+  "footprint_mm": [
+    1205,
+    1165
+  ],
+  "skin_top_below_ceiling_mm": 19.1,
+  "channel_top_below_ceiling_mm": 11.4,
+  "lowest_point_below_ceiling_mm": 182.1,
+  "gap_under_ceiling_disc_mm": 5.4,
+  "band_length_mm": 6793,
+  "band_width_range_mm": [
+    142,
+    205
+  ],
+  "bank_range_deg": [
+    -10,
+    50
+  ],
+  "max_band_slope_deg": 44.2,
+  "skin_area_m2": 1.172,
+  "skin_mass_kg_petg_1_27": 2.68,
+  "posts": [
+    {
+      "radius_from_centre_mm": 88,
+      "exposed_length_mm": 47.4
+    },
+    {
+      "radius_from_centre_mm": 88,
+      "exposed_length_mm": 50.3
+    },
+    {
+      "radius_from_centre_mm": 88,
+      "exposed_length_mm": 51.9
+    },
+    {
+      "radius_from_centre_mm": 88,
+      "exposed_length_mm": 49.2
+    }
+  ],
+  "led_sight_line_test": {
+    "eye_positions": 725,
+    "led_stations_tested": 766,
+    "rays_cast": 555350,
+    "led_stations_visible": 0
+  },
+  "led_channels": [
+    {
+      "channel_length_mm": 718,
+      "led_length_mm": 677
+    },
+    {
+      "channel_length_mm": 499,
+      "led_length_mm": 474
+    },
+    {
+      "channel_length_mm": 829,
+      "led_length_mm": 794
+    },
+    {
+      "channel_length_mm": 491,
+      "led_length_mm": 468
+    },
+    {
+      "channel_length_mm": 380,
+      "led_length_mm": 347
+    },
+    {
+      "channel_length_mm": 572,
+      "led_length_mm": 544
+    },
+    {
+      "channel_length_mm": 532,
+      "led_length_mm": 504
+    },
+    {
+      "channel_length_mm": 543,
+      "led_length_mm": 512
+    }
+  ],
+  "led_total_length_mm": 4320
+}

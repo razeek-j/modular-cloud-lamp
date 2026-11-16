@@ -1,0 +1,11 @@
+{
+  "stage": "Shape reconstruction; appearance and engineering checks pending",
+  "envelope_mm": [
+    1190.98562002182,
+    889.2867565155029,
+    226.58678200969007
+  ],
+  "lowest_point_mm": 226.78110003471375,
+  "central_attachment_count": 1,
+  "ceiling_geometry": false
+}

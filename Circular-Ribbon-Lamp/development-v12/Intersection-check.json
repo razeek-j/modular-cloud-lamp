@@ -1,0 +1,39 @@
+{
+  "skins": {
+    "A \u00b7 High left crest and rear return": {
+      "nonmanifold_edges": 0,
+      "volume_cm3": 444.2596741417954,
+      "nonadjacent_self_intersections": 0,
+      "self_parameters": [],
+      "self_intersection_samples_mm": []
+    },
+    "B \u00b7 Sweeping face and large right roll": {
+      "nonmanifold_edges": 0,
+      "volume_cm3": 396.542713886324,
+      "nonadjacent_self_intersections": 0,
+      "self_parameters": [],
+      "self_intersection_samples_mm": []
+    },
+    "C \u00b7 Broad scalloped lower fold": {
+      "nonmanifold_edges": 0,
+      "volume_cm3": 403.3888803062924,
+      "nonadjacent_self_intersections": 0,
+      "self_parameters": [],
+      "self_intersection_samples_mm": []
+    }
+  },
+  "pairs": {
+    "AB": {
+      "triangle_intersections": 0,
+      "samples_mm": []
+    },
+    "AC": {
+      "triangle_intersections": 0,
+      "samples_mm": []
+    },
+    "BC": {
+      "triangle_intersections": 0,
+      "samples_mm": []
+    }
+  }
+}

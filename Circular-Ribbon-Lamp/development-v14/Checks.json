@@ -1,0 +1,59 @@
+{
+  "ribbon_self_intersections": 0,
+  "ribbon_non_manifold_edges": 0,
+  "skin_top_below_ceiling_mm": 21.4,
+  "channel_top_below_ceiling_mm": 12.9,
+  "lowest_point_below_ceiling_mm": 279.0,
+  "footprint_mm": [
+    1066,
+    1046
+  ],
+  "skin_min_radius_at_canopy_height_mm": 153.6,
+  "channel_min_radius_at_canopy_height_mm": 343.6,
+  "canopy_radius_mm": 152.0,
+  "canopy_depth_mm": 130.0,
+  "min_gap_between_strand_centrelines_mm": 143.8,
+  "max_band_slope_deg": 28.2,
+  "band_width_range_mm": [
+    90,
+    176
+  ],
+  "band_length_mm": 6186,
+  "skin_area_m2": 0.809,
+  "skin_mass_kg_petg_1_27": 1.85,
+  "led_direct_view_rays": {
+    "eye_positions": 219,
+    "led_points": 57,
+    "rays": 12483,
+    "rays_reaching_led": 0,
+    "examples_eye_then_led_mm": []
+  },
+  "led_channels": [
+    {
+      "channel_length_mm": 327,
+      "led_length_mm": 253,
+      "plan_radius_mm": 495
+    },
+    {
+      "channel_length_mm": 335,
+      "led_length_mm": 262,
+      "plan_radius_mm": 499
+    },
+    {
+      "channel_length_mm": 314,
+      "led_length_mm": 242,
+      "plan_radius_mm": 484
+    },
+    {
+      "channel_length_mm": 241,
+      "led_length_mm": 166,
+      "plan_radius_mm": 459
+    },
+    {
+      "channel_length_mm": 207,
+      "led_length_mm": 136,
+      "plan_radius_mm": 445
+    }
+  ],
+  "led_total_length_mm": 1059
+}

@@ -1,0 +1,28 @@
+{
+  "cross_width_depth_mm_at_selected_sections": {
+    "initial": {
+      "left": 33.5,
+      "right": 35.0,
+      "lower": 23.1
+    },
+    "rolled": {
+      "left": 101.8,
+      "right": 120.8,
+      "lower": 92.9
+    }
+  },
+  "room_camera_sightlines": {
+    "01 \u00b7 Directly below": {
+      "rays": 31104,
+      "first_hit_housing": {}
+    },
+    "02 \u00b7 Low ceiling angle": {
+      "rays": 31104,
+      "first_hit_housing": {}
+    },
+    "03 \u00b7 Oblique room view": {
+      "rays": 31104,
+      "first_hit_housing": {}
+    }
+  }
+}

@@ -1,6 +1,46 @@
 # Circular ribbon ceiling shade — project plan and model handoff
 
-Updated: 5 November 2026
+Updated: 6 November 2026
+
+## Current design plan — harmony calculations V01
+
+The radial layout was rejected because it made spokes. The approved lamp reads as three broad crossing loops: A and B run nearly parallel across the middle, C crosses diagonally, the wide right fold rolls under, and the lower sweep passes behind it. Preserve those relationships from the [reference map](harmony-plan/Reference-map.png), [approved underside](references/v11-approved-broad-ribbons-below.png), and [approved low angle](references/v11-approved-broad-ribbons-side.png).
+
+The image outline scales to about 1,200 × 894 mm. To fit the user's round ceiling area without stretching the visible runs, the current planning envelope locally extends the outer lobes to 1,200 × 1,050 mm. Keep the target close to the ceiling with a 180 mm maximum drop. These are design constraints, not image measurements.
+
+| Ribbon | Projected visible chord | Mean width / width at turn | Candidate bend | Estimated path budget |
+|---|---:|---:|---:|---:|
+| A · upper-left crest | 280 mm at −3.8° | 170 / 170 mm | R120 mm, 150°, 35 mm easing at each end | 1,900 mm |
+| B · front-right fold | 292 mm at −9.1° | 150 / 180 mm | R125 mm, 165°, 35 mm easing at each end | 1,800 mm |
+| C · lower sweep | 392 mm at +32.6° | 170 / 170 mm | R120 mm, 150°, 35 mm easing at each end | 2,000 mm |
+
+Each candidate turn gives a 35 mm inner-edge radius. The full eased turns are about 349 mm for A/C and 395 mm for B. Keep the long visible runs straight, widen B only away from its tight core, and use one smooth height/bank transition through each fold. No periodic waviness or decorative surface ripple is part of this plan. The exact 3D paths and crossing heights remain to be resolved from both views.
+
+The estimated 0.933 m² skin area gives about 1.90 kg PETG at 1.6 mm. Two integral 12 × 1.6 mm rear returns add about 0.28 kg. With seam/capture details, lights, and a compact central metal hub, the current assembled mass estimate is 2.70–3.17 kg without an onboard driver, or up to about 3.42 kg with one. Use 4.0 kg for the preliminary load screen. A 5× bench screen is 196 N; target 300 N per root seat, and aim for 400–450 mm positive support spans with 500 mm as the maximum in this first check. The U-section beam estimate is about 1.2 mm static deflection at 450 mm and 1.8 mm at 500 mm, but it excludes banked/twisted sections, creep, heat and joint flexibility.
+
+The first print layout is 23–25 ribbon panels on the Kobra S1 Max. Use about 240–260 mm net advance and 20 mm integral laps, stagger seams and keep them away from bright runs and LED pockets. Put three short concealed LED pockets at selected bends, with each wire pair inside its own ribbon return to the central service cover. These dimensions stay provisional until the blockout and actual slicer boxes are checked.
+
+The complete formulas, projected coordinates, beam assumptions, mass budget, attachment logic and remaining checks are in [harmony-plan/Full-calculation-v01.md](harmony-plan/Full-calculation-v01.md). The calculation is finished for review; **no Blender geometry has changed**. V13 remains the latest model checkpoint.
+
+## Earlier single-return calculation
+
+The user rejected the residual waviness and asked for the math before changing the Blender model. Take the dot as the centre of the shared mount. Lay out the dominant ribbon as one straight outward run, one deliberate turn and one straight return into a second seat on the same mount. Lay the surface lines at fixed offsets across the ribbon so they share the path and bend together. Stagger the locations and directions of the major turns across the lamp. [Dimensioned first-ribbon sketch](process/stills/22-first-ribbon-math.png)
+
+The first trial keeps the visible width at 165 mm. In its bend plane the straight outward run starts at x = 45 mm and ends at x = 536 mm. The 190° bend has a 52 mm core radius and 24 mm linear curvature ramps at each end. The centreline length along the bend is 52 × (190π/180) + 24 = 196.4 mm. Integrating the tangent puts the tip at x = 600 mm and the bend exit at x = 527.1 mm, 102.0 mm below the outbound line in that plane. The 489.5 mm straight return brings the ribbon back to x = 45 mm at a rise of 10° in the bend plane.
+
+The trial inclines the bend plane 72° from horizontal. Measured from the centre datum as outward, sideways and down, the seat centres are A = (45, 0, 32) mm and B = (45, 5.3, 48.2) mm. The greatest centreline excursion across the bend plane is 104.5 mm. The outside depth is approximately 32 + 104.5 sin(72°) + 82.5 cos(72°) = 157 mm before skin thickness. Root tab capture and overlap between ribbons remain to be worked out. This calculation defines the first ribbon only.
+
+## Previous appearance trial — V13
+
+V13 develops the right return of ribbon B as a near-straight approach, a broad turn and an eased exit. The approach measures 239.6 mm and widens from 130 to 165 mm. The turn carries 165 mm of width, with a 110 mm core radius in plan and 36 mm transitions at each end. The centre path turns 120° over 266 mm including the transitions. The face rolls independently by 62°. Compare the [side](development-v13/03-Low-side.png) and [underside](development-v13/02-Underside.png) with V12 before setting dimensions for the other folds. [Blender model](development-v13/Ribbon-Lamp-V13-Controlled-Fold.blend) · [Measured geometry](development-v13/Geometry-review.json)
+
+## Previous appearance revision — V12
+
+The user rejected the V11 rolled shape and asked to rebuild the curving lamp by itself, with one central hook and no roof. [V12](development-v12/README.md) redraws the two edges of each ribbon independently in 3D. The full-width left crest, right roll and rising lower sweep now determine the surfaces. The older V11 path arrangement is superseded for appearance.
+
+The new skin envelope is approximately 1,191 × 889 × 227 mm. This is deeper than the earlier 160 mm working target. Review the isolated [angled underside](development-v12/01-Lamp-alone.png), [below](development-v12/02-Underside.png) and [low side](development-v12/03-Low-side.png) before fixing installation clearance. The shape has not received user acceptance yet.
+
+The model contains one central mounting-eye envelope. The ribbons still need integral roots and captured joints to connect physically to it. Three selected bend lights are optical proxies; the old LED housing, wiring and joint studies have not been transferred to these new curves. Complete the visual review, then develop the central load path, local nesting joints and LED/wire channels, then the staggered print divisions. Do not release previous print panels as compatible with V12.
 
 ## V11 support, lighting and split plan
 
@@ -33,6 +73,8 @@ Keep the brightest curves, pocket openings, and structural overlaps within indiv
 The **Kobra S1 Max** has a **350 × 350 × 350 mm** build volume. Use about **320 mm per axis** as the working envelope in the chosen orientation, including brim and supports. Test diagonal placement for the widest sweeps and set part count after checking orientations and thin-wall toolpaths. Compare curved samples at **0.16 and 0.20 mm** in the actual milky PETG. Let the intentional long ripples carry the visible pattern and place the slicer perimeter starts on a tucked edge. [Anycubic Kobra S1 Max specifications](https://store.anycubic.com/collections/fdm-printer/products/kobra-s1-max) · [OrcaSlicer seam painting](https://github.com/orcaslicer/orcaslicer/wiki/prepare_seam_painting)
 
 ### Blender development checkpoint
+
+The [rolled V11 revision](development-v11-rolled/README.md) is the current Blender checkpoint. It deepens the left, right and lower curves across their width and raises the centre cover into the overlaps. The bench joint remains a separate fit study while the real overlap and centre seats are engineered.
 
 The [V11 Blender development file](development-v11/Ribbon-Lamp-V11-Development.blend) contains the initial full-size ribbon layout and a separate right-hand captive-joint study. One candidate LED envelope has been placed between the right-hand folds. The [development notes](development-v11/README.md) record the sampled overlap and checks. The six centre seats, the blend of the trial joint into the ribbon, the continuous wire runs, and the final panel divisions remain open.
 

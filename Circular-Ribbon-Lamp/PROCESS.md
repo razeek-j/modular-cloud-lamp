@@ -235,3 +235,111 @@ The user approved the new [low-angle](references/v11-approved-broad-ribbons-side
 **Checks:** Three closed skins with zero detected self and pairwise intersections. The trial LED was screened at the four sampled room directions, and 2,700 sampled direct source rays at or below horizontal were blocked. The bench joint passed 30 sampled axial insertion positions, and its captive lips intersected the attempted upward escape. The back-out keeper, centre seats, continuous wire runs and final print divisions remain open. The shape needs another pass against the approved images. [Check results](development-v11/Development-checks.json)
 
 **Review media:** [Underside](development-v11/01-Underside.png) · [Low angle](development-v11/02-Low-angle.png) · [Joint bench](development-v11/03-Right-joint-bench.png) · [End-on joint section](development-v11/04-Keyed-end-section.png). The [Blender-only recording](process/videos/17-v11-development.mp4) shows the actual saved model in the live viewport after the scripted build. Verified 9.56 seconds with no audio. [Decoded frame](process/stills/17-v11-development/window-2s.png)
+
+## 20 — V11 rolled curves and recessed cover, 6 November 2026
+
+**Changed:** The user identified the missing cross-width roll in the initial Blender layout. Developed a separate rolled revision with deeper turns at the left, right and lower bands. Added localized returns at the lips and raised the centre cover behind the front folds. The generator constrains clearance near actual projected overlaps and lets the ends roll more freely. Retained the initial development file as the previous checkpoint. [Rolled Blender file](development-v11-rolled/Ribbon-Lamp-V11-Rolled.blend) · [Development notes](development-v11-rolled/README.md)
+
+**Checks:** The selected right section increased from 35 mm to 121 mm of cross-width depth. The three shells pass self, pairwise and canopy intersection checks. Repositioned the trial LED within the rolled folds. Three sampled camera sweeps found zero first hits on the housing or tape. The current render shows a soft hardware shadow. The overlap still needs the integrated captive joint, centre seats, final loom and panel division. [Geometry and light checks](development-v11-rolled/Development-checks.json) · [Section and camera checks](development-v11-rolled/Room-view-check.json)
+
+**Review:** [Room angle](development-v11-rolled/05-Room-angle.png) · [Low side](development-v11-rolled/02-Low-angle.png) · [Underside](development-v11-rolled/01-Underside.png). The [actual Blender viewport recording](process/videos/18-v11-rolled-ribbons.mp4) shows the saved revision after the scripted build. Verified 9.52 seconds, one video track and no audio. [Decoded frame](process/stills/18-v11-rolled-ribbons/window-2s.png)
+
+## 21 — V12: reconstruct the broad folds, lamp alone, 6 November 2026
+
+**User correction:** V11 still looked like stacked bands and missed the approved concept's curviness. The user requested a fix, with the lamp alone, no roof, and one central hook. The previous claim of improved reference fidelity was too strong. Appearance remains subject to review.
+
+**Rebuilt:** Created independent 3D outer and inner edge rails for each ribbon instead of extending the V11 centreline blockout. The broad left crest, large right roll and rising lower sweep determine the whole surface. Rounded the lower-right return, moved the narrow rear return farther behind the broad crossing face, and preserved shallow continuous pleats. Local smooth depth adjustments resolve actual overlap regions. There is no ceiling or room mesh. A single metal eye/stem, compact plate and cover reserve the central mounting location. [Blender checkpoint](development-v12/Ribbon-Lamp-V12-Sculpted.blend) · [Source](scripts/build_v12_sculpted.py)
+
+**Scope:** The skin envelope is approximately 1,191 × 889 × 227 mm. The fuller folds exceed the previous 160 mm working depth target; installation clearance and visual acceptance are open. The central mount is an envelope: the skins still require integral roots and mechanically captured joints to connect to it. Three bend lights are optical proxies only. Actual LED packages, shielding, heat spreading, wire routing, structural capture and print segmentation have not been fitted to V12. No V12 production print set is released.
+
+**Checks:** Initial independent rails folded through themselves at tight returns; reparameterized those returns and adjusted local nesting. Offsetting thickness along the fine pleat normals also caused local self-intersections. The final skins use the smooth underlying sheet normals for thickness and carry the same relief on both faces. The three final skins have zero non-manifold edges, zero detected non-adjacent self-intersections and zero pairwise triangle intersections. These are skin checks, not a test of suspension, minimum wall thickness, concealment or thermal performance. [Results](development-v12/Intersection-check.json)
+
+**Actual model review:** [Angled underside](development-v12/01-Lamp-alone.png) · [Below](development-v12/02-Underside.png) · [Low side](development-v12/03-Low-side.png) · [Rear hook](development-v12/04-Rear-hook.png) · [Neutral shape](development-v12/05-Neutral-shape.png). These are Blender renders, with no generative image substitution. The model's openings and light distribution still differ from the approved concept. [Development notes](development-v12/README.md)
+
+**Process capture:** [19 — initial V12 viewport](process/videos/19-v12-sculpted-ribbons.mp4) is a verified 9.36-second Blender-window recording before the final thickness-offset repair. [20 — checked V12 viewport](process/videos/20-v12-checked-shape.mp4) records the reloaded final geometry. Both are actual project-window captures after scripted modeling, not recordings of manual construction. No microphone or system audio is captured. [Final decoded frame](process/stills/20-v12-checked-shape/window-2s.png)
+
+## 22 — V13: dimension the right fold, 6 November 2026
+
+The right ribbon now follows a measured 239.6 mm approach that departs from its end-to-end chord by at most 4.2 mm. Its width increases from 130 to 165 mm and holds at 165 mm through a 120° turn. A 110 mm centreline radius governs the core in plan. Each end has a 36 mm curvature ramp, bringing the total curved run to 266.3 mm in plan. The ribbon banks from −21° to +41° through the turn, then tapers toward the overlap. The trial makes the right return broader and closes some of the gap visible from the side. Local clearances for the adjacent skins were recalculated. [Blender checkpoint](development-v13/Ribbon-Lamp-V13-Controlled-Fold.blend) · [Fold source](scripts/v13_right_fold.py) · [Measured geometry](development-v13/Geometry-review.json)
+
+The three skins have zero non-manifold edges and zero detected self or pairwise intersections. The skin envelope is about 1,191 × 889 × 214 mm, with its lowest point 218 mm below the working datum. The hook connections, LED hardware and print divisions remain open. [Mesh checks](development-v13/Intersection-check.json) · [V13 side](development-v13/03-Low-side.png) · [V12 side](development-v12/03-Low-side.png) · [V13 underside](development-v13/02-Underside.png)
+
+The 9.48-second recording shows the saved V13 model in the live Blender viewport after the scripted build. It has one video track and no audio. [Viewport capture](process/videos/21-v13-controlled-right-fold.mp4) · [Decoded frame](process/stills/21-v13-controlled-right-fold/window-2s.png)
+
+## 23 — First-ribbon harmony calculation, 6 November 2026
+
+The user identified residual waviness and asked for straight runs with consistent tight bends and a route between real attachment locations. Calculated one 165 mm wide trial ribbon with a 491 mm outbound leg, a 196 mm eased turn around a 52 mm core radius and a 490 mm straight return. The 190° sweep brings both seats back to the shared hub. The bend plane inclination gives a calculated depth of about 158 mm with nominal skin thickness. This step produced a dimensioned sketch and seat coordinates for review. The last Blender checkpoint is V13. [Sketch](process/stills/22-first-ribbon-math.png) · [Calculation](PLAN.md#earlier-single-return-calculation)
+
+## 24 — Reference measurements after rejecting radial layout, 6 November 2026
+
+The three-ribbon radial calculation fit six provisional seats within one hub and cleared the sampled skin intersections. Its outline spread into three separate spokes, which missed the reference. The user asked to return to the image. Archived that calculation and mapped the visible runs, turn locations and outline directly from the approved underside view. The mapped face crossing and tuck determined the next geometry. [Reference map](harmony-plan/Reference-map.png) · [Current calculations](harmony-plan/Full-calculation-v01.md) · [Discarded radial study](harmony-plan/discarded-radial-study/Assembly-layout.png)
+
+## 25 — Three-ribbon harmony, mass and support calculation V01, 6 November 2026
+
+**Direction:** The user asked for independent agent calculations for the full ribbon design, mass, and support before moving to the next modeling stage. The calculation follows the approved crossing composition. It does not use the rejected spoke arrangement and adds no Blender geometry.
+
+**Reference geometry:** At a 1,200 mm image width, the three projected visible chords are A 280 mm at −3.8°, B 292 mm at −9.1°, and C 392 mm at +32.6°. A/B remain almost parallel while C crosses diagonally. The image outline is about 1,200 × 894 mm; a local outer-lobe extension of 78 mm at each end of the short direction gives a 1,200 × 1,050 mm working footprint. Candidate turns use 35 mm linear-curvature shoulders: A/C 150° around R120 mm and B 165° around R125 mm, giving 349 / 395 / 349 mm turn lengths and 35 mm inner-edge radii. Route budgets are estimated at 1.9 / 1.8 / 2.0 m; projected chords and hand-marked folds do not determine complete 3D routes.
+
+**Mass:** Three path-times-mean-width estimates yield 0.933 m² of skin and 1.896 kg at 1.6 mm PETG, using the nominal 1.27 g/cm³ density in the cited Prusament datasheet. Two continuous 12 × 1.6 mm integral rear returns over the estimated 5.7 m route add 0.278 kg. Laps, captured seats and keys, LED hardware, and the central metal hub bring the estimated assembly to 2.70–3.17 kg without an onboard driver, or 2.80–3.42 kg with one. A 4.0 kg working budget is used for load screening.
+
+**Support cross-check:** For a 4 kg screen mass, static load is 39.2 N and the selected 5× bench screen is 196 N. Six equal roots would carry 32.7 N each at that screen load, but the design does not rely on equal sharing. Candidate root-seat test capacity is 300 N each. The beam check uses a 1.6 mm face with two 12 × 1.6 mm rear webs, an assumed effective modulus of 1.5 GPa and positive simple supports. The first independent cross-section pass mislocated the web centroid and returned I=1,730 mm⁴; a second arithmetic review corrected the section to I=2,074.8 mm⁴ for a 170 mm face and 2,042.7 mm⁴ for a 150 mm face. The updated model estimates 1.18–1.20 mm static sag over a 450 mm span under the deliberately uniform full-mass load, or about 5.9–6.0 mm at 5×. A 500 mm cantilever is about 17 mm static, showing why positive hidden overlap seats matter. This straight-beam comparison excludes twisting, creep, temperature, joint flexibility, and print anisotropy.
+
+**Print and lighting plan:** Use 23–25 parts with 240–260 mm net panel advance and 20 mm integral laps within a 320 mm working box inside the Kobra S1 Max's manufacturer-listed 350 mm volume. Since each ribbon is an open root-to-root path, that means 20–22 panel-to-panel laps. Reserve three approximately 100 mm hidden COB pockets, one in each selected fold, and route three wire pairs through provisional 6 × 4 mm channels to one central connection. At 24 V and 9.6 W/m, the example 300 mm of tape draws 2.88 W / 0.12 A; actual LED hardware remains unselected.
+
+**Saved calculation:** [Full report](harmony-plan/Full-calculation-v01.md) · [Reproducible calculator](harmony-plan/calculate_candidate.py) · [Machine-readable outputs](harmony-plan/candidate-calculations.json) · [Updated reference plan](PLAN.md#current-design-plan--harmony-calculations-v01). The calculation and formulas were independently cross-checked. No Blender geometry or recording was created for this math-only step; V13 remains the last model. A 3D blockout, actual slicer volumes, material selection, and physical joint/retention/thermal tests remain open.
+
+## 26 — V14: circular ribbon knot with hidden LEDs, 16 November 2026
+
+**Direction:** The user supplied two new references, a long ribbon lamp and a circular one, and asked for the circular look, built in Blender, with hidden LEDs and a very clean finish. This moves the project back to the model stage.
+
+**Built:** The lamp is now one continuous closed band on a flattened (2,5) torus-knot path, with 5 outer lobes, 5 inner lobes and 10 crossings, around a single Ø304 × 130 mm centre drum. The width direction is set square to the line between the two strands at each angle, so the band stands as a wall in the lobes and lies flat at the crossings. It cannot hit itself. The top edge is level 21 mm below the ceiling, the grade between crossings is controlled (28° maximum), and 22 continuous grooves cover the faces. [Blender checkpoint](development-v14/Ribbon-Lamp-V14-Circular-Knot.blend) · [Source](scripts/build_v14_circular_knot.py) · [Notes](development-v14/README.md)
+
+**Lighting:** Five upward channels on the outer-lobe crests hold 1.06 m of COB strip. Each opening leans 35° toward the centre. The drum base is an opal diffuser. A sight-line test cast 12,483 rays from 219 room eye positions, and none reaches an LED. The first attempts failed this test. Open, concave channel end caps let rays in, and channels on steep edges could be seen lengthwise. Solid end walls, openings that face straight up, and a 15° grade limit fixed it.
+
+**Checks:** Zero self-intersections and zero non-manifold edges. The minimum clearance between separate parts of the band is about 32 mm. The skin envelope is about 1,066 × 1,046 × 279 mm. The skin is 0.81 m², about 1.85 kg in PETG. [Checks](development-v14/Checks.json)
+
+**Renders:** [Below](development-v14/01-From-below.png) · [Room view](development-v14/02-Room-view.png) · [Oblique](development-v14/03-Oblique-below.png) · [Centre](development-v14/04-Centre-detail.png) · [Shape unlit](development-v14/05-Shape-unlit.png). These are Blender Cycles renders of the actual model.
+
+**Open:** The 279 mm depth needs review. Seat clips, sag at the flat crossings, wire routes, real LED profile and print segmentation are not done. From below the form reads as a regular 5-lobe flower, which is more ordered than the reference. No viewport recording was made because the build and renders ran in Blender background mode.
+
+## 27 — V15: broad rolling ribbon, 16 November 2026
+
+**Direction:** The user reviewed V14 and said they expected the main reference look (broad flowing ribbons, low profile, small ceiling disc) but "a bit round" and unusual. V14's narrow upright band was the wrong character.
+
+**Built:** One continuous band 175–252 mm wide on a (2,3) knot path: three large irregular outer loops, three inner loops under a Ø240 × 32 mm ceiling disc, three crossings. The band lies flat at crossings, banks up to 60° at the outer loops and rolls with an S-twist through each loop. Three clear posts carry it from the disc. [Blender checkpoint](development-v15/Ribbon-Lamp-V15-Broad-Ribbon.blend) · [Source](scripts/build_v15_broad_ribbon.py) · [Notes](development-v15/README.md)
+
+**Problems found on the way:** The first twist rule tilted the band into the other strand near crossings. Bank and twist now start only once the two strands are apart in plan, measured as true plan distance, and the twist direction follows the over/under order. Cross-slope is measured square to the path. A centre-line LED channel showed through the band as a dark line, so it moved to the inner edge. The LED channel was first built on the visible underside by a sign error; fixed.
+
+**Checks:** Zero self-intersections, zero non-manifold edges, 12.5 mm minimum clearance, about 1,201 × 1,000 × 223 mm, 0.957 m², about 2.19 kg PETG. LED sight-line test: 416,875 rays from 725 eye positions, no tested LED station visible; 2.79 m of strip kept. [Checks](development-v15/Checks.json)
+
+**Renders:** [Room view](development-v15/01-Room-view.png) · [Below](development-v15/02-From-below.png) · [Oblique](development-v15/03-Oblique-below.png) · [Close fold](development-v15/04-Close-fold.png) · [Shape unlit](development-v15/05-Shape-unlit.png). Blender Cycles renders of the actual model.
+
+**Open:** User review of the shape; depth 223 mm; sag at 12.5 mm clearance; post seats, wiring, LED hardware and print segmentation. No viewport recording (background build).
+
+## 28 — V16: three-layer broad ribbon, 16 November 2026
+
+**Direction:** The user reviewed V15 and asked for more ribbon layers.
+
+**Built:** The band now follows a (3,4) knot path, three times round the centre, so three strands are layered at every plan direction: four outer loops, four inner loops, eight crossings. Band 142–205 mm wide, 6.79 m long. When two strands cross, the third is far away radially, which keeps the layers apart. A Ø200 × 32 mm ceiling disc and four clear posts carry it. [Blender checkpoint](development-v16/Ribbon-Lamp-V16-Layered-Ribbon.blend) · [Source](scripts/build_v16_layered_ribbon.py) · [Notes](development-v16/README.md)
+
+**Fix on the way:** The band edge overlapped the first Ø240 disc by 1.5 mm at its rim. The disc is now Ø200, leaving a 5.4 mm gap.
+
+**Checks:** Zero self-intersections, zero non-manifold edges, 25.6 mm minimum clearance, about 1,205 × 1,165 × 182 mm, 1.172 m², about 2.68 kg PETG. LED sight-line test: 555,350 rays from 725 eye positions, no tested LED station visible; 4.32 m of strip kept. [Checks](development-v16/Checks.json)
+
+**Renders:** [Room view](development-v16/01-Room-view.png) · [Below](development-v16/02-From-below.png) · [Oblique](development-v16/03-Oblique-below.png) · [Close fold](development-v16/04-Close-fold.png) · [Shape unlit](development-v16/05-Shape-unlit.png). Blender Cycles renders of the actual model.
+
+**Open:** User review; pinwheel reading from directly below; 44° band slope near inner loops; post seats, wiring, LED hardware, sag and print segmentation. No viewport recording (background build).
+
+## 29 — V17: Borromean ribbon lamp with a full print set, 16 November 2026
+
+**Direction:** The user rejected V14–V16. They did not match the reference from the side, they had no print plan, and the user asked for a premium product with clean, deliberate curves, broad areas, a mathematical idea and a "wow factor".
+
+**Design:** Three ellipse-plan ribbon rings are woven in the Borromean order (A over B, B over C, C over A). Each ring is a Möbius band with three evenly spaced half-twists on its free outer arc. Ring sizes step 1 : 0.9 : 0.81. Width is constant through the twists and broad where the ribbons lie flat. A constrained solver chooses the smoothest periodic-spline heights that keep the woven layers at least 18 mm apart inside a 22–153 mm depth band. [Blender checkpoint](development-v17/Ribbon-Lamp-V17-Borromean.blend) · [Notes](development-v17/README.md)
+
+**Iterations:** Fixed-level and Fourier height rules collided where the broad ribbons overlap. A small spot covered by all three rings made the cyclic order impossible, so the centre was slimmed to 105 mm. The first solver pressed everything against the ceiling and flattened the look, so it now tracks the designed over/under heights. Crossing spacer posts showed from the side and were replaced by a hidden ceiling-white spider. A single slow twist per ring read as flat petals, five twists read as a frill, and three constant-width twists were chosen. Side-by-side comparisons with the reference drove each step.
+
+**Checks:** Zero self or pairwise intersections, zero non-manifold edges, a 16.6 mm minimum gap, a 180 mm tightest bend radius, about 1,084 × 1,102 × 153 mm, and 1.97 kg of PETG skin. LED sight-line test: 195,025 rays from 725 eye positions, none reaching an LED; 2.42 m of strip. About 14% of sampled sight lines reach some part of a spider arm. [Checks](development-v17/Checks.json)
+
+**Print set:** 25 pieces of 150–249 mm, all within the 320 mm working box, on 8 plates (3MF). 24 print standing on their edge so the layer lines run along the ribbon. Bonded 16 mm lap tabs, printed LED channels and M3 insert bosses are part of the pieces. All 25 STLs are closed shells. The plates were not slicer-verified, because only a Kobra S1 profile is installed. [Print map](development-v17/Print-map.json) · [Assembly map](development-v17/Assembly-map.png)
+
+**Open:** Sag and joint-strength tests, wire routes, driver and spider detail design, softer inner glow than the reference, and slightly pointed twist ends at close range. No viewport recording was made (background build).

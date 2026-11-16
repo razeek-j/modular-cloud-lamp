@@ -1,0 +1,42 @@
+{
+  "stage": "Shape reconstruction; appearance and engineering checks pending",
+  "envelope_mm": [
+    1190.98562002182,
+    889.2864286899567,
+    213.65759754553437
+  ],
+  "lowest_point_mm": 217.82401204109192,
+  "central_attachment_count": 1,
+  "ceiling_geometry": false,
+  "right_fold": {
+    "approach_rows": [
+      64,
+      93
+    ],
+    "turn_rows": [
+      172,
+      229
+    ],
+    "bend_radius_in_plan_mm": 110.0,
+    "turn_degrees": 119.99999999999999,
+    "curvature_ramp_each_mm": 36.0,
+    "turn_length_in_plan_mm": 266.3834612632515,
+    "bend_width_mm": 165,
+    "bank_angles_degrees": [
+      -21,
+      41
+    ],
+    "measured_approach_length_mm": 239.6,
+    "measured_approach_max_departure_mm": 4.2,
+    "measured_approach_end_widths_mm": [
+      130.0,
+      165.0
+    ],
+    "measured_turn_width_range_mm": [
+      165.0,
+      165.0
+    ],
+    "measured_plan_turn_length_mm": 266.3,
+    "measured_central_plan_radius_mm": 110.0
+  }
+}
