@@ -1,0 +1,292 @@
+{
+  "ribbon_self_intersections": 0,
+  "ribbon_pairwise_intersections": 0,
+  "ribbon_non_manifold_edges": 0,
+  "section_flips_per_ring": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+  },
+  "min_gap_between_ribbons_mm": 9.5,
+  "footprint_mm": [
+    1230,
+    1105
+  ],
+  "top_below_ceiling_mm": 20.6,
+  "depth_below_ceiling_mm": 188.2,
+  "seats": [
+    {
+      "ring": "A",
+      "station": 2,
+      "radius_from_centre_mm": 156,
+      "length_mm": 8.8
+    },
+    {
+      "ring": "B",
+      "station": 409,
+      "radius_from_centre_mm": 37,
+      "length_mm": 65.2
+    },
+    {
+      "ring": "C",
+      "station": 437,
+      "radius_from_centre_mm": 96,
+      "length_mm": 6.8
+    }
+  ],
+  "crossing_pads": [
+    {
+      "upper": "A",
+      "lower": "B",
+      "at_mm": [
+        326,
+        193
+      ],
+      "length_mm": 58.1
+    },
+    {
+      "upper": "A",
+      "lower": "B",
+      "at_mm": [
+        455,
+        344
+      ],
+      "length_mm": 47.7
+    },
+    {
+      "upper": "A",
+      "lower": "B",
+      "at_mm": [
+        235,
+        257
+      ],
+      "length_mm": 53.8
+    },
+    {
+      "upper": "A",
+      "lower": "B",
+      "at_mm": [
+        90,
+        99
+      ],
+      "length_mm": 29.3
+    },
+    {
+      "upper": "C",
+      "lower": "A",
+      "at_mm": [
+        -194,
+        134
+      ],
+      "length_mm": 51.9
+    },
+    {
+      "upper": "C",
+      "lower": "A",
+      "at_mm": [
+        -310,
+        174
+      ],
+      "length_mm": 23.8
+    },
+    {
+      "upper": "C",
+      "lower": "B",
+      "at_mm": [
+        -74,
+        -332
+      ],
+      "length_mm": 43.3
+    },
+    {
+      "upper": "C",
+      "lower": "B",
+      "at_mm": [
+        78,
+        -205
+      ],
+      "length_mm": 47.6
+    },
+    {
+      "upper": "C",
+      "lower": "B",
+      "at_mm": [
+        -35,
+        -5
+      ],
+      "length_mm": 48.9
+    },
+    {
+      "upper": "C",
+      "lower": "B",
+      "at_mm": [
+        -109,
+        -181
+      ],
+      "length_mm": 36.5
+    }
+  ],
+  "measure": {
+    "A": {
+      "length_mm": 2571,
+      "width_mm": [
+        84,
+        139
+      ],
+      "nodes": 9,
+      "span_mm": [
+        141,
+        306,
+        483
+      ],
+      "half_turns": 0,
+      "plan_radius_share": {
+        "lip_under_60": 0.0,
+        "loop_60_130": 0.278,
+        "wave_130_300": 0.223,
+        "sweep_over_300": 0.499
+      },
+      "tightest_plan_radius_mm": 96,
+      "tightest_3d_radius_mm": 47
+    },
+    "B": {
+      "length_mm": 2494,
+      "width_mm": [
+        84,
+        122
+      ],
+      "nodes": 9,
+      "span_mm": [
+        186,
+        225,
+        426
+      ],
+      "half_turns": 0,
+      "plan_radius_share": {
+        "lip_under_60": 0.0,
+        "loop_60_130": 0.289,
+        "wave_130_300": 0.213,
+        "sweep_over_300": 0.498
+      },
+      "tightest_plan_radius_mm": 100,
+      "tightest_3d_radius_mm": 99
+    },
+    "C": {
+      "length_mm": 2212,
+      "width_mm": [
+        84,
+        108
+      ],
+      "nodes": 8,
+      "span_mm": [
+        145,
+        280,
+        451
+      ],
+      "half_turns": 0,
+      "plan_radius_share": {
+        "lip_under_60": 0.0,
+        "loop_60_130": 0.303,
+        "wave_130_300": 0.217,
+        "sweep_over_300": 0.48
+      },
+      "tightest_plan_radius_mm": 92,
+      "tightest_3d_radius_mm": 44
+    },
+    "stance": {
+      "flat_under_25": 0.07,
+      "leaning": 0.58,
+      "upright_over_55": 0.35
+    },
+    "footprint_mm": [
+      1230,
+      1104
+    ],
+    "top_z": -20.7,
+    "lowest_z": -188.0
+  },
+  "weave": {
+    "crossings": 10,
+    "rule_violations_hard_soft": [
+      0,
+      6
+    ]
+  },
+  "rings": {
+    "A": {
+      "length_mm": 2571,
+      "width_mm": [
+        84,
+        139
+      ],
+      "tightest_bend_radius_mm": 47,
+      "skin_mass_kg": 0.59
+    },
+    "B": {
+      "length_mm": 2494,
+      "width_mm": [
+        84,
+        122
+      ],
+      "tightest_bend_radius_mm": 99,
+      "skin_mass_kg": 0.53
+    },
+    "C": {
+      "length_mm": 2212,
+      "width_mm": [
+        84,
+        108
+      ],
+      "tightest_bend_radius_mm": 44,
+      "skin_mass_kg": 0.47
+    }
+  },
+  "skin_mass_kg_petg": 1.59,
+  "centre_of_mass_offset_mm": [
+    9,
+    -4
+  ],
+  "led_sight_line_test": {
+    "eye_positions": 725,
+    "led_points_tested": 302,
+    "rays_cast": 218950,
+    "led_points_visible": 0
+  },
+  "led_channels": [
+    {
+      "ring": "A",
+      "channel_length_mm": 133,
+      "led_length_mm": 97
+    },
+    {
+      "ring": "A",
+      "channel_length_mm": 1378,
+      "led_length_mm": 1340
+    },
+    {
+      "ring": "C",
+      "channel_length_mm": 633,
+      "led_length_mm": 595
+    },
+    {
+      "ring": "C",
+      "channel_length_mm": 725,
+      "led_length_mm": 688
+    }
+  ],
+  "led_total_length_mm": 2720,
+  "solver": {
+    "constraints": 3836,
+    "worst_violation_mm": -7.51,
+    "worst_by_kind": {
+      "top": -4.1,
+      "bottom": -4.1,
+      "pair": -7.5
+    },
+    "count_by_kind": {
+      "top": 608,
+      "bottom": 608,
+      "pair": 2620
+    }
+  }
+}

@@ -1,0 +1,1278 @@
+{
+ "working_box_mm": 320.0,
+ "piece_length_range_mm": [
+  150.0,
+  250.0
+ ],
+ "joint": {
+  "type": "bonded lap tab on the upper (ceiling-facing) face",
+  "tab_length_mm": 16.0,
+  "tab_thickness_mm": 1.2,
+  "glue_gap_mm": 0.2,
+  "registration": "tab edges sit between the edge beads"
+ },
+ "bosses": {
+  "type": "M3 heat-set insert boss",
+  "outer_d_mm": 12.0,
+  "hole_d_mm": 4.2,
+  "height_mm": 7.0
+ },
+ "led_channel": {
+  "width_mm": 12.0,
+  "depth_mm": 8.0,
+  "note": "printed with the piece on its top edge, opening up"
+ },
+ "pieces": [
+  {
+   "id": "A01",
+   "ring": "A",
+   "stations": [
+    75,
+    156
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 243,
+   "mid": [
+    343.6337259151865,
+    167.3884446493888,
+    -54.055267843212334
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.057,
+   "bbox_mm": [
+    257,
+    75,
+    109
+   ],
+   "fits": true,
+   "volume_cm3": 47.3,
+   "mass_g_petg": 60
+  },
+  {
+   "id": "A02",
+   "ring": "A",
+   "stations": [
+    156,
+    237
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 243,
+   "mid": [
+    562.477383031681,
+    171.04134318325887,
+    -62.15185155081261
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.036,
+   "bbox_mm": [
+    106,
+    141,
+    235
+   ],
+   "fits": true,
+   "volume_cm3": 43.5,
+   "mass_g_petg": 55
+  },
+  {
+   "id": "A03",
+   "ring": "A",
+   "stations": [
+    237,
+    315
+   ],
+   "length_mm": 234,
+   "bosses": [],
+   "led_channel_mm": 234,
+   "mid": [
+    446.51754564501107,
+    310.68250559094463,
+    -52.90169045837468
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -30,
+   "overhang_fraction": 0.052,
+   "bbox_mm": [
+    87,
+    262,
+    94
+   ],
+   "fits": true,
+   "volume_cm3": 45.4,
+   "mass_g_petg": 58
+  },
+  {
+   "id": "A04",
+   "ring": "A",
+   "stations": [
+    315,
+    396
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 243,
+   "mid": [
+    215.5867058839201,
+    289.7587184981399,
+    -54.64843111812809
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.058,
+   "bbox_mm": [
+    58,
+    276,
+    132
+   ],
+   "fits": true,
+   "volume_cm3": 53.5,
+   "mass_g_petg": 68
+  },
+  {
+   "id": "A05",
+   "ring": "A",
+   "stations": [
+    396,
+    477
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 111,
+   "mid": [
+    -25.33769674208564,
+    315.23399188456324,
+    -102.49899185116746
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.117,
+   "bbox_mm": [
+    268,
+    124,
+    133
+   ],
+   "fits": true,
+   "volume_cm3": 55.0,
+   "mass_g_petg": 70
+  },
+  {
+   "id": "A06",
+   "ring": "A",
+   "stations": [
+    477,
+    546
+   ],
+   "length_mm": 207,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -247.20803852444018,
+    281.3049788868464,
+    -104.33752410798122
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.102,
+   "bbox_mm": [
+    100,
+    239,
+    132
+   ],
+   "fits": true,
+   "volume_cm3": 50.1,
+   "mass_g_petg": 64
+  },
+  {
+   "id": "A07",
+   "ring": "A",
+   "stations": [
+    546,
+    627
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 132,
+   "mid": [
+    -463.6429065015489,
+    314.1113017484527,
+    -102.09948002235758
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.059,
+   "bbox_mm": [
+    104,
+    250,
+    157
+   ],
+   "fits": true,
+   "volume_cm3": 53.2,
+   "mass_g_petg": 68
+  },
+  {
+   "id": "A08",
+   "ring": "A",
+   "stations": [
+    627,
+    690
+   ],
+   "length_mm": 189,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -564.1353903347458,
+    172.99977006125098,
+    -143.45649473854792
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -15,
+   "overhang_fraction": 0.008,
+   "bbox_mm": [
+    215,
+    89,
+    147
+   ],
+   "fits": true,
+   "volume_cm3": 37.2,
+   "mass_g_petg": 47
+  },
+  {
+   "id": "A09",
+   "ring": "A",
+   "stations": [
+    690,
+    771
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -373.24496544339644,
+    159.99293709727343,
+    -141.5398830580917
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -15,
+   "overhang_fraction": 0.013,
+   "bbox_mm": [
+    78,
+    266,
+    122
+   ],
+   "fits": true,
+   "volume_cm3": 44.9,
+   "mass_g_petg": 57
+  },
+  {
+   "id": "A10",
+   "ring": "A",
+   "stations": [
+    771,
+    849
+   ],
+   "length_mm": 234,
+   "bosses": [],
+   "led_channel_mm": 42,
+   "mid": [
+    -140.59910621418322,
+    135.2217196018437,
+    -131.73785578998044
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -30,
+   "overhang_fraction": 0.023,
+   "bbox_mm": [
+    278,
+    67,
+    120
+   ],
+   "fits": true,
+   "volume_cm3": 41.5,
+   "mass_g_petg": 53
+  },
+  {
+   "id": "A11",
+   "ring": "A",
+   "stations": [
+    849,
+    75
+   ],
+   "length_mm": 249,
+   "bosses": [
+    "seat"
+   ],
+   "led_channel_mm": 249,
+   "mid": [
+    101.6236443031573,
+    130.16800298828312,
+    -67.89388990421558
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.06,
+   "bbox_mm": [
+    69,
+    272,
+    94
+   ],
+   "fits": true,
+   "volume_cm3": 50.5,
+   "mass_g_petg": 64
+  },
+  {
+   "id": "B01",
+   "ring": "B",
+   "stations": [
+    18,
+    81
+   ],
+   "length_mm": 189,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    249.6118908947063,
+    16.557638455256633,
+    -125.26766964608615
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.01,
+   "bbox_mm": [
+    20,
+    217,
+    125
+   ],
+   "fits": true,
+   "volume_cm3": 40.3,
+   "mass_g_petg": 51
+  },
+  {
+   "id": "B02",
+   "ring": "B",
+   "stations": [
+    81,
+    162
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    358.787822184508,
+    199.8396867368783,
+    -141.49738682560573
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -15,
+   "overhang_fraction": 0.077,
+   "bbox_mm": [
+    73,
+    279,
+    84
+   ],
+   "fits": true,
+   "volume_cm3": 35.4,
+   "mass_g_petg": 45
+  },
+  {
+   "id": "B03",
+   "ring": "B",
+   "stations": [
+    162,
+    243
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    433.3744566642572,
+    388.9438948761096,
+    -144.70126830015872
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -30,
+   "overhang_fraction": 0.013,
+   "bbox_mm": [
+    241,
+    109,
+    84
+   ],
+   "fits": true,
+   "volume_cm3": 39.5,
+   "mass_g_petg": 50
+  },
+  {
+   "id": "B04",
+   "ring": "B",
+   "stations": [
+    243,
+    324
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    254.49479833091985,
+    316.03501805502117,
+    -143.6259108814866
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.013,
+   "bbox_mm": [
+    35,
+    264,
+    100
+   ],
+   "fits": true,
+   "volume_cm3": 37.9,
+   "mass_g_petg": 48
+  },
+  {
+   "id": "B05",
+   "ring": "B",
+   "stations": [
+    324,
+    399
+   ],
+   "length_mm": 225,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    102.08124065722693,
+    145.50180313311478,
+    -153.55888799704525
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.014,
+   "bbox_mm": [
+    61,
+    241,
+    87
+   ],
+   "fits": true,
+   "volume_cm3": 33.9,
+   "mass_g_petg": 43
+  },
+  {
+   "id": "B06",
+   "ring": "B",
+   "stations": [
+    399,
+    477
+   ],
+   "length_mm": 234,
+   "bosses": [
+    "seat"
+   ],
+   "led_channel_mm": 0,
+   "mid": [
+    -47.85628595286724,
+    -25.406867038007356,
+    -154.83185017127678
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 15,
+   "overhang_fraction": 0.015,
+   "bbox_mm": [
+    66,
+    252,
+    100
+   ],
+   "fits": true,
+   "volume_cm3": 34.1,
+   "mass_g_petg": 43
+  },
+  {
+   "id": "B07",
+   "ring": "B",
+   "stations": [
+    477,
+    558
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -157.93344822061337,
+    -238.27710964172942,
+    -146.61925000423082
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.012,
+   "bbox_mm": [
+    254,
+    52,
+    112
+   ],
+   "fits": true,
+   "volume_cm3": 38.8,
+   "mass_g_petg": 49
+  },
+  {
+   "id": "B08",
+   "ring": "B",
+   "stations": [
+    558,
+    639
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -299.5040352041395,
+    -417.5085389115754,
+    -104.34076417741589
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -15,
+   "overhang_fraction": 0.011,
+   "bbox_mm": [
+    121,
+    178,
+    200
+   ],
+   "fits": true,
+   "volume_cm3": 47.9,
+   "mass_g_petg": 61
+  },
+  {
+   "id": "B09",
+   "ring": "B",
+   "stations": [
+    639,
+    693
+   ],
+   "length_mm": 162,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -143.1798862189854,
+    -481.39688317858804,
+    -117.37253918200666
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.016,
+   "bbox_mm": [
+    77,
+    197,
+    121
+   ],
+   "fits": true,
+   "volume_cm3": 29.8,
+   "mass_g_petg": 38
+  },
+  {
+   "id": "B10",
+   "ring": "B",
+   "stations": [
+    693,
+    771
+   ],
+   "length_mm": 234,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    -48.04497506916041,
+    -311.44688426738225,
+    -149.25278157857042
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.014,
+   "bbox_mm": [
+    78,
+    247,
+    93
+   ],
+   "fits": true,
+   "volume_cm3": 39.7,
+   "mass_g_petg": 50
+  },
+  {
+   "id": "B11",
+   "ring": "B",
+   "stations": [
+    771,
+    18
+   ],
+   "length_mm": 234,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    127.83034046764124,
+    -157.56774551054096,
+    -140.67526277712426
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.012,
+   "bbox_mm": [
+    255,
+    30,
+    114
+   ],
+   "fits": true,
+   "volume_cm3": 41.4,
+   "mass_g_petg": 53
+  },
+  {
+   "id": "C01",
+   "ring": "C",
+   "stations": [
+    30,
+    108
+   ],
+   "length_mm": 234,
+   "bosses": [],
+   "led_channel_mm": 132,
+   "mid": [
+    70.13280785066739,
+    -424.5610086964558,
+    -85.72181021984512
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -15,
+   "overhang_fraction": 0.037,
+   "bbox_mm": [
+    267,
+    75,
+    115
+   ],
+   "fits": true,
+   "volume_cm3": 51.4,
+   "mass_g_petg": 65
+  },
+  {
+   "id": "C02",
+   "ring": "C",
+   "stations": [
+    108,
+    189
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    203.51495376512236,
+    -616.9881510533295,
+    -104.83841961476662
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -15,
+   "overhang_fraction": 0.013,
+   "bbox_mm": [
+    93,
+    226,
+    147
+   ],
+   "fits": true,
+   "volume_cm3": 44.2,
+   "mass_g_petg": 56
+  },
+  {
+   "id": "C03",
+   "ring": "C",
+   "stations": [
+    189,
+    270
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    323.6000188454323,
+    -485.19048974443564,
+    -105.09059726032964
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.01,
+   "bbox_mm": [
+    215,
+    94,
+    140
+   ],
+   "fits": true,
+   "volume_cm3": 41.0,
+   "mass_g_petg": 52
+  },
+  {
+   "id": "C04",
+   "ring": "C",
+   "stations": [
+    270,
+    351
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 156,
+   "mid": [
+    167.6127478872929,
+    -306.47264098448477,
+    -76.4817446491025
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.048,
+   "bbox_mm": [
+    276,
+    75,
+    112
+   ],
+   "fits": true,
+   "volume_cm3": 52.0,
+   "mass_g_petg": 66
+  },
+  {
+   "id": "C05",
+   "ring": "C",
+   "stations": [
+    351,
+    420
+   ],
+   "length_mm": 207,
+   "bosses": [],
+   "led_channel_mm": 207,
+   "mid": [
+    43.9617044186817,
+    -119.35918751495821,
+    -77.92421377980492
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.153,
+   "bbox_mm": [
+    77,
+    234,
+    103
+   ],
+   "fits": true,
+   "volume_cm3": 37.4,
+   "mass_g_petg": 48
+  },
+  {
+   "id": "C06",
+   "ring": "C",
+   "stations": [
+    420,
+    492
+   ],
+   "length_mm": 216,
+   "bosses": [
+    "seat"
+   ],
+   "led_channel_mm": 216,
+   "mid": [
+    -111.03298776459602,
+    21.981662061325355,
+    -79.37718138801961
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 15,
+   "overhang_fraction": 0.08,
+   "bbox_mm": [
+    255,
+    85,
+    105
+   ],
+   "fits": true,
+   "volume_cm3": 44.4,
+   "mass_g_petg": 56
+  },
+  {
+   "id": "C07",
+   "ring": "C",
+   "stations": [
+    492,
+    555
+   ],
+   "length_mm": 189,
+   "bosses": [],
+   "led_channel_mm": 42,
+   "mid": [
+    -221.5738138937043,
+    184.27151722385202,
+    -61.88050021123128
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -30,
+   "overhang_fraction": 0.024,
+   "bbox_mm": [
+    81,
+    122,
+    216
+   ],
+   "fits": true,
+   "volume_cm3": 30.6,
+   "mass_g_petg": 39
+  },
+  {
+   "id": "C08",
+   "ring": "C",
+   "stations": [
+    555,
+    609
+   ],
+   "length_mm": 162,
+   "bosses": [],
+   "led_channel_mm": 114,
+   "mid": [
+    -338.6733769006123,
+    91.73735886744599,
+    -55.91676921983762
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": 30,
+   "overhang_fraction": 0.029,
+   "bbox_mm": [
+    187,
+    93,
+    108
+   ],
+   "fits": true,
+   "volume_cm3": 29.1,
+   "mass_g_petg": 37
+  },
+  {
+   "id": "C09",
+   "ring": "C",
+   "stations": [
+    609,
+    690
+   ],
+   "length_mm": 243,
+   "bosses": [],
+   "led_channel_mm": 243,
+   "mid": [
+    -207.38473126750267,
+    -54.577969414255705,
+    -75.51913450182403
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -30,
+   "overhang_fraction": 0.021,
+   "bbox_mm": [
+    242,
+    79,
+    213
+   ],
+   "fits": true,
+   "volume_cm3": 54.0,
+   "mass_g_petg": 69
+  },
+  {
+   "id": "C10",
+   "ring": "C",
+   "stations": [
+    690,
+    30
+   ],
+   "length_mm": 231,
+   "bosses": [],
+   "led_channel_mm": 231,
+   "mid": [
+    -92.17084840449449,
+    -261.24001759407776,
+    -65.88328801876439
+   ],
+   "mode": "standing on its edge",
+   "tilt_deg": -30,
+   "overhang_fraction": 0.069,
+   "bbox_mm": [
+    232,
+    81,
+    192
+   ],
+   "fits": true,
+   "volume_cm3": 42.1,
+   "mass_g_petg": 53
+  },
+  {
+   "id": "P01",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 60.1,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    60
+   ],
+   "fits": true,
+   "volume_cm3": 6.8,
+   "mass_g_petg": 8.6,
+   "note": "bonded brace between A (above) and B at [326, 193]"
+  },
+  {
+   "id": "P02",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 49.7,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    50
+   ],
+   "fits": true,
+   "volume_cm3": 5.6,
+   "mass_g_petg": 7.1,
+   "note": "bonded brace between A (above) and B at [455, 344]"
+  },
+  {
+   "id": "P03",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 55.8,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    56
+   ],
+   "fits": true,
+   "volume_cm3": 6.3,
+   "mass_g_petg": 8.0,
+   "note": "bonded brace between A (above) and B at [235, 257]"
+  },
+  {
+   "id": "P04",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 31.3,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    31
+   ],
+   "fits": true,
+   "volume_cm3": 3.5,
+   "mass_g_petg": 4.5,
+   "note": "bonded brace between A (above) and B at [90, 99]"
+  },
+  {
+   "id": "P05",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 53.9,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    54
+   ],
+   "fits": true,
+   "volume_cm3": 6.1,
+   "mass_g_petg": 7.7,
+   "note": "bonded brace between C (above) and A at [-194, 134]"
+  },
+  {
+   "id": "P06",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 25.8,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    26
+   ],
+   "fits": true,
+   "volume_cm3": 2.9,
+   "mass_g_petg": 3.7,
+   "note": "bonded brace between C (above) and A at [-310, 174]"
+  },
+  {
+   "id": "P07",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 45.3,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    45
+   ],
+   "fits": true,
+   "volume_cm3": 5.1,
+   "mass_g_petg": 6.5,
+   "note": "bonded brace between C (above) and B at [-74, -332]"
+  },
+  {
+   "id": "P08",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 49.6,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    50
+   ],
+   "fits": true,
+   "volume_cm3": 5.6,
+   "mass_g_petg": 7.1,
+   "note": "bonded brace between C (above) and B at [78, -205]"
+  },
+  {
+   "id": "P09",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 50.9,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    51
+   ],
+   "fits": true,
+   "volume_cm3": 5.8,
+   "mass_g_petg": 7.3,
+   "note": "bonded brace between C (above) and B at [-35, -5]"
+  },
+  {
+   "id": "P10",
+   "ring": "pad",
+   "stations": [
+    0,
+    0
+   ],
+   "length_mm": 38.5,
+   "bosses": [],
+   "led_channel_mm": 0,
+   "mid": [
+    0,
+    0,
+    0
+   ],
+   "mode": "standing",
+   "tilt_deg": 0,
+   "overhang_fraction": 0.0,
+   "bbox_mm": [
+    12,
+    12,
+    38
+   ],
+   "fits": true,
+   "volume_cm3": 4.4,
+   "mass_g_petg": 5.5,
+   "note": "bonded brace between C (above) and B at [-109, -181]"
+  }
+ ],
+ "plates": [
+  {
+   "file": "Plate-01.3mf",
+   "pieces": [
+    "B02",
+    "A04",
+    "A11",
+    "A09"
+   ]
+  },
+  {
+   "file": "Plate-02.3mf",
+   "pieces": [
+    "B04",
+    "A03",
+    "B06",
+    "A07"
+   ]
+  },
+  {
+   "file": "Plate-03.3mf",
+   "pieces": [
+    "B10",
+    "B05",
+    "A06"
+   ]
+  },
+  {
+   "file": "Plate-04.3mf",
+   "pieces": [
+    "C05",
+    "C02",
+    "B01",
+    "B09"
+   ]
+  },
+  {
+   "file": "Plate-05.3mf",
+   "pieces": [
+    "B08",
+    "A02",
+    "A05"
+   ]
+  },
+  {
+   "file": "Plate-06.3mf",
+   "pieces": [
+    "C07",
+    "B03"
+   ]
+  },
+  {
+   "file": "Plate-07.3mf",
+   "pieces": [
+    "C03",
+    "C08",
+    "A08"
+   ]
+  },
+  {
+   "file": "Plate-08.3mf",
+   "pieces": [
+    "C06",
+    "C10",
+    "C09"
+   ]
+  },
+  {
+   "file": "Plate-09.3mf",
+   "pieces": [
+    "A01",
+    "C01",
+    "C04",
+    "A10"
+   ]
+  },
+  {
+   "file": "Plate-10.3mf",
+   "pieces": [
+    "B07",
+    "B11",
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+   ]
+  }
+ ],
+ "totals": {
+  "pieces": 42,
+  "plates": 10,
+  "mass_g_petg": 1802,
+  "all_fit": true,
+  "max_overhang_fraction": 0.153
+ }
+}

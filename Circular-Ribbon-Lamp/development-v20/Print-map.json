@@ -1,0 +1,2748 @@
+{
+ "working_box_mm": 320.0,
+ "shell_mm": 1.4,
+ "piece_length_range_mm": [
+  90.0,
+  285.0
+ ],
+ "joint": {
+  "seam": "half-lap (scarf) joint, each side keeps half the skin thickness over the lap, so the skin stays 1.4 mm through the seam",
+  "lap_length_mm": 18.0,
+  "glue_gap_mm": 0.15
+ },
+ "studs": {
+  "count": 40,
+  "diameter_mm": 9.0,
+  "top_gap_mm": 0.3,
+  "visible_fraction_max": 0.0,
+  "visible_fraction_mean": 0.0,
+  "note": "integral studs on the lower petal, conformal flat top 0.3 mm under the upper petal; bond with solvent cement or PETG-safe CA gel"
+ },
+ "blade_root": {
+  "screw_hole_mm": 3.4,
+  "positions_s_mm": [
+   9.0,
+   25.0
+  ],
+  "note": "two M3 clearance holes per blade tab; heat-set inserts in the hub body"
+ },
+ "led_channel": {
+  "width_mm": 12.0,
+  "depth_mm": 8.0,
+  "s_range_mm": [
+   430.0,
+   700.0
+  ],
+  "where": "hidden face of each B blade, covered edge"
+ },
+ "pieces": [
+  {
+   "petal": "B1",
+   "whorl": "B",
+   "k": 1,
+   "n": 4,
+   "a": 0,
+   "b": 80,
+   "own_a": 0,
+   "own_b": 74,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 74,
+   "end_next": 80,
+   "studs": [],
+   "length_mm": 198,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [
+    [
+     75.5,
+     7.2
+    ],
+    [
+     83.4,
+     20.9
+    ]
+   ],
+   "mid": [
+    84.8,
+    83.6,
+    -33.2
+   ],
+   "id": "B1-1",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    193,
+    44,
+    73
+   ],
+   "fits": true,
+   "mass_g": 10
+  },
+  {
+   "petal": "B1",
+   "whorl": "B",
+   "k": 2,
+   "n": 4,
+   "a": 75,
+   "b": 127,
+   "own_a": 74,
+   "own_b": 122,
+   "cut_prev": 74,
+   "end_prev": 80,
+   "cut_next": 122,
+   "end_next": 127,
+   "studs": [],
+   "length_mm": 182,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    -101.9,
+    123.7,
+    -50.3
+   ],
+   "id": "B1-2",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    67,
+    214,
+    114
+   ],
+   "fits": true,
+   "mass_g": 24
+  },
+  {
+   "petal": "B1",
+   "whorl": "B",
+   "k": 3,
+   "n": 4,
+   "a": 123,
+   "b": 200,
+   "own_a": 122,
+   "own_b": 194,
+   "cut_prev": 122,
+   "end_prev": 127,
+   "cut_next": 194,
+   "end_next": 200,
+   "studs": [
+    [
+     -147.5,
+     -70.0,
+     -70.5,
+     "B2"
+    ],
+    [
+     -140.3,
+     18.1,
+     -63.5,
+     "B2"
+    ]
+   ],
+   "length_mm": 272,
+   "channel_mm": 221,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    -239.7,
+    -58.2,
+    -67.7
+   ],
+   "id": "B1-3",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    161,
+    316,
+    209
+   ],
+   "fits": true,
+   "mass_g": 103
+  },
+  {
+   "petal": "B1",
+   "whorl": "B",
+   "k": 4,
+   "n": 4,
+   "a": 195,
+   "b": 259,
+   "own_a": 194,
+   "own_b": 259,
+   "cut_prev": 194,
+   "end_prev": 200,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 168,
+   "channel_mm": 41,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    -222.3,
+    -270.6,
+    -81.4
+   ],
+   "id": "B1-4",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    94,
+    221,
+    152
+   ],
+   "fits": true,
+   "mass_g": 47
+  },
+  {
+   "petal": "B2",
+   "whorl": "B",
+   "k": 1,
+   "n": 4,
+   "a": 0,
+   "b": 80,
+   "own_a": 0,
+   "own_b": 74,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 74,
+   "end_next": 80,
+   "studs": [],
+   "length_mm": 198,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [
+    [
+     16.5,
+     74.0
+    ],
+    [
+     5.9,
+     85.8
+    ]
+   ],
+   "mid": [
+    -53.3,
+    106.5,
+    -33.2
+   ],
+   "id": "B2-1",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    44,
+    193,
+    73
+   ],
+   "fits": true,
+   "mass_g": 10
+  },
+  {
+   "petal": "B2",
+   "whorl": "B",
+   "k": 2,
+   "n": 4,
+   "a": 75,
+   "b": 127,
+   "own_a": 74,
+   "own_b": 122,
+   "cut_prev": 74,
+   "end_prev": 80,
+   "cut_next": 122,
+   "end_next": 127,
+   "studs": [],
+   "length_mm": 182,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    -149.2,
+    -58.7,
+    -50.3
+   ],
+   "id": "B2-2",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    67,
+    214,
+    114
+   ],
+   "fits": true,
+   "mass_g": 24
+  },
+  {
+   "petal": "B2",
+   "whorl": "B",
+   "k": 3,
+   "n": 4,
+   "a": 123,
+   "b": 200,
+   "own_a": 122,
+   "own_b": 194,
+   "cut_prev": 122,
+   "end_prev": 127,
+   "cut_next": 194,
+   "end_next": 200,
+   "studs": [
+    [
+     21.0,
+     -161.9,
+     -70.5,
+     "B3"
+    ],
+    [
+     -60.6,
+     -127.8,
+     -63.5,
+     "B3"
+    ]
+   ],
+   "length_mm": 272,
+   "channel_mm": 221,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    -18.8,
+    -245.9,
+    -67.7
+   ],
+   "id": "B2-3",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    161,
+    316,
+    209
+   ],
+   "fits": true,
+   "mass_g": 103
+  },
+  {
+   "petal": "B2",
+   "whorl": "B",
+   "k": 4,
+   "n": 4,
+   "a": 195,
+   "b": 259,
+   "own_a": 194,
+   "own_b": 259,
+   "cut_prev": 194,
+   "end_prev": 200,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 168,
+   "channel_mm": 41,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    188.6,
+    -295.1,
+    -81.4
+   ],
+   "id": "B2-4",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    94,
+    221,
+    152
+   ],
+   "fits": true,
+   "mass_g": 47
+  },
+  {
+   "petal": "B3",
+   "whorl": "B",
+   "k": 1,
+   "n": 4,
+   "a": 0,
+   "b": 80,
+   "own_a": 0,
+   "own_b": 74,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 74,
+   "end_next": 80,
+   "studs": [],
+   "length_mm": 198,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [
+    [
+     -65.3,
+     38.5
+    ],
+    [
+     -79.8,
+     32.1
+    ]
+   ],
+   "mid": [
+    -117.8,
+    -17.8,
+    -33.2
+   ],
+   "id": "B3-1",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    193,
+    44,
+    73
+   ],
+   "fits": true,
+   "mass_g": 10
+  },
+  {
+   "petal": "B3",
+   "whorl": "B",
+   "k": 2,
+   "n": 4,
+   "a": 75,
+   "b": 127,
+   "own_a": 74,
+   "own_b": 122,
+   "cut_prev": 74,
+   "end_prev": 80,
+   "cut_next": 122,
+   "end_next": 127,
+   "studs": [],
+   "length_mm": 182,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    9.7,
+    -160.0,
+    -50.3
+   ],
+   "id": "B3-2",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    214,
+    67,
+    114
+   ],
+   "fits": true,
+   "mass_g": 24
+  },
+  {
+   "petal": "B3",
+   "whorl": "B",
+   "k": 3,
+   "n": 4,
+   "a": 123,
+   "b": 200,
+   "own_a": 122,
+   "own_b": 194,
+   "cut_prev": 122,
+   "end_prev": 127,
+   "cut_next": 194,
+   "end_next": 200,
+   "studs": [
+    [
+     160.5,
+     -30.0,
+     -70.5,
+     "B4"
+    ],
+    [
+     102.9,
+     -97.2,
+     -63.5,
+     "B4"
+    ]
+   ],
+   "length_mm": 272,
+   "channel_mm": 221,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    228.1,
+    -93.8,
+    -67.7
+   ],
+   "id": "B3-3",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    316,
+    161,
+    209
+   ],
+   "fits": true,
+   "mass_g": 103
+  },
+  {
+   "petal": "B3",
+   "whorl": "B",
+   "k": 4,
+   "n": 4,
+   "a": 195,
+   "b": 259,
+   "own_a": 194,
+   "own_b": 259,
+   "cut_prev": 194,
+   "end_prev": 200,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 168,
+   "channel_mm": 41,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    338.9,
+    88.2,
+    -81.4
+   ],
+   "id": "B3-4",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    94,
+    221,
+    152
+   ],
+   "fits": true,
+   "mass_g": 47
+  },
+  {
+   "petal": "B4",
+   "whorl": "B",
+   "k": 1,
+   "n": 4,
+   "a": 0,
+   "b": 80,
+   "own_a": 0,
+   "own_b": 74,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 74,
+   "end_next": 80,
+   "studs": [],
+   "length_mm": 198,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [
+    [
+     -56.8,
+     -50.2
+    ],
+    [
+     -55.2,
+     -66.0
+    ]
+   ],
+   "mid": [
+    -19.5,
+    -117.5,
+    -33.2
+   ],
+   "id": "B4-1",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    193,
+    44,
+    73
+   ],
+   "fits": true,
+   "mass_g": 10
+  },
+  {
+   "petal": "B4",
+   "whorl": "B",
+   "k": 2,
+   "n": 4,
+   "a": 75,
+   "b": 127,
+   "own_a": 74,
+   "own_b": 122,
+   "cut_prev": 74,
+   "end_prev": 80,
+   "cut_next": 122,
+   "end_next": 127,
+   "studs": [],
+   "length_mm": 182,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    155.2,
+    -40.2,
+    -50.3
+   ],
+   "id": "B4-2",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    214,
+    67,
+    114
+   ],
+   "fits": true,
+   "mass_g": 24
+  },
+  {
+   "petal": "B4",
+   "whorl": "B",
+   "k": 3,
+   "n": 4,
+   "a": 123,
+   "b": 200,
+   "own_a": 122,
+   "own_b": 194,
+   "cut_prev": 122,
+   "end_prev": 127,
+   "cut_next": 194,
+   "end_next": 200,
+   "studs": [
+    [
+     78.2,
+     143.4,
+     -70.5,
+     "B5"
+    ],
+    [
+     124.2,
+     67.8,
+     -63.5,
+     "B5"
+    ]
+   ],
+   "length_mm": 272,
+   "channel_mm": 221,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    159.7,
+    188.0,
+    -67.7
+   ],
+   "id": "B4-3",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    316,
+    161,
+    209
+   ],
+   "fits": true,
+   "mass_g": 103
+  },
+  {
+   "petal": "B4",
+   "whorl": "B",
+   "k": 4,
+   "n": 4,
+   "a": 195,
+   "b": 259,
+   "own_a": 194,
+   "own_b": 259,
+   "cut_prev": 194,
+   "end_prev": 200,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 168,
+   "channel_mm": 41,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    20.8,
+    349.6,
+    -81.4
+   ],
+   "id": "B4-4",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    221,
+    94,
+    152
+   ],
+   "fits": true,
+   "mass_g": 47
+  },
+  {
+   "petal": "B5",
+   "whorl": "B",
+   "k": 1,
+   "n": 4,
+   "a": 0,
+   "b": 80,
+   "own_a": 0,
+   "own_b": 74,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 74,
+   "end_next": 80,
+   "studs": [],
+   "length_mm": 198,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [
+    [
+     30.2,
+     -69.6
+    ],
+    [
+     45.7,
+     -72.9
+    ]
+   ],
+   "mid": [
+    105.8,
+    -54.8,
+    -33.2
+   ],
+   "id": "B5-1",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    44,
+    193,
+    73
+   ],
+   "fits": true,
+   "mass_g": 10
+  },
+  {
+   "petal": "B5",
+   "whorl": "B",
+   "k": 2,
+   "n": 4,
+   "a": 75,
+   "b": 127,
+   "own_a": 74,
+   "own_b": 122,
+   "cut_prev": 74,
+   "end_prev": 80,
+   "cut_next": 122,
+   "end_next": 127,
+   "studs": [],
+   "length_mm": 182,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    86.2,
+    135.1,
+    -50.3
+   ],
+   "id": "B5-2",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    214,
+    67,
+    114
+   ],
+   "fits": true,
+   "mass_g": 24
+  },
+  {
+   "petal": "B5",
+   "whorl": "B",
+   "k": 3,
+   "n": 4,
+   "a": 123,
+   "b": 200,
+   "own_a": 122,
+   "own_b": 194,
+   "cut_prev": 122,
+   "end_prev": 127,
+   "cut_next": 194,
+   "end_next": 200,
+   "studs": [
+    [
+     -112.2,
+     118.6,
+     -70.5,
+     "B1"
+    ],
+    [
+     -26.1,
+     139.1,
+     -63.5,
+     "B1"
+    ]
+   ],
+   "length_mm": 272,
+   "channel_mm": 221,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    -129.4,
+    210.0,
+    -67.7
+   ],
+   "id": "B5-3",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    316,
+    161,
+    209
+   ],
+   "fits": true,
+   "mass_g": 103
+  },
+  {
+   "petal": "B5",
+   "whorl": "B",
+   "k": 4,
+   "n": 4,
+   "a": 195,
+   "b": 259,
+   "own_a": 194,
+   "own_b": 259,
+   "cut_prev": 194,
+   "end_prev": 200,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 168,
+   "channel_mm": 41,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    -326.0,
+    127.8,
+    -81.4
+   ],
+   "id": "B5-4",
+   "open_edges": {
+    "shell": 0,
+    "chan": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    94,
+    221,
+    152
+   ],
+   "fits": true,
+   "mass_g": 47
+  },
+  {
+   "petal": "M1",
+   "whorl": "M",
+   "k": 1,
+   "n": 3,
+   "a": 0,
+   "b": 116,
+   "own_a": 0,
+   "own_b": 110,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 110,
+   "end_next": 116,
+   "studs": [
+    [
+     54.5,
+     325.3,
+     -105.5,
+     "B4"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 1,
+   "holes": [],
+   "mid": [
+    183.8,
+    285.4,
+    -97.5
+   ],
+   "id": "M1-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    319,
+    103,
+    165
+   ],
+   "fits": true,
+   "mass_g": 41
+  },
+  {
+   "petal": "M1",
+   "whorl": "M",
+   "k": 2,
+   "n": 3,
+   "a": 111,
+   "b": 205,
+   "own_a": 110,
+   "own_b": 198,
+   "cut_prev": 110,
+   "end_prev": 116,
+   "cut_next": 198,
+   "end_next": 205,
+   "studs": [
+    [
+     -156.5,
+     290.7,
+     -109.7,
+     "M2"
+    ],
+    [
+     -110.8,
+     300.5,
+     -109.4,
+     "M2"
+    ],
+    [
+     10.1,
+     356.5,
+     -106.9,
+     "B4"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 3,
+   "holes": [],
+   "mid": [
+    -109.4,
+    405.5,
+    -109.9
+   ],
+   "id": "M1-2",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.006,
+   "bbox_mm": [
+    192,
+    315,
+    219
+   ],
+   "fits": true,
+   "mass_g": 119
+  },
+  {
+   "petal": "M1",
+   "whorl": "M",
+   "k": 3,
+   "n": 3,
+   "a": 199,
+   "b": 259,
+   "own_a": 198,
+   "own_b": 259,
+   "cut_prev": 198,
+   "end_prev": 205,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 132,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    -307.0,
+    388.3,
+    -113.3
+   ],
+   "id": "M1-3",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.286,
+   "bbox_mm": [
+    209,
+    89,
+    96
+   ],
+   "fits": true,
+   "mass_g": 30
+  },
+  {
+   "petal": "M2",
+   "whorl": "M",
+   "k": 1,
+   "n": 3,
+   "a": 0,
+   "b": 116,
+   "own_a": 0,
+   "own_b": 110,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 110,
+   "end_next": 116,
+   "studs": [
+    [
+     -292.5,
+     152.3,
+     -105.5,
+     "B5"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 1,
+   "holes": [],
+   "mid": [
+    -214.6,
+    263.0,
+    -97.5
+   ],
+   "id": "M2-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    103,
+    319,
+    165
+   ],
+   "fits": true,
+   "mass_g": 41
+  },
+  {
+   "petal": "M2",
+   "whorl": "M",
+   "k": 2,
+   "n": 3,
+   "a": 111,
+   "b": 205,
+   "own_a": 110,
+   "own_b": 198,
+   "cut_prev": 110,
+   "end_prev": 116,
+   "cut_next": 198,
+   "end_next": 205,
+   "studs": [
+    [
+     -324.9,
+     -59.0,
+     -109.7,
+     "M3"
+    ],
+    [
+     -320.0,
+     -12.5,
+     -109.4,
+     "M3"
+    ],
+    [
+     -335.9,
+     119.8,
+     -106.9,
+     "B5"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 3,
+   "holes": [],
+   "mid": [
+    -419.5,
+    21.3,
+    -109.9
+   ],
+   "id": "M2-2",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.006,
+   "bbox_mm": [
+    315,
+    192,
+    219
+   ],
+   "fits": true,
+   "mass_g": 119
+  },
+  {
+   "petal": "M2",
+   "whorl": "M",
+   "k": 3,
+   "n": 3,
+   "a": 199,
+   "b": 259,
+   "own_a": 198,
+   "own_b": 259,
+   "cut_prev": 198,
+   "end_prev": 205,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 132,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    -464.2,
+    -172.0,
+    -113.3
+   ],
+   "id": "M2-3",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.286,
+   "bbox_mm": [
+    209,
+    89,
+    96
+   ],
+   "fits": true,
+   "mass_g": 30
+  },
+  {
+   "petal": "M3",
+   "whorl": "M",
+   "k": 1,
+   "n": 3,
+   "a": 0,
+   "b": 116,
+   "own_a": 0,
+   "own_b": 110,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 110,
+   "end_next": 116,
+   "studs": [
+    [
+     -235.3,
+     -231.1,
+     -105.5,
+     "B1"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 1,
+   "holes": [],
+   "mid": [
+    -316.5,
+    -122.8,
+    -97.5
+   ],
+   "id": "M3-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    103,
+    319,
+    165
+   ],
+   "fits": true,
+   "mass_g": 41
+  },
+  {
+   "petal": "M3",
+   "whorl": "M",
+   "k": 2,
+   "n": 3,
+   "a": 111,
+   "b": 205,
+   "own_a": 110,
+   "own_b": 198,
+   "cut_prev": 110,
+   "end_prev": 116,
+   "cut_next": 198,
+   "end_next": 205,
+   "studs": [
+    [
+     -44.3,
+     -327.2,
+     -109.7,
+     "M4"
+    ],
+    [
+     -87.0,
+     -308.2,
+     -109.4,
+     "M4"
+    ],
+    [
+     -217.7,
+     -282.4,
+     -106.9,
+     "B1"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 3,
+   "holes": [],
+   "mid": [
+    -149.9,
+    -392.4,
+    -109.9
+   ],
+   "id": "M3-2",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.006,
+   "bbox_mm": [
+    192,
+    315,
+    219
+   ],
+   "fits": true,
+   "mass_g": 119
+  },
+  {
+   "petal": "M3",
+   "whorl": "M",
+   "k": 3,
+   "n": 3,
+   "a": 199,
+   "b": 259,
+   "own_a": 198,
+   "own_b": 259,
+   "cut_prev": 198,
+   "end_prev": 205,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 132,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    20.1,
+    -494.6,
+    -113.3
+   ],
+   "id": "M3-3",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.286,
+   "bbox_mm": [
+    89,
+    209,
+    96
+   ],
+   "fits": true,
+   "mass_g": 30
+  },
+  {
+   "petal": "M4",
+   "whorl": "M",
+   "k": 1,
+   "n": 3,
+   "a": 0,
+   "b": 116,
+   "own_a": 0,
+   "own_b": 110,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 110,
+   "end_next": 116,
+   "studs": [
+    [
+     147.1,
+     -295.2,
+     -105.5,
+     "B2"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 1,
+   "holes": [],
+   "mid": [
+    19.0,
+    -338.9,
+    -97.5
+   ],
+   "id": "M4-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    319,
+    103,
+    165
+   ],
+   "fits": true,
+   "mass_g": 41
+  },
+  {
+   "petal": "M4",
+   "whorl": "M",
+   "k": 2,
+   "n": 3,
+   "a": 111,
+   "b": 205,
+   "own_a": 110,
+   "own_b": 198,
+   "cut_prev": 110,
+   "end_prev": 116,
+   "cut_next": 198,
+   "end_next": 205,
+   "studs": [
+    [
+     297.5,
+     -143.2,
+     -109.7,
+     "M5"
+    ],
+    [
+     266.2,
+     -178.0,
+     -109.4,
+     "M5"
+    ],
+    [
+     201.3,
+     -294.3,
+     -106.9,
+     "B2"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 3,
+   "holes": [],
+   "mid": [
+    326.8,
+    -263.8,
+    -109.9
+   ],
+   "id": "M4-2",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.006,
+   "bbox_mm": [
+    315,
+    192,
+    219
+   ],
+   "fits": true,
+   "mass_g": 119
+  },
+  {
+   "petal": "M4",
+   "whorl": "M",
+   "k": 3,
+   "n": 3,
+   "a": 199,
+   "b": 259,
+   "own_a": 198,
+   "own_b": 259,
+   "cut_prev": 198,
+   "end_prev": 205,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 132,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    476.6,
+    -133.7,
+    -113.3
+   ],
+   "id": "M4-3",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.286,
+   "bbox_mm": [
+    209,
+    89,
+    96
+   ],
+   "fits": true,
+   "mass_g": 30
+  },
+  {
+   "petal": "M5",
+   "whorl": "M",
+   "k": 1,
+   "n": 3,
+   "a": 0,
+   "b": 116,
+   "own_a": 0,
+   "own_b": 110,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": 110,
+   "end_next": 116,
+   "studs": [
+    [
+     326.2,
+     48.7,
+     -105.5,
+     "B3"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 1,
+   "holes": [],
+   "mid": [
+    328.2,
+    -86.6,
+    -97.5
+   ],
+   "id": "M5-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60r",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.0,
+   "bbox_mm": [
+    319,
+    103,
+    165
+   ],
+   "fits": true,
+   "mass_g": 41
+  },
+  {
+   "petal": "M5",
+   "whorl": "M",
+   "k": 2,
+   "n": 3,
+   "a": 111,
+   "b": 205,
+   "own_a": 110,
+   "own_b": 198,
+   "cut_prev": 110,
+   "end_prev": 116,
+   "cut_next": 198,
+   "end_next": 205,
+   "studs": [
+    [
+     228.2,
+     238.7,
+     -109.7,
+     "M1"
+    ],
+    [
+     251.6,
+     198.2,
+     -109.4,
+     "M1"
+    ],
+    [
+     342.1,
+     100.5,
+     -106.9,
+     "B3"
+    ]
+   ],
+   "length_mm": 284,
+   "channel_mm": 0,
+   "n_studs": 3,
+   "holes": [],
+   "mid": [
+    351.9,
+    229.3,
+    -109.9
+   ],
+   "id": "M5-2",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt+60",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.006,
+   "bbox_mm": [
+    192,
+    315,
+    219
+   ],
+   "fits": true,
+   "mass_g": 119
+  },
+  {
+   "petal": "M5",
+   "whorl": "M",
+   "k": 3,
+   "n": 3,
+   "a": 199,
+   "b": 259,
+   "own_a": 198,
+   "own_b": 259,
+   "cut_prev": 198,
+   "end_prev": 205,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [],
+   "length_mm": 132,
+   "channel_mm": 0,
+   "n_studs": 0,
+   "holes": [],
+   "mid": [
+    274.4,
+    412.0,
+    -113.3
+   ],
+   "id": "M5-3",
+   "open_edges": {
+    "shell": 0,
+    "print_mesh": 0
+   },
+   "orientation": "tilt-45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.286,
+   "bbox_mm": [
+    89,
+    209,
+    96
+   ],
+   "fits": true,
+   "mass_g": 30
+  },
+  {
+   "petal": "O1",
+   "whorl": "O",
+   "k": 1,
+   "n": 1,
+   "a": 0,
+   "b": 259,
+   "own_a": 0,
+   "own_b": 259,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [
+    [
+     293.9,
+     377.4,
+     -132.5,
+     "M5"
+    ],
+    [
+     271.2,
+     417.4,
+     -134.0,
+     "M5"
+    ]
+   ],
+   "length_mm": 200,
+   "channel_mm": 0,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    280.7,
+    431.7,
+    -134.4
+   ],
+   "id": "O1-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "pitch+45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.225,
+   "bbox_mm": [
+    144,
+    144,
+    127
+   ],
+   "fits": true,
+   "mass_g": 45
+  },
+  {
+   "petal": "O2",
+   "whorl": "O",
+   "k": 1,
+   "n": 1,
+   "a": 0,
+   "b": 259,
+   "own_a": 0,
+   "own_b": 259,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [
+    [
+     -268.1,
+     396.1,
+     -132.5,
+     "M1"
+    ],
+    [
+     -313.2,
+     386.9,
+     -134.0,
+     "M1"
+    ]
+   ],
+   "length_mm": 200,
+   "channel_mm": 0,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    -323.9,
+    400.4,
+    -134.4
+   ],
+   "id": "O2-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "pitch+45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.225,
+   "bbox_mm": [
+    144,
+    144,
+    127
+   ],
+   "fits": true,
+   "mass_g": 45
+  },
+  {
+   "petal": "O3",
+   "whorl": "O",
+   "k": 1,
+   "n": 1,
+   "a": 0,
+   "b": 259,
+   "own_a": 0,
+   "own_b": 259,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [
+    [
+     -459.6,
+     -132.5,
+     -132.5,
+     "M2"
+    ],
+    [
+     -464.8,
+     -178.3,
+     -134.0,
+     "M2"
+    ]
+   ],
+   "length_mm": 200,
+   "channel_mm": 0,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    -480.9,
+    -184.3,
+    -134.4
+   ],
+   "id": "O3-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "pitch+45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.225,
+   "bbox_mm": [
+    144,
+    144,
+    127
+   ],
+   "fits": true,
+   "mass_g": 45
+  },
+  {
+   "petal": "O4",
+   "whorl": "O",
+   "k": 1,
+   "n": 1,
+   "a": 0,
+   "b": 259,
+   "own_a": 0,
+   "own_b": 259,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [
+    [
+     -16.0,
+     -478.0,
+     -132.5,
+     "M3"
+    ],
+    [
+     25.9,
+     -497.1,
+     -134.0,
+     "M3"
+    ]
+   ],
+   "length_mm": 200,
+   "channel_mm": 0,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    26.7,
+    -514.3,
+    -134.4
+   ],
+   "id": "O4-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "pitch+45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.225,
+   "bbox_mm": [
+    144,
+    144,
+    127
+   ],
+   "fits": true,
+   "mass_g": 45
+  },
+  {
+   "petal": "O5",
+   "whorl": "O",
+   "k": 1,
+   "n": 1,
+   "a": 0,
+   "b": 259,
+   "own_a": 0,
+   "own_b": 259,
+   "cut_prev": null,
+   "end_prev": null,
+   "cut_next": null,
+   "end_next": null,
+   "studs": [
+    [
+     449.7,
+     -162.9,
+     -132.5,
+     "M4"
+    ],
+    [
+     480.8,
+     -129.0,
+     -134.0,
+     "M4"
+    ]
+   ],
+   "length_mm": 200,
+   "channel_mm": 0,
+   "n_studs": 2,
+   "holes": [],
+   "mid": [
+    497.4,
+    -133.5,
+    -134.4
+   ],
+   "id": "O5-1",
+   "open_edges": {
+    "shell": 0,
+    "stud": 0,
+    "print_mesh": 0
+   },
+   "orientation": "pitch+45",
+   "overhang_visible": 0.0,
+   "overhang_hidden": 0.225,
+   "bbox_mm": [
+    144,
+    144,
+    127
+   ],
+   "fits": true,
+   "mass_g": 45
+  }
+ ],
+ "hub_parts": [
+  {
+   "id": "H1-hub-body",
+   "name": "Hub body (flange ring + drum + ceiling-plate flange)",
+   "note": "10 heat-set M3 insert pockets (\u00d84.2 \u00d7 5.5) from the underside; 3 \u00d7 M4 holes to the ceiling plate to be drilled on site.",
+   "open_edges": 0,
+   "bbox_mm": [
+    192,
+    192,
+    23
+   ],
+   "mass_g": 269
+  },
+  {
+   "id": "H2-hub-cap",
+   "name": "Smoked hub cap (hides the blade tabs and ten M3 screws)",
+   "note": "Print in smoked/black PETG. Ten \u00d83.4 clearance holes (countersink on the bench) for M3 flat-head screws.",
+   "open_edges": 0,
+   "bbox_mm": [
+    188,
+    188,
+    5
+   ],
+   "mass_g": 176
+  },
+  {
+   "id": "H3-dot-lens",
+   "name": "Centre dot lens (frosted)",
+   "note": "Print in natural/milky PETG at 100% infill; sits over a 1 W warm LED puck.",
+   "open_edges": 0,
+   "bbox_mm": [
+    48,
+    48,
+    13
+   ],
+   "mass_g": 21
+  }
+ ],
+ "studs_list": [
+  {
+   "x": -156.5,
+   "y": 290.7,
+   "z": -109.7,
+   "upper": "M2",
+   "lower": "M1",
+   "gap": 14.2,
+   "iU": 32,
+   "iL": 173,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 228.2,
+   "y": 238.7,
+   "z": -109.7,
+   "upper": "M1",
+   "lower": "M5",
+   "gap": 14.2,
+   "iU": 32,
+   "iL": 173,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 297.5,
+   "y": -143.2,
+   "z": -109.7,
+   "upper": "M5",
+   "lower": "M4",
+   "gap": 14.2,
+   "iU": 32,
+   "iL": 173,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -324.9,
+   "y": -59.0,
+   "z": -109.7,
+   "upper": "M3",
+   "lower": "M2",
+   "gap": 14.2,
+   "iU": 32,
+   "iL": 173,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -44.3,
+   "y": -327.2,
+   "z": -109.7,
+   "upper": "M4",
+   "lower": "M3",
+   "gap": 14.2,
+   "iU": 32,
+   "iL": 173,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -110.8,
+   "y": 300.5,
+   "z": -109.4,
+   "upper": "M2",
+   "lower": "M1",
+   "gap": 14.4,
+   "iU": 8,
+   "iL": 155,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 266.2,
+   "y": -178.0,
+   "z": -109.4,
+   "upper": "M5",
+   "lower": "M4",
+   "gap": 14.4,
+   "iU": 8,
+   "iL": 155,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 251.6,
+   "y": 198.2,
+   "z": -109.4,
+   "upper": "M1",
+   "lower": "M5",
+   "gap": 14.4,
+   "iU": 8,
+   "iL": 155,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -87.0,
+   "y": -308.2,
+   "z": -109.4,
+   "upper": "M4",
+   "lower": "M3",
+   "gap": 14.4,
+   "iU": 8,
+   "iL": 155,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -320.0,
+   "y": -12.5,
+   "z": -109.4,
+   "upper": "M3",
+   "lower": "M2",
+   "gap": 14.4,
+   "iU": 8,
+   "iL": 155,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -268.1,
+   "y": 396.1,
+   "z": -132.5,
+   "upper": "M1",
+   "lower": "O2",
+   "gap": 16.5,
+   "iU": 212,
+   "iL": 68,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -459.6,
+   "y": -132.5,
+   "z": -132.5,
+   "upper": "M2",
+   "lower": "O3",
+   "gap": 16.5,
+   "iU": 212,
+   "iL": 68,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -16.0,
+   "y": -478.0,
+   "z": -132.5,
+   "upper": "M3",
+   "lower": "O4",
+   "gap": 16.5,
+   "iU": 212,
+   "iL": 68,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 293.9,
+   "y": 377.4,
+   "z": -132.5,
+   "upper": "M5",
+   "lower": "O1",
+   "gap": 16.5,
+   "iU": 212,
+   "iL": 68,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 449.7,
+   "y": -162.9,
+   "z": -132.5,
+   "upper": "M4",
+   "lower": "O5",
+   "gap": 16.5,
+   "iU": 212,
+   "iL": 68,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -112.2,
+   "y": 118.6,
+   "z": -70.5,
+   "upper": "B1",
+   "lower": "B5",
+   "gap": 18.3,
+   "iU": 104,
+   "iL": 157,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -147.5,
+   "y": -70.0,
+   "z": -70.5,
+   "upper": "B2",
+   "lower": "B1",
+   "gap": 18.3,
+   "iU": 104,
+   "iL": 157,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 21.0,
+   "y": -161.9,
+   "z": -70.5,
+   "upper": "B3",
+   "lower": "B2",
+   "gap": 18.3,
+   "iU": 104,
+   "iL": 157,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 78.2,
+   "y": 143.4,
+   "z": -70.5,
+   "upper": "B5",
+   "lower": "B4",
+   "gap": 18.3,
+   "iU": 104,
+   "iL": 157,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 160.5,
+   "y": -30.0,
+   "z": -70.5,
+   "upper": "B4",
+   "lower": "B3",
+   "gap": 18.3,
+   "iU": 104,
+   "iL": 157,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -26.1,
+   "y": 139.1,
+   "z": -63.5,
+   "upper": "B1",
+   "lower": "B5",
+   "gap": 18.6,
+   "iU": 80,
+   "iL": 129,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -140.3,
+   "y": 18.1,
+   "z": -63.5,
+   "upper": "B2",
+   "lower": "B1",
+   "gap": 18.6,
+   "iU": 80,
+   "iL": 129,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -60.6,
+   "y": -127.8,
+   "z": -63.5,
+   "upper": "B3",
+   "lower": "B2",
+   "gap": 18.6,
+   "iU": 80,
+   "iL": 129,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 102.9,
+   "y": -97.2,
+   "z": -63.5,
+   "upper": "B4",
+   "lower": "B3",
+   "gap": 18.6,
+   "iU": 80,
+   "iL": 129,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 124.2,
+   "y": 67.8,
+   "z": -63.5,
+   "upper": "B5",
+   "lower": "B4",
+   "gap": 18.6,
+   "iU": 80,
+   "iL": 129,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -464.8,
+   "y": -178.3,
+   "z": -134.0,
+   "upper": "M2",
+   "lower": "O3",
+   "gap": 21.9,
+   "iU": 232,
+   "iL": 117,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 480.8,
+   "y": -129.0,
+   "z": -134.0,
+   "upper": "M4",
+   "lower": "O5",
+   "gap": 21.9,
+   "iU": 232,
+   "iL": 117,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -313.2,
+   "y": 386.9,
+   "z": -134.0,
+   "upper": "M1",
+   "lower": "O2",
+   "gap": 21.9,
+   "iU": 232,
+   "iL": 117,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 271.2,
+   "y": 417.4,
+   "z": -134.0,
+   "upper": "M5",
+   "lower": "O1",
+   "gap": 21.9,
+   "iU": 232,
+   "iL": 117,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 25.9,
+   "y": -497.1,
+   "z": -134.0,
+   "upper": "M3",
+   "lower": "O4",
+   "gap": 21.9,
+   "iU": 232,
+   "iL": 117,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -217.7,
+   "y": -282.4,
+   "z": -106.9,
+   "upper": "B1",
+   "lower": "M3",
+   "gap": 24.9,
+   "iU": 232,
+   "iL": 119,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 201.3,
+   "y": -294.3,
+   "z": -106.9,
+   "upper": "B2",
+   "lower": "M4",
+   "gap": 24.9,
+   "iU": 232,
+   "iL": 119,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 10.1,
+   "y": 356.5,
+   "z": -106.9,
+   "upper": "B4",
+   "lower": "M1",
+   "gap": 24.9,
+   "iU": 232,
+   "iL": 119,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -335.9,
+   "y": 119.8,
+   "z": -106.9,
+   "upper": "B5",
+   "lower": "M2",
+   "gap": 24.9,
+   "iU": 232,
+   "iL": 119,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 342.1,
+   "y": 100.5,
+   "z": -106.9,
+   "upper": "B3",
+   "lower": "M5",
+   "gap": 24.9,
+   "iU": 232,
+   "iL": 119,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -292.5,
+   "y": 152.3,
+   "z": -105.5,
+   "upper": "B5",
+   "lower": "M2",
+   "gap": 25.6,
+   "iU": 212,
+   "iL": 103,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": -235.3,
+   "y": -231.1,
+   "z": -105.5,
+   "upper": "B1",
+   "lower": "M3",
+   "gap": 25.6,
+   "iU": 212,
+   "iL": 103,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 54.5,
+   "y": 325.3,
+   "z": -105.5,
+   "upper": "B4",
+   "lower": "M1",
+   "gap": 25.6,
+   "iU": 212,
+   "iL": 103,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 147.1,
+   "y": -295.2,
+   "z": -105.5,
+   "upper": "B2",
+   "lower": "M4",
+   "gap": 25.6,
+   "iU": 212,
+   "iL": 103,
+   "visible_fraction": 0.0
+  },
+  {
+   "x": 326.2,
+   "y": 48.7,
+   "z": -105.5,
+   "upper": "B3",
+   "lower": "M5",
+   "gap": 25.6,
+   "iU": 212,
+   "iL": 103,
+   "visible_fraction": 0.0
+  }
+ ],
+ "seams": {
+  "B1": {
+   "rows": [
+    74,
+    122,
+    194
+   ],
+   "cost": {
+    "74": 0.137,
+    "122": 0.48,
+    "194": 0.525
+   }
+  },
+  "B2": {
+   "rows": [
+    74,
+    122,
+    194
+   ],
+   "cost": {
+    "74": 0.14,
+    "122": 0.482,
+    "194": 0.525
+   }
+  },
+  "B3": {
+   "rows": [
+    74,
+    122,
+    194
+   ],
+   "cost": {
+    "74": 0.142,
+    "122": 0.482,
+    "194": 0.52
+   }
+  },
+  "B4": {
+   "rows": [
+    74,
+    122,
+    194
+   ],
+   "cost": {
+    "74": 0.14,
+    "122": 0.482,
+    "194": 0.52
+   }
+  },
+  "B5": {
+   "rows": [
+    74,
+    122,
+    194
+   ],
+   "cost": {
+    "74": 0.14,
+    "122": 0.477,
+    "194": 0.52
+   }
+  },
+  "M1": {
+   "rows": [
+    110,
+    198
+   ],
+   "cost": {
+    "110": 1.0,
+    "198": 0.709
+   }
+  },
+  "M2": {
+   "rows": [
+    110,
+    198
+   ],
+   "cost": {
+    "110": 1.0,
+    "198": 0.716
+   }
+  },
+  "M3": {
+   "rows": [
+    110,
+    198
+   ],
+   "cost": {
+    "110": 1.0,
+    "198": 0.707
+   }
+  },
+  "M4": {
+   "rows": [
+    110,
+    198
+   ],
+   "cost": {
+    "110": 1.0,
+    "198": 0.714
+   }
+  },
+  "M5": {
+   "rows": [
+    110,
+    198
+   ],
+   "cost": {
+    "110": 1.0,
+    "198": 0.716
+   }
+  },
+  "O1": {
+   "rows": [],
+   "cost": {}
+  },
+  "O2": {
+   "rows": [],
+   "cost": {}
+  },
+  "O3": {
+   "rows": [],
+   "cost": {}
+  },
+  "O4": {
+   "rows": [],
+   "cost": {}
+  },
+  "O5": {
+   "rows": [],
+   "cost": {}
+  }
+ },
+ "joint_overlap_pairs": {
+  "B1-1|B1-2": 0,
+  "B1-2|B1-3": 0,
+  "B1-3|B1-4": 0,
+  "B2-1|B2-2": 0,
+  "B2-2|B2-3": 0,
+  "B2-3|B2-4": 0,
+  "B3-1|B3-2": 0,
+  "B3-2|B3-3": 0,
+  "B3-3|B3-4": 0,
+  "B4-1|B4-2": 0,
+  "B4-2|B4-3": 0,
+  "B4-3|B4-4": 0,
+  "B5-1|B5-2": 0,
+  "B5-2|B5-3": 0,
+  "B5-3|B5-4": 0,
+  "M1-1|M1-2": 0,
+  "M1-2|M1-3": 0,
+  "M2-1|M2-2": 0,
+  "M2-2|M2-3": 0,
+  "M3-1|M3-2": 0,
+  "M3-2|M3-3": 0,
+  "M4-1|M4-2": 0,
+  "M4-2|M4-3": 0,
+  "M5-1|M5-2": 0,
+  "M5-2|M5-3": 0
+ },
+ "plates": [
+  {
+   "file": "Plate-01.3mf",
+   "parts": [
+    "M1-2"
+   ]
+  },
+  {
+   "file": "Plate-02.3mf",
+   "parts": [
+    "M2-2"
+   ]
+  },
+  {
+   "file": "Plate-03.3mf",
+   "parts": [
+    "M3-2"
+   ]
+  },
+  {
+   "file": "Plate-04.3mf",
+   "parts": [
+    "M4-2"
+   ]
+  },
+  {
+   "file": "Plate-05.3mf",
+   "parts": [
+    "M5-2"
+   ]
+  },
+  {
+   "file": "Plate-06.3mf",
+   "parts": [
+    "B1-3"
+   ]
+  },
+  {
+   "file": "Plate-07.3mf",
+   "parts": [
+    "B2-3"
+   ]
+  },
+  {
+   "file": "Plate-08.3mf",
+   "parts": [
+    "B3-3"
+   ]
+  },
+  {
+   "file": "Plate-09.3mf",
+   "parts": [
+    "B4-3"
+   ]
+  },
+  {
+   "file": "Plate-10.3mf",
+   "parts": [
+    "B5-3"
+   ]
+  },
+  {
+   "file": "Plate-11.3mf",
+   "parts": [
+    "H1-hub-body"
+   ]
+  },
+  {
+   "file": "Plate-12.3mf",
+   "parts": [
+    "H2-hub-cap",
+    "M1-1"
+   ]
+  },
+  {
+   "file": "Plate-13.3mf",
+   "parts": [
+    "M2-1",
+    "M3-1"
+   ]
+  },
+  {
+   "file": "Plate-14.3mf",
+   "parts": [
+    "M4-1",
+    "M5-1"
+   ]
+  },
+  {
+   "file": "Plate-15.3mf",
+   "parts": [
+    "B1-4",
+    "B2-4",
+    "B3-4"
+   ]
+  },
+  {
+   "file": "Plate-16.3mf",
+   "parts": [
+    "B4-4"
+   ]
+  },
+  {
+   "file": "Plate-17.3mf",
+   "parts": [
+    "B5-4",
+    "O1-1"
+   ]
+  },
+  {
+   "file": "Plate-18.3mf",
+   "parts": [
+    "O2-1",
+    "O3-1",
+    "O4-1",
+    "O5-1"
+   ]
+  },
+  {
+   "file": "Plate-19.3mf",
+   "parts": [
+    "M1-3",
+    "M2-3",
+    "M3-3"
+   ]
+  },
+  {
+   "file": "Plate-20.3mf",
+   "parts": [
+    "M4-3",
+    "M5-3"
+   ]
+  },
+  {
+   "file": "Plate-21.3mf",
+   "parts": [
+    "B1-2",
+    "B2-2",
+    "B3-2"
+   ]
+  },
+  {
+   "file": "Plate-22.3mf",
+   "parts": [
+    "B4-2",
+    "B5-2",
+    "B1-1"
+   ]
+  },
+  {
+   "file": "Plate-23.3mf",
+   "parts": [
+    "B2-1",
+    "B3-1",
+    "B4-1"
+   ]
+  },
+  {
+   "file": "Plate-24.3mf",
+   "parts": [
+    "B5-1",
+    "H3-dot-lens"
+   ]
+  }
+ ],
+ "totals": {
+  "petal_pieces": 40,
+  "hub_parts": 3,
+  "plates": 24,
+  "mass_g_petg": 2561,
+  "all_fit": true,
+  "max_overhang_visible": 0.0,
+  "max_overhang_hidden": 0.286
+ }
+}

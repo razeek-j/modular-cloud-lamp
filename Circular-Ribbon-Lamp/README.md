@@ -1,4 +1,12 @@
-# Current stage — V17 Borromean ribbon lamp with print set
+# Current stage — V20 spiral rosette
+
+Three five-fold whorls of petals (inner blades, outer blades, rim ovals) wound clockwise out of a dark vortex with a warm dot, so that from below the lamp reads as the user's spiral picture. Ø1,194 × 136 mm, 1.4 mm translucent PETG skin, centre-only fixing, 40 bonding studs, half-lap seams, LEDs hidden. The print set has 40 petal pieces and 3 hub parts on 22 Kobra S1 Max plates (about 2.6 kg). [Plan, checks and print notes](development-v20/README.md) · [Next to your picture](development-v20/Compare-from-below.png) · [Next to the ribbon photo](development-v20/Compare-reference.png) · [Assembly map](development-v20/Assembly-map.png). Not yet accepted by the user; from the side it reads as a rosette, not as rolling ribbons.
+
+# Previous stage — V18 looped ribbons built to the measured reference (rejected as messy; the V19 wound-ring concept was also rejected)
+
+Three closed ribbons with hairpin end loops (R 92–100 mm), bowing sweeps and necks, woven round a slim Ø300 disc into a round outline (1,230 × 1,105 mm, 188 mm deep). The ribbons lean and roll, their widths swell and neck, and LEDs on the top edges are hidden from the room. The print set has 42 parts on 10 Kobra S1 Max plates. [Notes, target table and checks](development-v18/README.md) · [From the reference camera](development-v18/00-Reference-camera.png) · [Assembly map](development-v18/Assembly-map.png). Not yet accepted by the user.
+
+# Previous stage — V17 Borromean ribbon lamp with print set
 
 Three broad ribbon rings woven in the Borromean pattern, each a Möbius band with three rolling half-twists, round outline about 1.1 m, 153 mm deep. LEDs hidden on the ceiling-facing skin (sight-line test: none visible). Includes 25 printable pieces with lap tabs, LED channels and insert bosses on 8 Kobra S1 Max plates. [Notes, checks and assembly](development-v17/README.md) · [Room view](development-v17/01-Room-view.png) · [Assembly map](development-v17/Assembly-map.png). Not yet accepted by the user; structure and slicing still need physical verification.
 
